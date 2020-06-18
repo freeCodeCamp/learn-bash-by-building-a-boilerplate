@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd } = require('./utils');
 
 describe('tests', () => {
@@ -9,8 +9,8 @@ describe('tests', () => {
   });
 
   it('should pass', async () => {
-    assert(lastCommand[0] === 'ls' && cwd === '/home/strove/project');
+    const cmd0 = lastCommand[0] === 'cd';
+    const cmd1 = lastCommand[1] === 'coderoad' || lastCommand[1] === 'coderoad/';
+    assert(cmd0 && cmd1 && cwd === '/home/strove/project/coderoad');
   });
-});*/
-
-// solution
+});

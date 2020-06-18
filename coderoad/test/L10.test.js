@@ -5,7 +5,7 @@ describe('tests', () => {
   let cwd, lastCommand;
   before(async () => {
     lastCommand = await getLastCommand();
-    cwd = await getCwd();
+    cwm = await getCwd();
   });
 
   it('should pass', async () => {
