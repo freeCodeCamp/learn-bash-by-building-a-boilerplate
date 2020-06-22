@@ -11,3 +11,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'clear');
   });
 });
+
+// solution
