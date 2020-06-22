@@ -1,4 +1,4 @@
-const assert = require('assert');
+/*const assert = require('assert');
 const { getLastCommand, getCwd, getPreviousCwd } = require('./utils');
 
 describe('tests', () => {
@@ -12,6 +12,6 @@ describe('tests', () => {
   it('should pass', async () => {
     assert(lastCommand[0] === 'cd' && cwd === '/home/strove/project' && previousCwd === '/home/strove/project/freeCodeCamp/node_modules');
   });
-});
+});*/
 
 // solution
