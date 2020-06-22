@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd } = require('./utils');
 
 describe('tests', () => {
@@ -6,6 +6,6 @@ describe('tests', () => {
     const lastCommand = await getLastCommand();
     const cwd = await getCwd();
 
-    assert(lastCommand[0] === 'pwd' && /\/project\/freeCodeCamp\/node_modules\/has\/src$/.test(cwd));
+    assert(lastCommand[0] === 'ls' && /\/project\/freeCodeCamp\/node_modules\/has\/src$/.test(cwd));
   });
-});*/
+});
