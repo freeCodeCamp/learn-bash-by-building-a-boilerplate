@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'ls' && lastCommand[1] === '-l' && cwd === '/home/strove/project/freeCodeCamp/node_modules');
   });
 });
+
+// solution
