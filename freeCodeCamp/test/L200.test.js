@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd } = require('./utils');
 
 describe('tests', () => {
@@ -9,8 +9,6 @@ describe('tests', () => {
   });
 
   it('should pass', async () => {
-    assert(lastCommand[0] === 'cd' && cwd === '/home/strove/project/freeCodeCamp/node_modules/has/src');
+    assert(lastCommand[0] === 'pwd' && cwd === '/home/strove/project/freeCodeCamp/node_modules/has/src');
   });
-});*/
-
-// solution
+});
