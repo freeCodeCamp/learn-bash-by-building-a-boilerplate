@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'cd' && cwd === '/home/strove/project' && previousCwd === '/home/strove/project/freeCodeCamp/node_modules');
   });
 });
+
+// solution
