@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'cd' && cwd === '/home/strove/project/freeCodeCamp/test');
   });
 });
+
+// solution
