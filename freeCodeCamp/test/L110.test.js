@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'more' && lastCommand[1] === 'package.json' && cwd === '/home/strove/project/freeCodeCamp');
   });
 });
+
+// solution
