@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'touch' && lastCommand[1] === 'index.js' && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
