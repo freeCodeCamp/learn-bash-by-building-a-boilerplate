@@ -1,2 +1,2 @@
 sudo rm -rf ./website
-mkdir ./website
+cp -rf ./freeCodeCamp/reset_files/website ./
