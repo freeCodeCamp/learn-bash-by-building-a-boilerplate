@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd, getDirectoryContents } = require('./utils');
 
 describe('tests', () => {
@@ -10,8 +10,6 @@ describe('tests', () => {
   });
 
   it('should pass', async () => {
-    assert(websiteDirectory.indexOf('index.html') >= 0 && lastCommand[0] === 'touch' && /index\.html$/.test(lastCommand[1]) && cwd === '/home/strove/project/website');
+    assert(websiteDirectory.indexOf('styles.css') >= 0 && lastCommand[0] === 'touch' && /styles\.css$/.test(lastCommand[1]) && cwd === '/home/strove/project/website');
   });
-});*/
-
-// solution
+});
