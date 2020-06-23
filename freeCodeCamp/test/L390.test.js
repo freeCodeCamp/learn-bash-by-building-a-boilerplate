@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'ls' && correctFlag && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
