@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'touch' && lastCommand[1] === '.gitignore' && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
