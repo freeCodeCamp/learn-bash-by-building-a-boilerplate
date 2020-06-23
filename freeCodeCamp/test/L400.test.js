@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd } = require('./utils');
 
 describe('tests', () => {
@@ -9,9 +9,6 @@ describe('tests', () => {
   });
 
   it('should pass', async () => {
-		const correctFlag = lastCommand[1] === '-a' || lastCommand[1] === '--all';
-    assert(lastCommand[0] === 'ls' && correctFlag && cwd === '/home/strove/project/website');
+    assert(lastCommand[0] === 'cd' && lastCommand[1] === '.' && cwd === '/home/strove/project/website');
   });
-});*/
-
-// solution
+});
