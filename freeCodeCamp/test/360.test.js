@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getDirectoryContents } = require('./utils');
 
 describe('tests', () => {
@@ -6,6 +6,6 @@ describe('tests', () => {
     const websiteDirectory = await getDirectoryContents('../website');
     const lastCommand = await getLastCommand();
 
-    assert(websiteDirectory.indexOf('index.js') >= 0 && lastCommand[0] === 'touch' && /index\.js$/.test(lastCommand[1]));
+    assert(websiteDirectory.indexOf('.gitignore') >= 0 && lastCommand[0] === 'touch' && /\.gitignore$/.test(lastCommand[1]));
   });
-});*/
+});
