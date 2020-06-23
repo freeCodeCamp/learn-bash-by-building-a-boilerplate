@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(websiteDirectory.indexOf('index.html') >= 0 && lastCommand[0] === 'touch' && /index\.html$/.test(lastCommand[1]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
