@@ -14,3 +14,5 @@ describe('tests', () => {
     assert(filesAreCorrect && lastCommand[0] === 'mv' && /menlo\.font$/.test(lastCommand[1]) && /menlo\.otf$/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
