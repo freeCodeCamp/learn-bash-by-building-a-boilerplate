@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'mv' && lastCommand[1] === 'menlo.font' && lastCommand[2] === 'menlo.otf' && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
