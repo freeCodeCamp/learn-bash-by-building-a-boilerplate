@@ -15,3 +15,5 @@ describe('tests', () => {
     assert(filesAreCorrect && lastCommand[0] === 'mv' && /roboto\.woff$/.test(lastCommand[1]) && /fonts/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
