@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(directoryContents.indexOf('background.jpg') >= 0 && lastCommand[0] === 'cp' && /background.jpg/g.test(lastCommand[1]) && /images/g.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
