@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'cp' && lastCommand[1] === 'footer.jpeg' && lastCommand[2] === 'images/footer.jpeg' && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
