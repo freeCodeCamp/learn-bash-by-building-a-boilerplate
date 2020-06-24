@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd } = require('./utils');
 
 describe('tests', () => {
@@ -9,8 +9,6 @@ describe('tests', () => {
   });
 
   it('should pass', async () => {
-    assert(lastCommand[0] === 'mv' && lastCommand[1] === 'lato.font' && lastCommand[2] === 'lato.ttf' && cwd === '/home/strove/project/website');
+    assert(lastCommand[0] === 'mv' && lastCommand[1] === 'menlo.font' && lastCommand[2] === 'menlo.otf' && cwd === '/home/strove/project/website');
   });
-});*/
-
-// solution
+});
