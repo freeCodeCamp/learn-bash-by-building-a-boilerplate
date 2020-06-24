@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd } = require('./utils');
 
 describe('tests', () => {
@@ -9,8 +9,6 @@ describe('tests', () => {
   });
 
   it('should pass', async () => {
-    assert(lastCommand[0] === 'mkdir' && lastCommand[1] === 'client/src' && cwd === '/home/strove/project/website');
+    assert(lastCommand[0] === 'mv' && lastCommand[1] === 'index.html' && lastCommand[2] === 'client/src/index.html' && cwd === '/home/strove/project/website');
   });
-});*/
-
-// solution
+});
