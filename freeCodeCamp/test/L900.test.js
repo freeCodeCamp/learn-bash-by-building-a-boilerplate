@@ -1,4 +1,4 @@
-const assert = require('assert');
+/*const assert = require('assert');
 const { getLastCommand, getCwd, getDirectoryContents } = require('./utils');
 
 describe('tests', () => {
@@ -14,6 +14,6 @@ describe('tests', () => {
     const filesAreCorrect = websiteDirectory.indexOf('styles.css') < 0 && srcDirectory.indexOf('styles.css') >= 0;
     assert(filesAreCorrect && lastCommand[0] === 'mv' && /styles\.css$/.test(lastCommand[1]) && /client\/src/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
-});
+});*/
 
 // solution
