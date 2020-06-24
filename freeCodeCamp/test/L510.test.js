@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(websiteDirectory.indexOf('freeCodeCamp.svg') >= 0 && lastCommand[0] === 'touch' && /freeCodeCamp\.svg$/.test(lastCommand[1]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
