@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getDirectoryContents } = require('./utils');
 
 describe('tests', () => {
@@ -6,6 +6,6 @@ describe('tests', () => {
     const websiteDirectory = await getDirectoryContents('../website');
     const lastCommand = await getLastCommand();
 
-    assert(websiteDirectory.indexOf('CodeRoad.svg') >= 0 && lastCommand[0] === 'touch' && /CodeRoad\.svg$/.test(lastCommand[1]));
+    assert(websiteDirectory.indexOf('freeCodeCamp.svg') >= 0 && lastCommand[0] === 'touch' && /freeCodeCamp\.svg$/.test(lastCommand[1]));
   });
-});*/
+});
