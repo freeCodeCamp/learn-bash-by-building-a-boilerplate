@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getDirectoryContents } = require('./utils');
 
 describe('tests', () => {
@@ -6,6 +6,6 @@ describe('tests', () => {
     const websiteDirectory = await getDirectoryContents('../website');
     const lastCommand = await getLastCommand();
 
-    assert(websiteDirectory.indexOf('header.png') < 0 && lastCommand[0] === 'rm' && /header\.png$/.test(lastCommand[1]));
+    assert(websiteDirectory.indexOf('footer.jpeg') < 0 && lastCommand[0] === 'rm' && /footer\.jpeg$/.test(lastCommand[1]));
   });
-});*/
+});
