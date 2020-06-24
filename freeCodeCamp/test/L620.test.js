@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd, getDirectoryContents } = require('./utils');
 
 describe('tests', () => {
@@ -10,8 +10,6 @@ describe('tests', () => {
   });
 
   it('should pass', async () => {
-    assert(imagesDirectory.indexOf('header.png') >= 0 && lastCommand[0] === 'cp' && /header\.png$/.test(lastCommand[1]) && /images/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
+    assert(imagesDirectory.indexOf('footer.jpeg') >= 0 && lastCommand[0] === 'cp' && /footer\.jpeg$/.test(lastCommand[1]) && /images/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
-});*/
-
-// solution
+});
