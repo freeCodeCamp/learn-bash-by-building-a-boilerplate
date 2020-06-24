@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd, getDirectoryContents } = require('./utils');
 
 describe('tests', () => {
@@ -10,9 +10,7 @@ describe('tests', () => {
   });
 
   it('should pass', async () => {
-    const filesAreCorrect = websiteDirectory.indexOf('lato.font') < 0 && websiteDirectory.indexOf('lato.ttf') >= 0;
-    assert(filesAreCorrect && lastCommand[0] === 'mv' && /lato\.font$/.test(lastCommand[1]) && /lato\.ttf/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
+    const filesAreCorrect = websiteDirectory.indexOf('menlo.font') < 0 && websiteDirectory.indexOf('menlo.otf') >= 0;
+    assert(filesAreCorrect && lastCommand[0] === 'mv' && /menlo\.font$/.test(lastCommand[1]) && /menlo\.otf$/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
-});*/
-
-// solution
+});
