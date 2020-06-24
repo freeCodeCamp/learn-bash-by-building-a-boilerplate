@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'mv' && lastCommand[1] === 'styles.css' && lastCommand[2] === 'client/src/styles.css' && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
