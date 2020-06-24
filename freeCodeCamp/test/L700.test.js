@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'mv' && lastCommand[1] === 'roboto.font' && lastCommand[2] === 'roboto.woff' && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
