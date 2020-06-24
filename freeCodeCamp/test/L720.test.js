@@ -14,3 +14,5 @@ describe('tests', () => {
     assert(filesAreCorrect && lastCommand[0] === 'mv' && /lato\.font$/.test(lastCommand[1]) && /lato\.ttf/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
