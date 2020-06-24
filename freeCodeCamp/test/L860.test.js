@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(clientDirectory.indexOf('src') >= 0 && lastCommand[0] === 'mkdir' && /client\/src/.test(lastCommand[1]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
