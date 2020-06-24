@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(websiteDirectory.indexOf('header.png') < 0 && lastCommand[0] === 'rm' && /header\.png$/.test(lastCommand[1]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
