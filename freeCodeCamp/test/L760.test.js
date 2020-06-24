@@ -1,4 +1,4 @@
-const assert = require('assert');
+/*const assert = require('assert');
 const { getLastCommand, getCwd, getDirectoryContents } = require('./utils');
 
 describe('tests', () => {
@@ -14,6 +14,6 @@ describe('tests', () => {
     const filesAreCorrect = websiteDirectory.indexOf('roboto.woff') < 0 && fontsDirectory.indexOf('roboto.woff') >= 0;
     assert(filesAreCorrect && lastCommand[0] === 'mv' && /roboto\.woff$/.test(lastCommand[1]) && /fonts/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
-});
+});*/
 
 // solution
