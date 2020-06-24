@@ -1,0 +1,15 @@
+const assert = require('assert');
+const { getLastCommand, getCwd, getDirectoryContents } = require('./utils');
+
+describe('tests', () => {
+  let cwd, lastCommand, websiteDirectory;
+  before(async () => {
+    websiteDirectory = await getDirectoryContents('../website');
+    lastCommand = await getLastCommand();
+    cwd = await getCwd();
+  });
+
+  it('should pass', async () => {
+    assert(websiteDirectory.indexOf('header.png') < 0 && lastCommand[0] === 'rm' && /header\.png$/.test(lastCommand[1]) && cwd === '/home/strove/project/website');
+  });
+});
