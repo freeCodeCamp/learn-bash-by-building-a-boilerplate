@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getDirectoryContents } = require('./utils');
 
 describe('tests', () => {
@@ -6,8 +6,8 @@ describe('tests', () => {
     const websiteDirectory = await getDirectoryContents('../website');
     const fontsDirectory = await getDirectoryContents('../website/fonts');
     const lastCommand = await getLastCommand();
-    const filesAreCorrect = websiteDirectory.indexOf('lato.ttf') < 0 && fontsDirectory.indexOf('lato.ttf') >= 0;
+    const filesAreCorrect = websiteDirectory.indexOf('menlo.otf') < 0 && fontsDirectory.indexOf('menlo.otf') >= 0;
 
-    assert(filesAreCorrect && lastCommand[0] === 'mv' && /lato\.ttf$/.test(lastCommand[1]) && /fonts/.test(lastCommand[2]));
+    assert(filesAreCorrect && lastCommand[0] === 'mv' && /menlo\.otf$/.test(lastCommand[1]) && /fonts/.test(lastCommand[2]));
   });
-});*/
+});
