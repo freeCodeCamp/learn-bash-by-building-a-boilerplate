@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(imagesDirectory.indexOf('background.jpg') >= 0 && lastCommand[0] === 'touch' && /background\.jpg$/.test(lastCommand[1]) && cwd === '/home/strove/project/website/client/assets/images');
   });
 });
+
+// solution
