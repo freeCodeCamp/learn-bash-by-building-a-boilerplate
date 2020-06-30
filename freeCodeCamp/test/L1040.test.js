@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'cd' && cwd === '/home/strove/project/website' && previousCwd === '/home/strove/project/website/client/assets/images');
   });
 });
+
+// solution
