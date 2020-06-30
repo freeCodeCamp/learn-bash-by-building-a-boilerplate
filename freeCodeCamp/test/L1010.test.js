@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(assetsDirectory.indexOf('images') >= 0 && lastCommand[0] === 'mkdir' && /images/.test(lastCommand[1]) && cwd === '/home/strove/project/website/client/assets');
   });
 });
+
+// solution
