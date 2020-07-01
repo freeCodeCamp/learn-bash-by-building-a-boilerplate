@@ -15,3 +15,5 @@ describe('tests', () => {
     assert(filesAreCorrect && lastCommand[0] === 'mv' && /freeCodeCamp\.svg$/.test(lastCommand[1]) && /client\/assets\/icons/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
