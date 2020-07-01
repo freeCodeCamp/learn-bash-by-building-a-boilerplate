@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd, getDirectoryContents } = require('./utils');
 
 describe('tests', () => {
@@ -11,9 +11,7 @@ describe('tests', () => {
   });
 
   it('should pass', async () => {
-    const filesAreCorrect = websiteDirectory.indexOf('CodeRoad.svg') < 0 && iconsDirectory.indexOf('CodeRoad.svg') >= 0;
-    assert(filesAreCorrect && lastCommand[0] === 'mv' && /CodeRoad\.svg/.test(lastCommand[1]) && /client\/assets\/icons/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
+    const filesAreCorrect = websiteDirectory.indexOf('freeCodeCamp.svg') < 0 && iconsDirectory.indexOf('freeCodeCamp.svg') >= 0;
+    assert(filesAreCorrect && lastCommand[0] === 'mv' && /freeCodeCamp\.svg$/.test(lastCommand[1]) && /client\/assets\/icons/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
-});*/
-
-// solution
+});
