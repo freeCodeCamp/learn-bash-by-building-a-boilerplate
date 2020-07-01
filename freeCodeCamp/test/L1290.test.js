@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'touch' && lastCommand[1] === 'lato-light.ttf' && cwd === '/home/strove/project/website/client/assets/fonts');
   });
 });
+
+// solution
