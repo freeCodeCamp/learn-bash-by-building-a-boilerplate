@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(fontsDirectory.indexOf('lato-bold.ttf') >= 0 && lastCommand[0] === 'touch' && /client\/assets\/fonts\/lato-bold\.ttf$/.test(lastCommand[1]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
