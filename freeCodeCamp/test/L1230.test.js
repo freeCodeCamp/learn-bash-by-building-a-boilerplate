@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'mv' && lastCommand[1] === 'icons' && lastCommand[2] === 'client/assets' && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
