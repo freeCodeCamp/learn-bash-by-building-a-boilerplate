@@ -15,3 +15,5 @@ describe('tests', () => {
     assert(filesAreCorrect && lastCommand[0] === 'mv' && /images\/footer\.jpeg$/.test(lastCommand[1]) && /client\/assets\/images/.test(lastCommand[2]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
