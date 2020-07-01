@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(fontsDirectory.indexOf('roboto-bold.woff') >= 0 && lastCommand[0] === 'touch' && /client\/assets\/fonts\/roboto-bold\.woff/.test(lastCommand[1]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
