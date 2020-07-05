@@ -17,3 +17,5 @@ describe('tests', () => {
     assert(websiteDirectory.indexOf('fonts') < 0 && lastCommand[0] === 'rm' && correctArgs && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
