@@ -13,3 +13,5 @@ describe('tests', () => {
     assert(websiteDirectory.indexOf('package.json') >= 0 && lastCommand[0] === 'touch' && /package\.json$/.test(lastCommand[1]) && cwd === '/home/strove/project/website');
   });
 });
+
+// solution
