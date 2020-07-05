@@ -12,3 +12,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'find' && /toms-boilerplate/.test(lastCommand[1]) && cwd === '/home/strove/project');
   });
 });
+
+// solution
