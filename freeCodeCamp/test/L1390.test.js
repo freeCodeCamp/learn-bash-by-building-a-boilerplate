@@ -11,3 +11,5 @@ describe('tests', () => {
     assert(lastCommand[0] === 'echo' && lastCommand[1] === 'one' && lastCommand[2] === 'more' && lastCommand[3] === 'thing...');
   });
 });
+
+// solution
