@@ -19,3 +19,5 @@ describe('tests', () => {
     assert(filesAreCorrect && lastCommand[0] === 'cp' && correctArgs && cwd === '/home/strove/project');
   });
 });
+
+// solution
