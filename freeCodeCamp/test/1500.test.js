@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getLastCommand, getCwd } = require('./utils');
 
 describe('tests', () => {
@@ -6,6 +6,6 @@ describe('tests', () => {
     const lastCommand = await getLastCommand();
     const cwd = await getCwd();
 
-    assert(lastCommand[0] === 'find' && /toms-website/.test(lastCommand[1]) && /\/project$/.test(cwd));
+    assert(lastCommand[0] === 'find' && /website-boilerplate/.test(lastCommand[1]) && /\/project$/.test(cwd));
   });
-});*/
+});
