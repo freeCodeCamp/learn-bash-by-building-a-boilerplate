@@ -29,7 +29,7 @@ What you see in the terminal below is a folder (or directory) on this machine. T
 
 ### 20.1
 
-That command tells you the path of the folder you are in is located, it's the `project` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for "list".
+The output tells you where the folder you are in is located. You are in the `project` folder, which is in the `strove` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for "list".
 
 #### HINTS
 
@@ -41,7 +41,7 @@ That command tells you the path of the folder you are in is located, it's the `p
 
 ### 30.1
 
-The ouput is showing everything that in this folder. I see a `freeCodeCamp` folder... I wonder what's in there. Use `cd folder-name` to go into a folder. `cd` stands for "change directory". Change to the `freeCodeCamp` directory.
+That ouput is showing everything in this folder. There's just one thing, a `freeCodeCamp` folder... I wonder what's in there. Use `cd folder-name` to go into a folder. `cd` stands for "change directory". Change to the `freeCodeCamp` directory.
 
 #### HINTS
 
@@ -67,7 +67,7 @@ You are in the `freecodecamp` folder now. I noticed that the prompt changed to i
 
 ### 50.1
 
-I guess the prompt only shows part of the full path. List the contents of the `freeCodeCamp` folder to see what's here.
+You can see the path of the `freeCodeCamp` folder. It's in the `project` folder you were just in. List the contents of the `freeCodeCamp` folder to see what's here.
 
 #### HINTS
 
@@ -80,7 +80,7 @@ I guess the prompt only shows part of the full path. List the contents of the `f
 
 ### 60.1
 
-There's two folders and two files here. The folders are blue and the files include their extension. Next, change to the `test` directory.
+There's two folders and two files here. The folders are blue and the files include their extension. Next, change to that `test` directory.
 
 #### HINTS
 
@@ -107,7 +107,7 @@ You can see you are in the `test` folder now. It shows `test` in the prompt. Pri
 
 ### 80.1
 
-That's the path to the `test` folder. **List** the contents of what's here.
+That's the path to the `test` folder, it's in the `freeCodeCamp` folder. **List** the contents of this folder.
 
 #### HINTS
 
@@ -120,7 +120,7 @@ That's the path to the `test` folder. **List** the contents of what's here.
 
 ### 90.1
 
-These are all files in the `test` folder, looks like there's nowhere deeper to go here. You can use `cd ..` to go back a folder level. The two dots will take you back. Go back to the `freeCodeCamp` folder.
+These are all files. Looks like there's nowhere deeper to go here. You can use `cd ..` to go back a folder level. The two dots will take you back. Go back to the `freeCodeCamp` folder.
 
 #### HINTS
 
@@ -133,7 +133,7 @@ These are all files in the `test` folder, looks like there's nowhere deeper to g
 
 ### 100.1
 
-Notice that `test` got removed from the prompt since you left that folder. I forgot what was in here, list the contents again for me.
+Notice that `test` got removed from the prompt since you left that folder, and you're back in the `freeCodeCamp` folder. I forgot what was in here, list the contents again for me.
 
 #### HINTS
 
@@ -236,7 +236,7 @@ I'm not sure what all that means, but it looks like more details about each fold
 
 ### 180.1
 
-You are now in the `has` folder. List the contents it for me please :smile:
+You are now in the `has` folder. List its contents for me please.
 
 #### HINTS
 
@@ -249,7 +249,7 @@ You are now in the `has` folder. List the contents it for me please :smile:
 
 ### 181.1
 
-There's a few files and folders here. Take a look at **more** of that `README.md` file.
+There's a few files and folders here. Can you tell the difference? Take a look at **more** of that `README.md` file.
 
 #### HINTS
 
@@ -434,7 +434,7 @@ Just the `freeCodeCamp` folder still. Why don't you get a fresh start by clearin
 
 ### 280.1
 
-I want you to make a website boilerplate for me. You can make a new folder with `mkdir folder-name`. `mkdir` stands for "make directory". Make a `website` directory in the `project` folder.
+I want you to make a website boilerplate for me. You can make a new folder with `mkdir folder-name`. `mkdir` stands for "make directory". Make a `website` directory in the `project` folder. Remeber that "directory" and "folder" mean the same thing.
 
 #### HINTS
 
@@ -739,7 +739,7 @@ List the contents of this folder to see your new font files.
 
 ### 490.1
 
-There's three icons I have for the website as well. Create `Strove.svg` in the `website` folder.
+Your three font files are there. I have three icons for the website as well. Create `Strove.svg` in the `website` folder.
 
 #### HINTS
 
@@ -797,7 +797,7 @@ Check out the new icons you just added by listing the contents of the folder the
 
 ### 530.1
 
-The icons are pink as well. I think the images should go in a separate folder. Make an `images` directory in the `website` folder to put them in.
+The icons are pink as well. I think the images should go in a separate folder to clean it up a little. Make an `images` directory in the `website` folder to put them in.
 
 #### HINTS
 
@@ -852,7 +852,7 @@ Better make sure it worked. Change to the `images` directory.
 
 ### 570.1
 
-List the contents to make sure the `background.jpg` file is here.
+List the contents to see if `background.jpg` is here.
 
 #### HINTS
 
@@ -1002,7 +1002,7 @@ List the contents to remind me of the file names to delete please.
 
 ### 670.1
 
-There's two that you don't need anymore. Remove `header.png` from the `website` folder since you copied to to your images folder.
+There's two that you don't need anymore. Remove the "header" image file from the `website` folder since you copied to the images folder.
 
 #### HINTS
 
@@ -1017,7 +1017,7 @@ There's two that you don't need anymore. Remove `header.png` from the `website` 
 
 ### 680.1
 
-It should be gone. Remove the "footer" image from the `website` folder.
+It should be gone. Remove the "footer" image from the `website` folder as well.
 
 #### HINTS
 
@@ -1046,7 +1046,7 @@ List the contents of the `website` folder to check if they are gone.
 
 ### 700.1
 
-Looks like they're all deleted :smile: I got the extensions wrong for all the font files. You can rename them with `mv` like this: `mv filename new-filename`. `mv` stands for "move", it can **rename or move** something. Rename `roboto.font` to `roboto.woff`.
+Looks like they're all deleted. I got the extensions wrong for the font files. You can rename them with `mv` like this: `mv filename new-filename`. `mv` stands for "move", it can **rename or move** something. Rename `roboto.font` to `roboto.woff`.
 
 #### HINTS
 
@@ -1161,7 +1161,7 @@ See it? You renamed the font files with `mv`, you can also move them with it. Mo
 
 ### 770.1
 
-I found a command called `find`. You can use it to find things, but it can also list your whole file tree. Use `find` to view the file tree of the `website` folder.
+I found a command called `find`. You can use it to find things, but it can also list your whole file tree. Enter `find` to view the file tree of the `website` folder.
 
 #### HINTS
 
@@ -1175,7 +1175,7 @@ I found a command called `find`. You can use it to find things, but it can also 
 
 ### 780.1
 
-You can see all the files and folders in this `website` folder. Notice that they all start with `./` to represent this folder. Can you see that your font moved to the `fonts` folder? Next, move the "lato" font to the `fonts` folder.
+You can see everything in this `website` folder and it's descendant folders. Notice that they all start with `./` to represent this folder. Can you see that your font moved to the `fonts` folder? Next, move the "lato" font to the `fonts` folder.
 
 #### HINTS
 
@@ -1220,7 +1220,7 @@ Use `find` again to make sure those two got moved.
 
 ### 850.1
 
-Yes, all three of them are in the `fonts` folder. Let's organize some more. Make a `client` directory in the `website` folder for the client side files.
+Yes, you can see them all in the `fonts` folder. Let's organize some more. Make a `client` directory in the `website` folder for the client side files.
 
 #### HINTS
 
@@ -1233,7 +1233,7 @@ Yes, all three of them are in the `fonts` folder. Let's organize some more. Make
 
 ### 860.1
 
-You can make a folder in that `client` folder by specifying where you want it like this: `mkdir client/new-folder-name`. Make a `src` directory in the `client` folder from here.
+You can make a folder in that `client` folder from here by adding it to the path like this: `mkdir client/new-folder-name`. Make a `src` directory in the `client` folder from here.
 
 #### HINTS
 
@@ -1852,7 +1852,7 @@ Next, create `roboto-light.woff` in your new `fonts` folder from here.
 
 ### 1275.1
 
-View the file tree of the `client/assets/fonts` folder to see if your new files are there.
+View the file tree of the `client/assets/fonts` folder from here to see if your new files are there.
 
 #### HINTS
 
@@ -1865,7 +1865,7 @@ View the file tree of the `client/assets/fonts` folder to see if your new files 
 
 ### 1280.1
 
-Two more font's to go. Create `lato-bold.ttf` in the new `fonts` folder.
+Two more font's to go. Create `lato-bold.ttf` in the new `fonts` folder from here.
 
 #### HINTS
 
@@ -1880,7 +1880,7 @@ Two more font's to go. Create `lato-bold.ttf` in the new `fonts` folder.
 
 ### 1290.1
 
-Lastly, create `lato-light.ttf` in your new `fonts` folder.
+Lastly, create `lato-light.ttf` in your new `fonts` folder from here.
 
 #### HINTS
 
@@ -1907,7 +1907,7 @@ View your file tree and make sure the files are there.
 
 ### 1310.1
 
-Things are looking more organized :smile: Now you can remove the old `fonts` folder and everything in it. You can't do that with `rmdir` since it's not empty. I have an idea, view the "help" menu of the `rm` command.
+Things are looking more organized :smile: I see the new fonts. Now you can remove the old `fonts` folder and everything in it. You can't do that with `rmdir` since it's not empty. I have an idea, view the "help" menu of the `rm` command.
 
 #### HINTS
 
@@ -2191,7 +2191,7 @@ Thanks for making this for me. I need you to make me a copy of it. Take a look a
 
 ### 1475.1
 
-You need to use that "recursive" flag again to copy the whole folder for me. Copy the whole boilerplate into a folder named `toms-website`.
+Scroll up to find that "recursive" flag. You need to use it again to copy the whole folder for me. Copy the whole boilerplate into a folder named `toms-website`.
 
 #### HINTS
 
