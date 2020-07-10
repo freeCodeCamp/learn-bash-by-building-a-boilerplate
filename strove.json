@@ -1,0 +1,7 @@
+{
+  "envVariables": [
+    ["CODEROAD_DISABLE_RUN_ON_SAVE", "true"],
+    ["CODEROAD_DISPLAY_RUN_TEST_BUTTON", "true"],
+    ["CODEROAD_TUTORIAL_URL", "https://raw.githubusercontent.com/moT01/bash-test/master/tutorial.json"]
+  ]
+}
