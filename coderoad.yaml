@@ -1,4 +1,4 @@
-version: '0.2.0'
+version: '0.2.1'
 config:
   testRunner:
     command: ./node_modules/.bin/mocha
@@ -13,7 +13,7 @@ config:
     directory: freeCodeCamp
   repo:
     uri: https://github.com/moT01/bash-test
-    branch: v0.2.0
+    branch: v0.2.1
   dependencies:
     - name: node
       version: '>=10'
