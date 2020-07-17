@@ -1,4 +1,4 @@
-# Introduction
+# Learn Bash by Building a Boilerplate
 
 > Welcome to the Introduction to Bash lessons. I know it's scary, but you can do this!
 
