@@ -6,12 +6,12 @@
 
 ### 5.1
 
-**THE FIRST THING YOU NEED TO DO IS RESTART THE TERMINAL.** Type `exit` into the terminal below and press enter. After that, open a new one by clicking the "hamburger" menu at the top left of the screen, going to the "terminal" section, and clicking "new terminal". Once you open a new one, type `echo hello terminal` into the terminal and press enter.
+**THE FIRST THING YOU NEED TO DO IS START THE TERMINAL.** Do that by clicking the "hamburger" menu at the top left of the screen, going to the "terminal" section, and clicking "new terminal". Once you open a new one, type `echo hello terminal` into the terminal and press enter.
 
 #### HINTS
 
-- Follow the directions closely
-- If the tests don't pass, redo those instructions
+- Capitalization matters
+- If the tests don't run, type `exit` into the terminal and try redoing the instructions
 
 ## 10. Print Working Directory
 
