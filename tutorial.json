@@ -8,7 +8,7 @@
     "setup": {
       "commands": [
         "cd freeCodeCamp && npm install",
-        "cd ~ && sed -i \"s/HISTCONTROL=ignoreboth/#/\" .bashrc && echo placeholder >> .bashrc && sed -i \"s/placeholder/PROMPT_COMMAND='echo \"\\$PWD\" >> ~\\/project\\/freeCodeCamp\\/test\\/\\.cwd; history -a'/\" .bashrc && echo placeholder2 >> .bashrc && sed -i \"s/placeholder2/trap 'echo \\$BASH_COMMAND >> ~\\/project\\/freeCodeCamp\\/test\\/\\.next_command' DEBUG/\" .bashrc"
+        "sudo cp ~/project/freeCodeCamp/.bashrc ~"
       ],
       "commits": [
         "ce430bdea8198f0755cd3174ade3536fe792ca81"
