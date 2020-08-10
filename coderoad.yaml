@@ -2,11 +2,8 @@ version: '0.2.3'
 config:
   setup:
     commands:
-      # run npm install in coderoad folder on load to install testing dependecies
       - cd freeCodeCamp && npm install
       - sudo cp ~/project/freeCodeCamp/.bashrc ~
-      # set up bashrc
-      #- cd ~ && sed -i "s/HISTCONTROL=ignoreboth/#/" .bashrc && echo placeholder >> .bashrc && sed -i "s/placeholder/PROMPT_COMMAND='echo "\$PWD" >> ~\/project\/freeCodeCamp\/test\/\.cwd; history -a'/" .bashrc && echo placeholder2 >> .bashrc && sed -i "s/placeholder2/trap 'echo \$BASH_COMMAND >> ~\/project\/freeCodeCamp\/test\/\.next_command' DEBUG/" .bashrc
   testRunner:
     command: ./node_modules/.bin/mocha
     args:
