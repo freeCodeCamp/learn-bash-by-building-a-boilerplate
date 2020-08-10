@@ -5,19 +5,19 @@
     "description": "> Welcome to the Introduction to Bash lessons. I know it's scary, but you can do this!"
   },
   "config": {
+    "setup": {
+      "commands": [
+        "npm install",
+        "cd ../.. && sed -i \"s/HISTCONTROL=ignoreboth/#/\" .bashrc && echo placeholder >> .bashrc && sed -i \"s/placeholder/PROMPT_COMMAND='echo \"\\$PWD\" >> ~\\/project\\/freeCodeCamp\\/test\\/\\.cwd; history -a'/\" .bashrc && echo placeholder2 >> .bashrc && sed -i \"s/placeholder2/trap 'echo \\$BASH_COMMAND >> ~\\/project\\/freeCodeCamp\\/test\\/\\.next_command' DEBUG/\" .bashrc"
+      ],
+      "commits": [
+        "ce430bdea8198f0755cd3174ade3536fe792ca81"
+      ]
+    },
     "testRunner": {
       "command": "./node_modules/.bin/mocha",
       "args": {
         "tap": "--reporter=mocha-tap-reporter"
-      },
-      "setup": {
-        "commands": [
-          "npm install",
-          "cd ../.. && sed -i \"s/HISTCONTROL=ignoreboth/#/\" .bashrc && echo placeholder >> .bashrc && sed -i \"s/placeholder/PROMPT_COMMAND='echo \"\\$PWD\" >> ~\\/project\\/freeCodeCamp\\/test\\/\\.cwd; history -a'/\" .bashrc && echo placeholder2 >> .bashrc && sed -i \"s/placeholder2/trap 'echo \\$BASH_COMMAND >> ~\\/project\\/freeCodeCamp\\/test\\/\\.next_command' DEBUG/\" .bashrc"
-        ],
-        "commits": [
-          "ce430bdea8198f0755cd3174ade3536fe792ca81"
-        ]
       },
       "directory": "freeCodeCamp"
     },
@@ -49,10 +49,10 @@
               "faa1782d650af5e8a4965ca5588a6b3a0847dbcd"
             ]
           },
-          "content": "**THE FIRST THING YOU NEED TO DO IS START THE TERMINAL.** Do that by clicking the \"hamburger\" menu at the top left of the screen, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello terminal` into the terminal and press enter.",
+          "content": "**The first thing you need to do is start the terminal.** Do that by clicking the \"hamburger\" menu at the top left of the screen, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello terminal` into the terminal and press enter.",
           "hints": [
             "Capitalization matters",
-            "If the tests don't run, type `exit` into the terminal and try redoing the instructions"
+            "If the tests don't run automatically, try typing `exit` into the terminal and redoing the instructions"
           ],
           "solution": {
             "commits": [
