@@ -423,7 +423,7 @@ You are back in the `project` folder where you started. Remind me what's in this
 
 ### 270.1
 
-Just the `freeCodeCamp` folder still. Why don't you get a fresh start by clearing the terminal.
+That's right. Why don't you get a fresh start by clearing the terminal.
 
 #### HINTS
 
