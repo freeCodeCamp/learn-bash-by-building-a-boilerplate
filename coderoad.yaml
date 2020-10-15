@@ -10,7 +10,7 @@ config:
       tap: --reporter=mocha-tap-reporter
     directory: freeCodeCamp
   repo:
-    uri: https://github.com/moT01/learn-bash-by-building-a-boilerplate
+    uri: https://github.com/moT01/.learn-bash-by-building-a-boilerplate
     branch: v0.2.3
   dependencies:
     - name: node
