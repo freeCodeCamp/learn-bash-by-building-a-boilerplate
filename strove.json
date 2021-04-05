@@ -1,7 +1,7 @@
 {
   "init": "exit",
   "envVariables": [
-    ["CODEROAD_TUTORIAL_URL", "https://raw.githubusercontent.com/moT01/.learn-bash-by-building-a-boilerplate/master/tutorial.json"],
+    ["CODEROAD_TUTORIAL_URL", "https://raw.githubusercontent.com/moT01/.learn-bash-by-building-a-boilerplate/main/tutorial.json"],
     ["CODEROAD_DISPLAY_RUN_TEST_BUTTON", "false"]
   ]
 }
