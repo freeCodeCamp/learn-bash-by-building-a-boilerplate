@@ -263,7 +263,7 @@
               "e2985323662482c498badf9df79436627aae1a9b"
             ]
           },
-          "content": "You can see you are in the `test` folder now. It shows `test` in the prompt. Print the full path of this directory. Remeber that \"folder\" and \"directory\" are the same thing.",
+          "content": "You can see you are in the `test` folder now. It shows `test` in the prompt. Print the full path of this directory. Remember that \"folder\" and \"directory\" are the same thing.",
           "hints": [
             "Use the \"print working directory\" command",
             "Type `pwd` into the terminal",
@@ -3728,7 +3728,7 @@
             "Use the \"move\" command",
             "Here's an example: `mv file destination`",
             "Use the longer path from the find command as the destination",
-            "The destination you want is `client/asssets/images`",
+            "The destination you want is `client/assets/images`",
             "Don't try to move the file with another method",
             "Enter `mv header.png client/assets/images` in the terminal",
             "Make sure you are in the `website` folder first",
