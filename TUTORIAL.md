@@ -94,7 +94,7 @@ There's two folders and two files here. The folders are blue and the files inclu
 
 ### 70.1
 
-You can see you are in the `test` folder now. It shows `test` in the prompt. Print the full path of this directory. Remeber that "folder" and "directory" are the same thing.
+You can see you are in the `test` folder now. It shows `test` in the prompt. Print the full path of this directory. Remember that "folder" and "directory" are the same thing.
 
 #### HINTS
 
@@ -1599,7 +1599,7 @@ There's your two image folders. Move `header.png` to the one with the longer pat
 - Use the "move" command
 - Here's an example: `mv file destination`
 - Use the longer path from the find command as the destination
-- The destination you want is `client/asssets/images`
+- The destination you want is `client/assets/images`
 - Don't try to move the file with another method
 - Enter `mv header.png client/assets/images` in the terminal
 - Make sure you are in the `website` folder first
