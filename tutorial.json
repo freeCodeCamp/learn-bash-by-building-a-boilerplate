@@ -1,5 +1,5 @@
 {
-  "version": "0.2.3",
+  "version": "0.2.4",
   "summary": {
     "title": "Learn Bash by Building a Boilerplate",
     "description": "> Welcome to the Introduction to Bash lessons. I know it's scary, but you can do this!"
@@ -11,11 +11,11 @@
         "sudo cp ~/project/freeCodeCamp/.bashrc ~"
       ],
       "commits": [
-        "d9362fdd59437016ad4c212640b73f12adbfa302"
+        "a69fbfb83ad62aa96e89cb347a633c8aa376a2d0"
       ]
     },
     "testRunner": {
-      "command": "./node_modules/.bin/mocha",
+      "command": "npm run programmatic-test",
       "args": {
         "tap": "--reporter=mocha-tap-reporter"
       },
@@ -23,7 +23,7 @@
     },
     "repo": {
       "uri": "https://github.com/moT01/.learn-bash-by-building-a-boilerplate",
-      "branch": "v0.2.3"
+      "branch": "v0.2.4"
     },
     "dependencies": [
       {
@@ -46,19 +46,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "e23b592771ccbc957c7b53722824a1ddd1ffdb99"
+              "793fe2d1c0f2a4afa5268d72b4f91b006847ba9b"
             ]
           },
           "content": "**The first thing you need to do is start the terminal.** Do that by clicking the \"hamburger\" menu at the top left of the screen, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello terminal` into the terminal and press enter.",
           "hints": [
             "Capitalization matters",
             "If the tests don't run automatically, try typing `exit` into the terminal and redoing the instructions"
-          ],
-          "solution": {
-            "commits": [
-              "adb40d4feeded9fa8a1690954e5c1c7d3de83b30"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -75,7 +70,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b2e05c17ec2a7dae296c2ca9ee643e3853372de6"
+              "a9ed7f595188d323dc3951dfbc60930f87858520"
             ]
           },
           "content": "What you see in the terminal below is a folder (or directory) on this machine. Type `pwd` into the terminal and press enter to see the path of the folder. `pwd` stands for \"print working directory\".",
@@ -83,12 +78,7 @@
             "Type `pwd` into the terminal and press enter",
             "Make sure you are in the `project` folder when you enter the command",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "631e552c3cd24d36e2a9fddb09f63fcb730e2781"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -105,20 +95,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "216050247f2fb92aa18d9927d08f87d20dcfcfab"
+              "ba952c10f558afc262bc78447fc743bdc31c4ef4"
             ]
           },
-          "content": "The output tells you where the folder you are in is located. You are in the `project` folder, which is in the `strove` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for \"list\".",
+          "content": "The output tells you where the folder you are in is located. You are in the `project` folder, which is in the `CodeAlly` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for \"list\".",
           "hints": [
             "Type `ls` into the terminal and press enter",
             "Make sure you are in the `project` folder when you enter the command",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "03857ccb00e261cf9b2026111986265e8a01715f"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -135,7 +120,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "79414c1bef2e7735983b6e51980e0d0c71e38cc8"
+              "b0dc7d68198c216b31cce8636d90e263904809f9"
             ]
           },
           "content": "That ouput is showing everything in this folder. There's one folders here. I wonder what's in that `freeCodeCamp` folder. Use `cd folder-name` to go into a folder. `cd` stands for \"change directory\". Change to the `freeCodeCamp` directory.",
@@ -144,12 +129,7 @@
             "Type `cd freeCodeCamp` into the terminal and press enter",
             "Make sure you start in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "83e57e42e533a4a5acd51611612a4c6df2a4cbe1"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -166,7 +146,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5d40725853b3023cc668ae0f6258728bbd4e2983"
+              "85a5c323dac88410c0157bde08eb066dca67dc7c"
             ]
           },
           "content": "You are in the `freecodecamp` folder now. I noticed that the prompt changed to include it. Print the working directory of the `freeCodeCamp` folder to see the full path of where you are.",
@@ -175,12 +155,7 @@
             "Type `pwd` into the terminal and press enter",
             "Make sure you are in the `freeCodeCamp` folder first",
             "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "0da10d1702e15d63041c85dd86284c647592c557"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -197,7 +172,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "eede4cab58a59922bb693344d4976de29c650da7"
+              "1a792f43cb79c7f4adc3470e9811f6a7d81d6c3a"
             ]
           },
           "content": "You can see the path of the `freeCodeCamp` folder. It's in the `project` folder you were just in. List the contents of the `freeCodeCamp` folder to see what's here.",
@@ -206,12 +181,7 @@
             "Try typing `ls` into the terminal",
             "Make sure you are in the `freeCodeCamp` folder first",
             "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "5b377dea6a2b2107166a45739a5e625ca4775995"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -228,7 +198,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "260bc7069548c79161ee3e5788c8ffd620f69cd6"
+              "9d07d9e62850d2f4dce485ede68a7bedfad76d82"
             ]
           },
           "content": "There's two folders and two files here. The folders are blue and the files include their extension. Next, change to that `test` directory.",
@@ -238,12 +208,7 @@
             "Try entering `cd test`",
             "Make sure you enter the command from the `freeCodeCamp` folder",
             "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "aa82a03f577c0498c3d77658a2cee58721191c47"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -260,7 +225,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e2985323662482c498badf9df79436627aae1a9b"
+              "6cab7fdfd381f661748db87bb24ad9e319382e0a"
             ]
           },
           "content": "You can see you are in the `test` folder now. It shows `test` in the prompt. Print the full path of this directory. Remember that \"folder\" and \"directory\" are the same thing.",
@@ -269,12 +234,7 @@
             "Type `pwd` into the terminal",
             "Make sure you are in the `test` folder first",
             "Enter `cd ~/project/freeCodeCamp/test` to get to the `test` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "0130f275d8dbf4a1cbb37694d868d19cb6c1bc7c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -291,7 +251,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1cf520d17444aabbe33cc0b7f6bd028982cd16e1"
+              "a19a1e318586041e361f149d1cde584bdfa61fde"
             ]
           },
           "content": "That's the path to the `test` folder, it's in the `freeCodeCamp` folder. **List** the contents of this folder.",
@@ -300,12 +260,7 @@
             "Type `ls` into the terminal",
             "Make sure you are in the `test` folder first",
             "Enter `cd ~/project/freeCodeCamp/test` to get to the `test` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "11f2355ca053ebf97fa391e1c78e4e492ca3861a"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -322,7 +277,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b0d2ce0104bb90182fadca524e5fa88661dff794"
+              "425aaf88cd06425df4d4539fa40e614c6222372b"
             ]
           },
           "content": "These are all files. Looks like there's nowhere deeper to go here. You can use `cd ..` to go back a folder level. The two dots will take you back. Go back to the `freeCodeCamp` folder.",
@@ -331,12 +286,7 @@
             "Type `cd ..` into the terminal end press enter",
             "Type the command from the `test` folder",
             "Enter `cd ~/project/freeCodeCamp/test` to get to the `test` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "30a30b516275d80b72fc75027a5aedebd5ea11b0"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -353,7 +303,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "48d44f2861e77457abcbd0cd351b41050dfe4403"
+              "e629356a34318149169042c4da59bcac7c51084f"
             ]
           },
           "content": "Notice that `test` got removed from the prompt since you left that folder, and you're back in the `freeCodeCamp` folder. I forgot what was in here, list the contents again for me.",
@@ -362,12 +312,7 @@
             "Type `ls` into the terminal",
             "Make sure you are in the `freeCodeCamp` folder first",
             "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "45c7610a49240fe85cecb8838b460b61833a4445"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -384,7 +329,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9cf93d2d9f37e617ff6c804ad5c23b2d24543a6b"
+              "acff5c1c347df5233c973086a6a4bec0e1049f4b"
             ]
           },
           "content": "There's the `test` folder you were just in. I wonder what's in that `package.json` file. You can see what's in a file with `more filename`. View the `package.json` file for me please.",
@@ -393,12 +338,7 @@
             "Press enter until you have seen the whole file",
             "Make sure you are in the `freeCodeCamp` folder first",
             "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "4177479552f4debcc3282c0deed14a7b47f47360"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -415,19 +355,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "8eeeddd4b7abc9c6601c6a597011a72bd5f09567"
+              "c5b8081519256047c772bc907acfb517dd7367c1"
             ]
           },
           "content": "Looks like a json object. You can empty the terminal with `clear`. The terminal looks a little cluttered, can you clear it for me?",
           "hints": [
             "Commands are case sensitive",
             "Enter `clear` into the terminal"
-          ],
-          "solution": {
-            "commits": [
-              "08f32b1a6831fe69cf9d520aaecf24d8b18d4a1b"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -444,7 +379,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6e4db9247148dd76bca8336ad7e860eec513225c"
+              "a94f2084da4cc2f40177bf885401f046da5ef28e"
             ]
           },
           "content": "Now you have a fresh screen :smile: Remind me what's in here again please.",
@@ -453,12 +388,7 @@
             "Enter `ls` into the terminal",
             "Make sure you are in the `freeCodeCamp` folder first",
             "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "9dc379d0cdd394f3bd9a662032516ad522b71261"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -475,7 +405,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3445f1f18b58518bae31b80bff1a1d7a8d635af3"
+              "f0c1f5a8372521338b41ed6406cb6392673b91ed"
             ]
           },
           "content": "You checked out the `test` folder and the `package.json` file. What next? I see a `node_modules` directory. Why don't you go there.",
@@ -484,12 +414,7 @@
             "Here's an example: `cd folder-name`",
             "Enter `cd node_modules` into the terminal",
             "Enter `cd ~/project/freeCodeCamp` to get back to the `freeCodeCamp` folder and try again"
-          ],
-          "solution": {
-            "commits": [
-              "f77acbf131d1e366b758f692ae6e11333829af0e"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -506,7 +431,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a2ca0570e37ccfcf69f84b68e7276d552d4cc7fd"
+              "2a6d5d8f9d00bfe8aa4290343319ba01214817d3"
             ]
           },
           "content": "Now the prompt includes `node_modules` since that's where you are. List what's in the here for me.",
@@ -515,12 +440,7 @@
             "Enter `ls` into the terminal",
             "Make sure you are in the `node_modules` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "c6accf707cfbf54d1a78bbb896d499a372ab01f8"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -537,7 +457,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "428f59c7510ee62cf9ec74da001506031ed82215"
+              "08dbb3c72dfc162c2f3df589ced4c69a51323471"
             ]
           },
           "content": "That's a lot of folders. You can add a **flag** to a command to use it different ways like this: `ls -flag`. List the contents of the `node_modules` folder in \"long list format\". Do that by adding the `-l` flag to the \"list\" command.",
@@ -547,12 +467,7 @@
             "Enter `ls -l` into the terminal",
             "Make sure you are in the `node_modules` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "e865c468327bb37a857db47e8ca2553c8c628a80"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -569,7 +484,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9404c9e712e8d00db99e6804f649877ea13da697"
+              "cef72cc672bb096f099f8e36c59b48132b892556"
             ]
           },
           "content": "I'm not sure what all that means, but it looks like more details about each folder and it's little easier to read. Hmm, which one should we check out? I see one called `has`. Go into it.",
@@ -578,12 +493,7 @@
             "Enter `cd has` into the terminal",
             "Enter the command from the `node_modules` folder",
             "Enter `cd ~/project/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "5452e04ccf0018227b8edde65cadcb470b2042d8"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -600,7 +510,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "45491f395c0da92724a50206a70ad18a5a1e22a2"
+              "7974a8ebecb78a9dcabcdc09d98e3a326096abbe"
             ]
           },
           "content": "You are now in the `has` folder. List its contents for me please.",
@@ -609,12 +519,7 @@
             "Enter `ls` into the terminal",
             "Enter the command from the `has` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "5494a4603a3b2702dd94d6104edd7de183bd010e"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -631,7 +536,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1c3312616c4ae9a99586466269e263ac62ae23ca"
+              "15e4f8a41490b49cca8ea052d05bbee0670b349e"
             ]
           },
           "content": "There's a few files and folders here. Can you tell the difference? Take a look at **more** of that `README.md` file.",
@@ -642,12 +547,7 @@
             "Press \"enter\" until you have seen the whole file",
             "Make sure you are in the `has` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "17474a06957263811e0ef164a60f725ce0f41ed6"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -664,7 +564,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ba1950089a5aec3331db4c97413d900454cdf9d2"
+              "016e6e0bc332c198f586bdba5d81303b61679e4c"
             ]
           },
           "content": "Not very informative. I can't see what's here anymore. List the contents again please.",
@@ -673,12 +573,7 @@
             "Enter `ls` into the terminal",
             "Make sure you are in the `has` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "07c14185b05a67bfae1cd6f3a3e3d643fba2e1af"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -695,7 +590,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ba1ab4a72a809c4bee87e5eab7e89973035c2e43"
+              "774360b7fd078c44b473a7c5ed421bdb3c6642a5"
             ]
           },
           "content": "That one file doesn't appear to have an extension. Seems strange. Take a look at **more** of the that \"license\" file that doesn't show an extension.",
@@ -705,12 +600,7 @@
             "Press \"enter\" until you have seen the whole file",
             "Make sure you are in the `has` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "61c977766bdc4d62ff802bbe3f09ad11985f8744"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -727,19 +617,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "e12acb760ed116402dd19acaf26106e732ef0f26"
+              "d7fcfb6048212bb40ad643a05a1287dd94c6129a"
             ]
           },
           "content": "Let's just pretend we read that. It looks a little messy in here again. Clear the terminal.",
           "hints": [
             "Use the \"clear\" command",
             "Enter `clear` into the terminal"
-          ],
-          "solution": {
-            "commits": [
-              "01e53ce766d7023a9dfdf30ffbfa6a4b665d8dd4"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -756,7 +641,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6eb20a414760ffd040c68cdc934bfb78317981d2"
+              "267844d4dc2f998bcb6c80fad6506f8eb02e8418"
             ]
           },
           "content": "Remind me what's in here please.",
@@ -765,12 +650,7 @@
             "Enter `ls` into the terminal",
             "Make sure you are in the `has` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "0b9ffefe9b3650c53eaa08af81895aaf290b49b0"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -787,7 +667,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "deca1e4bcbe7e11e3cac795eb8d9199c5ccf3c73"
+              "93a551b17525213b1785a2baa067166219c4f57f"
             ]
           },
           "content": "Go into that `src` directory.",
@@ -796,12 +676,7 @@
             "Enter `cd src` into the terminal",
             "Make sure you are in the `has` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "a2db710aebd0b54656af27b59738387e28b1d9aa"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -818,7 +693,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9d6fad562ce33130cb5668e503b90b75af6ba5ca"
+              "410cf3fbfe8badde7d69071ab5a1dca4ca618476"
             ]
           },
           "content": "Show me the full path of this folder.",
@@ -827,12 +702,7 @@
             "Enter `pwd` into the terminal",
             "Make sure you are in the `src` folder",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "c30a5fe58fb993006076a3688d7d4291023d73b8"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -849,7 +719,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6694820fa0fe8dd8c7cb56cc49b848032d13dd0f"
+              "5af94679a048063b44da6c7c67c917011ac959b1"
             ]
           },
           "content": "Getting deeper still. You can see that each new folder has a `/` in front of it. Take a look at what's in this folder.",
@@ -858,12 +728,7 @@
             "Enter `ls` into the terminal",
             "Make sure you are in the `src` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "afeb9dabf8e146e2113fa4505b1be55a2699155a"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -880,7 +745,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b7025983e357d6a7c0a8a951dce3e7ca146083e2"
+              "42a594af5ca69dd72753e1a8049e2057258ff309"
             ]
           },
           "content": "Only one file here. Show me what's in it with `more`.",
@@ -891,12 +756,7 @@
             "Press enter until you've seen all the content",
             "Make sure you are in the `src` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "ac8095b806c63b2dab413b0ad54c3d154fe9b8d7"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -913,7 +773,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d92be8c80f5fbdf6ce089f0409618d6e69d962c0"
+              "68dedba3520d0df4f209bc32a2942cdbd4b673ec"
             ]
           },
           "content": "It's some JavaScript :smile: I think you've fooled around enough. Why don't you navigate out of here. Change back to the `has` directory.",
@@ -923,12 +783,7 @@
             "Type `cd ..` into the terminal",
             "Make sure you are in the `src` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "55a37e7492d437fe89b3000c319229057f54e4f9"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -945,7 +800,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a4d7cbf95494c415c4ae8550e80b5f3ab60acf52"
+              "6e51b162f91df9c80835279ea964990b10e39a97"
             ]
           },
           "content": "You're getting pretty good. Change back to the `node_modules` directory.",
@@ -955,12 +810,7 @@
             "Type `cd ..` into the terminal",
             "Make sure you are in the `has` folder first",
             "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "71a9d055309ba215ed4acdf5d8e30ab5671a2059"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -977,7 +827,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fb7ddfdbc36111d449d826a340196dcd98f5fb97"
+              "050893dfe3ca682940a73edec69e4996cfe9cf75"
             ]
           },
           "content": "You can go back two folders with `cd ../..`. Each set of dots represents another folder level. Go back to the `project` directory from the `node_modules` directory.",
@@ -986,12 +836,7 @@
             "Type `cd ../..` into the terminal from the `node_modules` folder",
             "Make sure you go from `node_modules` to `project`",
             "Enter `cd ~/project/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "6aeb40d654f5568206e7c1959fcec32cdbce5dc1"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1008,7 +853,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "305597fe0475cb899e86d454a5f86fd27dd23f02"
+              "27c03604121123b2469bc1385cc08d537138b783"
             ]
           },
           "content": "You are back in the `project` folder where you started. Remind me what's in this folder.",
@@ -1017,12 +862,7 @@
             "Enter `ls` into the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "14534e64c5d48cbbfbfad7a26fb97f16a7d774f0"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1039,19 +879,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "cb46d59c3695160a5ed16fb74f597556eb5cbb84"
+              "3e4b7aa98600dcdaf62e776ccb86382bec7ebd26"
             ]
           },
           "content": "That's right. Why don't you get a fresh start by clearing the terminal.",
           "hints": [
             "Use the \"clear\" command",
             "Enter `clear` into the terminal"
-          ],
-          "solution": {
-            "commits": [
-              "0d2edb2ac8114420df8a31bfbe26fd1cc040bb03"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1068,7 +903,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "15a7243ffa1cc5536b16b438c6a1309b4cdde4a2"
+              "3e8e4508fc915d01d04899b19a64c484a949767e"
             ]
           },
           "content": "I want you to make a website boilerplate for me. You can make a new folder with `mkdir folder-name`. `mkdir` stands for \"make directory\". Make a `website` directory in the `project` folder. Remeber that \"directory\" and \"folder\" mean the same thing.",
@@ -1078,12 +913,7 @@
             "Don't try to create it with a different method",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "01797375715ad5a339a4d8da2f8088f151671c61"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1100,7 +930,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "13cea0be4f34ee247be463404190719f665869c2"
+              "d14ab8cc550652d99b05935b94b287d00e80ad7a"
             ]
           },
           "content": "List what's here to make sure it got created.",
@@ -1109,12 +939,7 @@
             "Enter `ls` into the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "820934f5a59b85f601ffcff3aee0e0d933873d9d"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1131,7 +956,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d609ee2f380b94294d0300784182739e6a9e2599"
+              "d95ebcfbc764b6b2d14dade016c500d70e2d6a83"
             ]
           },
           "content": "It worked. The website files will be in the new directory. Change to the `website` directory so you can start creating them.",
@@ -1140,12 +965,7 @@
             "Enter `cd website` into the terminal",
             "Enter the command from the `project` folder",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "28f5cceaf7b93e2b138da2d66c9c75d9296ef11c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1162,7 +982,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7d387b80b2f57820d8eb310f887ad2af396f2f69"
+              "e0b87ddca261fbb3a9eb67273e65cea3d5ee0322"
             ]
           },
           "content": "List the contents of the `website` folder for me.",
@@ -1171,12 +991,7 @@
             "Enter `ls` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "83f25056b5fc6c0186d8bcba84fae1520cbc105d"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1193,7 +1008,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2b817520cc9e835af99b7ad67255cbe705212edf"
+              "44fd44b1364dfaed460a7a3d665d3ea87827e1aa"
             ]
           },
           "content": "Nothing. I should have known :confused: The `echo` command lets you print anything to the terminal. You used it in the first lesson. Just type what you want to print after it. Use it to print \"hello website\" to the terminal.",
@@ -1203,12 +1018,7 @@
             "Enter `echo hello website` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "6aff100250948e8cf0fdb51f32eee0fd4bdad3aa"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1225,7 +1035,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "066a54de6a50eb9853b89baa9073c54e922cac1f"
+              "c54a2c02ecdbc7afc4a94e0376c1f59b351b11d8"
             ]
           },
           "content": "Websites usually have an `index.html` file. You can use `touch filename` to create a new file. Create `index.html` in the `website` folder.",
@@ -1236,12 +1046,7 @@
             "Enter `touch index.html` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "e47567f060a446932460e24a7ab9a6755b218c43"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1258,7 +1063,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2d2878c3ec16e5d5d893f8e60a96d83ad03856a1"
+              "351058b2dc347f1495ef5f6475c7c0e3c5d67763"
             ]
           },
           "content": "They usually have a CSS file as well. Create `styles.css` in the `website` folder.",
@@ -1269,12 +1074,7 @@
             "Enter `touch styles.css` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "e0ca67be3012fe2ccae5137f42778bc004d524f2"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1291,7 +1091,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4387570b06857da118fe31c859b0c2abcfe4184d"
+              "af03e56a3e34525090a4bc7fdc05a592eba8773e"
             ]
           },
           "content": "List the contents of the `website` folder to make sure they got created.",
@@ -1300,12 +1100,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "ab4531da91ac116da8f5f34fc106ba5547c18df2"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1322,7 +1117,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a844a9e14e17ad5fcf127a956935d9617bbb733a"
+              "36012c570f72232969997b14549c4204867daf51"
             ]
           },
           "content": "There they are. Next is the JavaScript file. Create `index.js` in the `website` folder.",
@@ -1333,12 +1128,7 @@
             "Enter `touch index.js` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "744db29b4781fabdfe2bb7f46cd02317e8b7f1a2"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1355,7 +1145,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8671eaa106899dea8bec3c9f1391afebad3f4daf"
+              "fffd93bd4dfa8d433950c091ac5db0c852414c2f"
             ]
           },
           "content": "You might make this into a git repository. Create `.gitignore` in the `website` folder.",
@@ -1366,12 +1156,7 @@
             "Enter `touch .gitignore` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "1e19a2d653d28865ba4917043ecea22f89b99be9"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1388,7 +1173,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0e5ebdb8b22ec4e3a70eeeb8f3b44ea544264785"
+              "8e218ff15ccebaab951c311ec7fd16d6e62683f2"
             ]
           },
           "content": "List the contents of the `website` folder to see your new files.",
@@ -1396,12 +1181,7 @@
             "Use the `list` command",
             "Make sure you are in the `website` folder",
             "Enter `ls` in the terminal"
-          ],
-          "solution": {
-            "commits": [
-              "ad84ffd33e544a2f16c85aa2f95ff46822bd74ce"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1418,7 +1198,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ba25f5568262c6cf925fe20a919e974c399e9ab0"
+              "6f32c786fbcf34047146953a6a69497c359384d7"
             ]
           },
           "content": "I see three files, but where's `.gitignore`? I think it's hidden. Most commands have a `--help` flag to show what the command can do. Display the \"help\" menu for the `ls` command. Here's an example: `command --flag`",
@@ -1428,12 +1208,7 @@
             "Enter `ls --help` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "3a7bd78b69a6a7aa4fc08e93175c590d042ea15a"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1450,7 +1225,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b3ccb5a9ae4a5a549326118e9615e7714461de09"
+              "272eb28d84ffe764eb3619462dccc52256de6f2e"
             ]
           },
           "content": "Scroll through the menu to see the flags that go with `ls`. The flag you are looking for is `--all`, or `-a` for short. List **all** the contents of the `website` folder using the correct flag.",
@@ -1459,12 +1234,7 @@
             "Enter `ls -a` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "470f40e01cefefe23a94880e24879a6bbb9e7964"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1481,7 +1251,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b81991bef107ef093772a33ed37fde8b9b53e173"
+              "6833c95300dd68e848546df8ebf6af57dcce71cf"
             ]
           },
           "content": "There's the hidden file. Do you see it? It didn't display before. I notice it also includes `.` and `..`. You used `cd ..` to go back a folder. Change to the `.` directory.",
@@ -1490,12 +1260,7 @@
             "Enter `cd .` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "d388f4a65e234d9b57008821060c4012bd58f6eb"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1512,7 +1277,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c067205e322c208f53e32f266a534a001b45a880"
+              "f89762083e3a0767168905a61dcd38a665ac253c"
             ]
           },
           "content": "You didn't go anywhere. The `.` takes you to the folder you are in, and `..` takes you back a folder. Websites need some images. Create `background.jpg` in the `website` folder.",
@@ -1523,12 +1288,7 @@
             "Enter `touch background.jpg` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "336529494839b3b68aea2584ea50577585a1d5fb"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1545,7 +1305,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "157e71afe482bc55f50d7ae7e408294d7803ac65"
+              "5e41ba6cde5534ce261f2a2f09f5ec407ea830a1"
             ]
           },
           "content": "Next, add a header image. Create `header.png` in the `website` folder.",
@@ -1556,12 +1316,7 @@
             "Enter `touch header.png` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "666e60cc17f406b0eb952b12952e9232a5675f95"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1578,7 +1333,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f913e66c2948c86f8133be5f5821f56cba9152d8"
+              "215e4e10f6199fc48a6c54e390d626ef5cb861c3"
             ]
           },
           "content": "Finally, create `footer.jpeg` in the `website` folder.",
@@ -1589,12 +1344,7 @@
             "Enter `touch footer.jpeg` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "46106829136a18047d23c95d131d5146e5aaa71c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1611,7 +1361,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b233bdd3c1ee4e8c921c53ca6758f39ff3430f15"
+              "287c145b19dc20b41af8d295a9bcdcc076b8617a"
             ]
           },
           "content": "Use **list** to check out the images you just added.",
@@ -1620,12 +1370,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "80bf290178e17638888366b65fdd9358c6667159"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1642,7 +1387,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b437891492929addec1065972bb750a4d414d6c4"
+              "4a31590506d024a728de333f6d96e3a83a5a85f4"
             ]
           },
           "content": "Looks like the images show up as pink. I also have three fonts to use for the website. The first one is \"roboto\". Create `roboto.font` in the `website` folder.",
@@ -1652,12 +1397,7 @@
             "Enter `touch roboto.font` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "18ad82f83a930046386f7974ad4c37be421413a2"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1674,7 +1414,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "031a6be6e51ba0d2132d56fe47635d73df863021"
+              "eb09893bc8deb8952be9ac46d6ec3c2b874f8542"
             ]
           },
           "content": "The next one is \"lato\". Create `lato.font` in the `website` folder.",
@@ -1684,12 +1424,7 @@
             "Enter `touch lato.font` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "46ae81a9f7f99e63384295032fa6a92d67c882b8"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1706,7 +1441,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f5243604f1ae23deb16f39d560971cbed8d7b523"
+              "b923130b0fc87592987fc724a4e7bc08c2f2e98f"
             ]
           },
           "content": "Lastly, create `menlo.font` in the `website` folder.",
@@ -1716,12 +1451,7 @@
             "Enter `touch menlo.font` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "e76d9fbb10b6cd74032ef90592a5902b2983528c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1738,7 +1468,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f2c2a68dd09e3fc10819181e103963bbd8b50964"
+              "282d30a88dd219e440230c0b3d1f27ba2f36bdd7"
             ]
           },
           "content": "List the contents of this folder to see your new font files.",
@@ -1747,12 +1477,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "8667f0c04662ae62a74e416467bb48be78ce140c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1769,23 +1494,18 @@
               "../.bash_history"
             ],
             "commits": [
-              "45c7cad9981da5aaba63b936e755d6d29cdad100"
+              "94ffce5740aa3253ac6ceb8e494815e78dc10c65"
             ]
           },
-          "content": "Your three font files are there. I have three icons for the website as well. Create `Strove.svg` in the `website` folder.",
+          "content": "Your three font files are there. I have three icons for the website as well. Create `CodeAlly.svg` in the `website` folder.",
           "hints": [
             "Capitalization matters",
             "Use the \"touch\" command",
             "Don't try to create the file with another method",
-            "Enter `touch Strove.svg` in the terminal",
+            "Enter `touch CodeAlly.svg` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "d6ad021a3e570768dd629ebe117d55213e3a7d71"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1802,7 +1522,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6e4e3834972430ceb34272d03d05be286eeeb29f"
+              "2037cd969e1459771efe3aed90c9bcda1a1dd462"
             ]
           },
           "content": "Next, create `CodeRoad.svg` in the `website` folder.",
@@ -1813,12 +1533,7 @@
             "Enter `touch CodeRoad.svg` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "0119638ae3688c2686371bfc58a205f2a29ae889"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1835,7 +1550,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6ff0708ca2ab1085ac1bd330df4402939e7d9715"
+              "f47e94aae32720fedb1837a4f32e0ad97263498a"
             ]
           },
           "content": "Finally, create `freeCodeCamp.svg` in the `website` folder.",
@@ -1846,12 +1561,7 @@
             "Enter `touch freeCodeCamp.svg` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "d68c7bea4c69b526579aa7034253974f2350291e"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1868,7 +1578,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6653da35e844982b43838c3784cd3c52b755ae70"
+              "ad678cb11ce0ddee694ed8a6003527d6924da79a"
             ]
           },
           "content": "Check out the new icons you just added by listing the contents of the folder they are in.",
@@ -1877,12 +1587,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "ab5aecb303108f79f3584a02d6dce9e91a2a611d"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1899,7 +1604,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b8e95f269c4986e731e4ec63e06d378e1d3f59c0"
+              "4b61da959a67a8d20bc8fb758110898004e945f3"
             ]
           },
           "content": "The icons are pink as well. I think the images should go in a separate folder to clean it up a little. Make an `images` directory in the `website` folder to put them in.",
@@ -1911,12 +1616,7 @@
             "Enter `mkdir images` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "f73d56867185454489a4eef7eb223689580220ec"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1933,7 +1633,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e9994ae7e218c84c4f09d323b89141a03d8801a1"
+              "0e6bc4a4ff9ab237dc1b7aa22335c1e10757a261"
             ]
           },
           "content": "List the contents of the `website` folder to make sure your new folder is there.",
@@ -1942,12 +1642,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "8401ed48e2b40a76e47c460396c5627496ad78ef"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1964,7 +1659,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3020b19c6a331cd1583211f7725042419b70c7a8"
+              "2192e2242882e9e84f6922a3ba4c8f68a517bc5a"
             ]
           },
           "content": "There's your new `images` folder. It's blue. You can copy a file with `cp file destination`. `cp` stands for \"copy\". Copy `background.jpg` to your `images` folder.",
@@ -1973,12 +1668,7 @@
             "Don't try to use a different method to copy it",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "79f0efc8e3e76c0d0f012bf013ddf89c5b2bccfc"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1995,7 +1685,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7873cadc5fb47570dc566703705b11754ecff7ba"
+              "44dbbb68c7d7a2afaa27cd088f1f958d08c7aa5d"
             ]
           },
           "content": "Better make sure it worked. Change to the `images` directory.",
@@ -2004,12 +1694,7 @@
             "Enter `cd images` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "97a488a53efb3504c0ef1113dce9204e4edaf2d3"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2026,7 +1711,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2a1b7b38e19a9fd1f862d0974eadc4714925869b"
+              "d5d8a0a1cede05ddb4c8e5c08ebf53e80143d604"
             ]
           },
           "content": "List the contents to see if `background.jpg` is here.",
@@ -2036,12 +1721,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
             "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "6decfe00a08bc807467482c794bb441c1141d526"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2058,7 +1738,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "25d825d54cdd09693f9feee6df7fddeca65a647d"
+              "1f0fcb5576a44085da7cc5fe3cd8212edb35f437"
             ]
           },
           "content": "There it is. Looks like the copy worked. Change back to the `website` directory so you can copy the other ones.",
@@ -2068,12 +1748,7 @@
             "Enter `cd ..` in the terminal",
             "Make sure you are in the `images` folder first",
             "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "50cbccdef0f270f0a407b1e2838e378804460706"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2090,7 +1765,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7a5dcfb7b9aa0233e3ec296827006557fbefbae4"
+              "b53052494fe9ed3a3b23be7b2ccf0d2b5c91870f"
             ]
           },
           "content": "Remind me of the files here by listing the contents.",
@@ -2099,12 +1774,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "a4a6e883db0a90e50e384d7c7fad8fd273f08ef0"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2121,7 +1791,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "cd1fc71e9352f7e27538d2015ee2324fa0d2a439"
+              "6e9a17ecd0ad51c5df0b78e3b9e4371c5d56d821"
             ]
           },
           "content": "You copied the background image to the `images` folder so you don't need the one here anymore. You can remove a file with `rm filename`. Remove `background.jpg` from the `website` folder.",
@@ -2129,12 +1799,7 @@
             "Enter `rm background.jpg` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "db15091a15ed80fd65e9921109aa0dea87dc7896"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2151,7 +1816,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "37d1d5a985c3275ef05c2fa06d19af4f3b53d406"
+              "96a0feb2723f98f06c9489a236e21dc01ec12a44"
             ]
           },
           "content": "List the contents to make sure it's gone.",
@@ -2160,12 +1825,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "4901e3cfb2e7be27bfdf6881adb72db8896df805"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2182,7 +1842,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c5cbec931d7de61d5aaef4b161b25aaf4d4c449d"
+              "bbd6e72fc2d3d378dc3ee8c593b0a9dfede766d3"
             ]
           },
           "content": "Okay, it's gone. Next, copy `header.png` to the `images` folder.",
@@ -2193,12 +1853,7 @@
             "Enter `cp header.png images`",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "a6dc5a7b3f7b314e80e5cb1d98f9a2408dca42e3"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2215,7 +1870,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "be885c9d8fcf77d83f51795ed8c92d1e6bfa17fb"
+              "987b9c6db77530b88927661c3f8d6b50e9958b3e"
             ]
           },
           "content": "Last, copy the \"footer\" image to the `images` folder.",
@@ -2226,12 +1881,7 @@
             "Enter `cp footer.jpeg images`",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "1053e9f541bd85bc921eac913c88bdec4760f347"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2248,7 +1898,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "772b3c91024b5f9fe9134143131b2db440d0a840"
+              "302a1ffd1e3994ad8290e418374a2c27968d906c"
             ]
           },
           "content": "They should all be copied over. Change to the `images` directory so you can make sure.",
@@ -2258,12 +1908,7 @@
             "Enter `cd images` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "8851f3cc8497c2460659a1ca6ef8518dcee0399e"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2280,7 +1925,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "774d5a3c54de863f33f8f397216e957deb6b6fb5"
+              "606c312c16a8647e7c02b6dc94c657de689deb77"
             ]
           },
           "content": "Check if the images are here by listing the contents.",
@@ -2289,12 +1934,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
             "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "2d1b12e34b98352bb2f625c705414f4328b19b5b"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2311,7 +1951,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f755e167e5ee8aa4b1c2b2ffe8934ef777779f8b"
+              "283a7d4527bc586d0af3ac9500f4d3fe34349361"
             ]
           },
           "content": "Yes, they all made it here. Go back to the `website` folder so you can delete the original files.",
@@ -2321,12 +1961,7 @@
             "Enter `cd ..` in the terminal",
             "Make sure you are in the `images` folder first",
             "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "05cae87e54924df0fdf7c26a89101f48c20a47f1"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2343,7 +1978,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "15e3f1e604587374988d32e4f5dca52585cebd0a"
+              "2fb512549614aeb860875abfef33704da255b130"
             ]
           },
           "content": "List the contents to remind me of the file names to delete please.",
@@ -2352,12 +1987,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "b16687702e21cdd75ca4d4f9a0be9f0549c6536b"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2374,7 +2004,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "bf7c4cce7151c2221a2f8de68c8efd96ebf6f728"
+              "2e371e9e55ba89e5c656e0c187766796f03860c4"
             ]
           },
           "content": "There's two that you don't need anymore. Remove the \"header\" image file from the `website` folder since you copied to the images folder.",
@@ -2385,12 +2015,7 @@
             "Enter `rm header.png` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "4f7f2d8f98d0e507b1a4114b27e74dae5e3ff529"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2407,7 +2032,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f1b8eb9328c1694f6a5b417a52a0734956ade16b"
+              "b824b7f2e2cbf42ace3f9864d43b1af525d6c0f0"
             ]
           },
           "content": "It should be gone. Remove the \"footer\" image from the `website` folder as well.",
@@ -2419,12 +2044,7 @@
             "Enter `rm footer.jpeg` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "393c68cb58fc93db2a07ed630adb482799e1f843"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2441,7 +2061,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "665966514b16ef9749a6bc6bb51039fc5536dc51"
+              "eef88b1ccdae066b5804308f9e1042e39a3992e9"
             ]
           },
           "content": "List the contents of the `website` folder to check if they are gone.",
@@ -2450,12 +2070,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "342e5305b9fb6b0e15fc012685ad4cd9070e998a"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2472,7 +2087,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8e4df1e59d2417ad9cdebdafd3e6b8a566188d4c"
+              "76e8d64a25634530df195c63d1c6b8d72764454c"
             ]
           },
           "content": "Looks like they're all deleted. I got the extensions wrong for the font files. You can rename them with `mv` like this: `mv filename new-filename`. `mv` stands for \"move\", it can **rename or move** something. Rename `roboto.font` to `roboto.woff`.",
@@ -2481,12 +2096,7 @@
             "Don't try to rename it with other methods",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "2a471ea9b05584cc564b8247c35995562a946b5f"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2503,7 +2113,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c572a497c50270eb1eaf588506b3eadfd4f50187"
+              "3a3f07d8b4c61884a990f0205d9949ffb28d24ff"
             ]
           },
           "content": "Use \"list\" to check if it worked.",
@@ -2512,12 +2122,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "3b5e397a8d597cc5d4915ac0affe698c2841fabd"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2534,7 +2139,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "26cc3451d9e061bfb920232ee4e671e1a597b02d"
+              "d83284566d401439a4b6a6bdd0f3e50ff881ca9b"
             ]
           },
           "content": "Do you see the \"roboto\" font? The rename worked. Next, rename the \"lato\" font file to `lato.ttf`.",
@@ -2546,12 +2151,7 @@
             "Enter `mv lato.font lato.ttf`",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "5de28c102c89901483d00ceb666bd9bdace5b598"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2568,7 +2168,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "cb7f8eae7759d9cc531511f0eaeb36c6971bde80"
+              "55de997604d6d1f69c5559958ba9fab6220e8f3b"
             ]
           },
           "content": "Last, rename the \"menlo\" font to `menlo.otf`.",
@@ -2580,12 +2180,7 @@
             "Enter `mv menlo.font menlo.otf`",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "03aa8a8350db58b143d550fdb5d89fb001306f33"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2602,7 +2197,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "031acfd51afce34972f0ad8d27d80c5ce3a6c7da"
+              "4b23b7585c81ddaafc99caa7df86e8e528a4df0c"
             ]
           },
           "content": "Use \"list\" to make sure those last two got renamed.",
@@ -2611,12 +2206,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "243fa286bf62ca3bcef1c151a3c2b814f3899410"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2633,7 +2223,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "eefae4bfb7f650c92c84fb47a29f61091948b49d"
+              "094779b3005917c882fefc97a70fe40e02e0ffd5"
             ]
           },
           "content": "Take a look at the files to make sure they got renamed. I think those font files could be organized into a folder as well. Make a `fonts` directory in the `website` folder.",
@@ -2644,12 +2234,7 @@
             "Enter `mkdir fonts` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "6d618d94e36848c543f70433253b91d6c9cabab2"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2666,7 +2251,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c899b0f4b7b4c9f531f6493c88ccab6fac9645bd"
+              "2c1aefc12205f6f2b321a676bfb64df40522fc9f"
             ]
           },
           "content": "List the contents of the `website` folder to make sure your new folder is there.",
@@ -2675,12 +2260,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "cfb284e842c0037cc09aebea737deb95cc8a45fd"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2697,7 +2277,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9fbaacdbcc03fa84dd9928a01d4e582c539051f6"
+              "3d53f3b9a559a331d16c2e6b3bc353367c6810cc"
             ]
           },
           "content": "See it? You renamed the font files with `mv`, you can also move them with it. Move the \"roboto\" font to the new `fonts` folder.",
@@ -2709,12 +2289,7 @@
             "Enter `mv roboto.woff fonts`",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "1db93b1c3726ad2dd9f3a462b9f49c910b86cdd9"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2731,7 +2306,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "feec96435eedd9d7e17644f2ae2aad828e6990cb"
+              "f82cc6a9dd9ba97fa5fc76ede302e341c2d96f17"
             ]
           },
           "content": "I found a command called `find`. You can use it to find things, but it can also list your whole file tree. Enter `find` to view the file tree of the `website` folder.",
@@ -2741,12 +2316,7 @@
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "ca076edd435393f94c882e9d3fc838c521b2b7f9"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2763,7 +2333,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "dfd1e4acf43539e1ea131e27ef9f54e6e5d92e48"
+              "35aae08e7517c8dc6f3670ba8aa2bede5e8492f8"
             ]
           },
           "content": "You can see everything in this `website` folder and it's descendant folders. Notice that they all start with `./` to represent this folder. Can you see that your font moved to the `fonts` folder? Next, move the \"lato\" font to the `fonts` folder.",
@@ -2775,12 +2345,7 @@
             "Enter `mv lato.ttf fonts`",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "d73a9dc143280e77bd6f1e327e5d01ec3fa70744"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2797,7 +2362,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f75a84916b7d3420c47bf4de4ca32a154237e838"
+              "4b9abcdd5b4d7a46ef3ec26dfe6586447856e863"
             ]
           },
           "content": "There's one more font to move. Move the \"menlo\" font to the `fonts` folder.",
@@ -2809,12 +2374,7 @@
             "Enter `mv menlo.otf fonts`",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "d830962d74367f0167f2a2dbb2f3680d40ff2677"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2831,7 +2391,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e981427d4a76563f07f0c2feffd5dc8281188966"
+              "5d085ab8b3b2a24ba72605cb3a44f11ef39b14db"
             ]
           },
           "content": "Use `find` again to make sure those two got moved.",
@@ -2840,12 +2400,7 @@
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "27b4d8a50d606640c7e1143dbe3cf2e7633d67fa"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2862,7 +2417,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "aec3c92f5984ff4eea98b26dc319ac11e181e278"
+              "81010e6c0494e6651804d0a3adcdcab1417aae7e"
             ]
           },
           "content": "Yes, you can see them all in the `fonts` folder. Let's organize some more. Make a `client` directory in the `website` folder for the client side files.",
@@ -2871,12 +2426,7 @@
             "Enter `mkdir client` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "9a248a5caa60efe61df3c0e7bd02db356b442dd3"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2893,7 +2443,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "aa6153df089aa4a27c688ecdbe0fcd15a5751090"
+              "d2676410e2ba7353fc1e5f813f4417fdd902e33c"
             ]
           },
           "content": "You can make a folder in that `client` folder from here by adding it to the path like this: `mkdir client/new-folder-name`. Make a `src` directory in the `client` folder from here.",
@@ -2903,12 +2453,7 @@
             "Don't try to create the folder with another method",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "df91bc1afaf3bbe7b15145e8d743e233adf3accd"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2925,7 +2470,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f146af62ffce8fca7dbb49fe2967bcd7030db00d"
+              "61070c43383e41f8be166074482ec7c5635d0422"
             ]
           },
           "content": "You can move files all the way across the system from here with the right path. Move `index.html` to the `client/src` folder from here.",
@@ -2935,12 +2480,7 @@
             "Enter `mv index.html client/src` from the `website` folder",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "4811f7e3f99d4b621f30f95ca772c278c2fc2481"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2957,7 +2497,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "075e898ecca034dbca308ebdd029f002cc2eca31"
+              "d86833bee97135f129d345af63584265ec68368c"
             ]
           },
           "content": "Use `find` to view the file tree and make sure it moved.",
@@ -2965,12 +2505,7 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder"
-          ],
-          "solution": {
-            "commits": [
-              "8d17acd500eadb75a88b4073a1cba1b4ac6bd982"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -2987,7 +2522,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d3525bf3cebb2a64410cc488302534c7e56f8be2"
+              "d506a12da558deaa4c035abe1dbc20359713c4ac"
             ]
           },
           "content": "Can you see the `index.html` file in your new `src` folder? Looks like it moved :smile: There's some more files that can go in the `src` folder. Move `index.js` there from here.",
@@ -2996,12 +2531,7 @@
             "You previously used: `mv index.html client/src`",
             "Enter `mv index.js client/src` from the `website` folder",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "182951371870acf8671a47203a3e6a0af0f5e761"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3018,7 +2548,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8b87e24788770d64f94461d81e4b68284cbdfed4"
+              "3e2ceebbab9d4c8b2fa08c6750ce008bb359ac55"
             ]
           },
           "content": "Last is the CSS file. Move `styles.css` to the `src` folder.",
@@ -3028,12 +2558,7 @@
             "You've used `mv index.js client/src` to move a file",
             "Enter `mv styles.css client/src` from the `website` folder",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "06cb803b587e5bff35a32919f0f641e622c28e6c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3050,7 +2575,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "eb97203fc3bfb48a43463465b2b9233dee53ae71"
+              "460ccdb2568344f2706655a3d0c123acc136f0f3"
             ]
           },
           "content": "Seems like you can do anything right from here. Take another look at the tree with `find`.",
@@ -3059,12 +2584,7 @@
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "a50372eb68241a3c8bebdd307c3eb33e1b978464"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3081,7 +2601,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f815d59b7636633904b570425585180aaefc869d"
+              "9e54947fcf93f6dbbc88f0a9ffac0771b430b86b"
             ]
           },
           "content": "Things are looking more organized :smile: You can use `find folder-name` to display the tree of a different folder. View the file tree of the `client` folder from the `website` folder.",
@@ -3091,12 +2611,7 @@
             "Enter `find client` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "6b71679c6e7c5e4696257ffc26c69a515af81603"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3113,7 +2628,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5bc18aea987e38ddce69e3e62c88f1d7dbe7fffb"
+              "100a6400206b3f3bea3fe49cdd2262e6167bad31"
             ]
           },
           "content": "Now you just see what's in `client`. I wonder what else `find` can do. View the \"help\" menu of the `find` command.",
@@ -3124,12 +2639,7 @@
             "Enter `find --help` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "c21bb088624eb47b63ca1a9800c79ec8d90c5790"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3146,7 +2656,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4a63638b2f73858d2355097b730c882638009c3e"
+              "d43f920c30547c62edbbe4d084f2b1556c55ca6d"
             ]
           },
           "content": "The menu isn't very pretty, but I see `-name` there. You can search for something with `find -name filename`. Use `find` and the `-name` flag to search for `index.html`.",
@@ -3154,12 +2664,7 @@
             "Enter `find -name index.html` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "6038aaa74593ce5b6030f24ee45fd89aec4a8f8a"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3176,7 +2681,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "77d2de86a095579b265f8e2e0987f04d113bf018"
+              "1821dba15d0c7c1c572a8abe339dd99a51c87750"
             ]
           },
           "content": "That's nice, it shows you where that file is. Using the same command, find where `styles.css` is.",
@@ -3187,12 +2692,7 @@
             "Enter `find -name style.css` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "bf6bcc6ef95c60dea71ab1bb4a940ffd485f56b0"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3209,7 +2709,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d0094cddcf331e44b9b3d646ca3b2f5e4037c664"
+              "be5d14925de0a8ccdac8b2a93ac2730c4b40f6fa"
             ]
           },
           "content": "I wonder if you can search for a folder like that. Using the same command, find the `src` folder.",
@@ -3220,12 +2720,7 @@
             "Enter `find -name src` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "1060ff769d6893d2aece77e38f8ade8090fd0641"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3242,7 +2737,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b31dcf8592521128fb5e1fd2733e79e09faaa278"
+              "8c1fbdf500b97f3240560e70f5b646c3d74604fd"
             ]
           },
           "content": "It works :smile: View the file tree of the `website` folder so I can see what else we need to do.",
@@ -3252,12 +2747,7 @@
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "db8ec7de51ff761c6de6db36aec80891b5e979d5"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3274,7 +2764,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "32bebca792c9bd6947e5f6c1af009f888712e236"
+              "54502f2bcdd4026a135980677032da16d8f756e6"
             ]
           },
           "content": "What's next? More organizing! I think you should put all the assets in one spot. Change into the `client` folder for me please.",
@@ -3283,12 +2773,7 @@
             "Enter `cd client` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "b97f2c11d6d00654b977b81acde877c98a13fe73"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3305,7 +2790,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b840a1772c7cc2bf90d3c83d0bb6d9485ee37937"
+              "2b16673a5c433028bd7215798c8edf2b3e33ca86"
             ]
           },
           "content": "Make a new directory named `assets` in the `client` folder.",
@@ -3316,12 +2801,7 @@
             "Enter `mkdir assets` in the terminal",
             "Make sure you are in the `client` folder first",
             "Enter `cd ~/project/website/client` to get to the `client` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "d81047f3fe480c047a6641198af2ddc87546a739"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3338,7 +2818,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "cdea124228923bb220ab54a8a00f0b743f464144"
+              "f185209eacfd0b82cdd3c3c83aa072cd607a02cc"
             ]
           },
           "content": "Change into the `assets` folder.",
@@ -3348,12 +2828,7 @@
             "Enter `cd assets` in the terminal",
             "Make sure you are in the `client` folder first",
             "Enter `cd ~/project/website/client` to get to the `client` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "5577475dd9d05fc2d6cd424f01d15d8d5f8326c0"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3370,7 +2845,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "977bf226274a46fcd6d59499e539936c9db9be3a"
+              "5df2a8b5ace7fdfff06751721f2ee28e7b1769e8"
             ]
           },
           "content": "All the images and other assets can go here. Make an `images` directory in the `assets` folder for all the images.",
@@ -3381,12 +2856,7 @@
             "Enter `mkdir images` in the terminal",
             "Make sure you are in the `assets` folder first",
             "Enter `cd ~/project/website/client/assets` to get to the `assets` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "2beaf72e6463adef3feaf21347d13b8740b29379"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3403,7 +2873,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0ac97f9dc6f1f79f8331d6330c46ebc0e9bcdedd"
+              "751ac4625b6c424bce9da7191947ca69b6a2c5eb"
             ]
           },
           "content": "Go to your new `images` folder.",
@@ -3413,12 +2883,7 @@
             "Enter `cd images` in the terminal",
             "Make sure you are in the `assets` folder first",
             "Enter `cd ~/project/website/client/assets` to get to the `assets` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "43a27032156189474e391480a962a2e558f7993e"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3435,7 +2900,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8e025701d27282793cec22d20a5a60644328b71c"
+              "543380b4207cd8599cb5f785496638d498bd35af"
             ]
           },
           "content": "I want the images here instead. Create `background.jpg` in this folder.",
@@ -3445,12 +2910,7 @@
             "Enter `touch background.jpg` in the terminal",
             "Make sure you are in the `images` folder first",
             "Enter `cd ~/project/website/client/assets/images` to get to the `images` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "ae472c6ccf28e04a4a6a0e680fdac1881ba11119"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3467,7 +2927,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a89b392f4de0361df8ca1060b22096ebdca6715d"
+              "5601afd7da15b15a3aac719a9e2efc5f6f89fffd"
             ]
           },
           "content": "Wait a second, why are you making these again. You can just move the other images here. Go back to the `website` folder from here. It's three folder back.",
@@ -3477,12 +2937,7 @@
             "Enter `cd ../../..` in the terminal",
             "Make sure you are in the `images` folder first",
             "Enter `cd ~/project/website/client/assets/images` to get to the `images` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "42a77a80d4149e5952cd08550ce56e41dc0cdc51"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3499,7 +2954,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4b43d6192abaa8442edc052fcc1f70528d6017dc"
+              "ea8dee6cd50a00860370a35983c898a2c03d0fc6"
             ]
           },
           "content": "Now go to where the original images are. Change into the `images` folder.",
@@ -3507,12 +2962,7 @@
             "Use the \"change directory\" command",
             "Enter `cd images` in the terminal from the `website` folder",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "d90c0635627bda7479d59212de7c6142749409ed"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3529,7 +2979,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "62680df991a8f1875b89cbcb1892ea69bbc626c8"
+              "a6dabad75e2e2078a29bcf3ca38336df353b5faa"
             ]
           },
           "content": "List the contents of the `images` folder to see the files here.",
@@ -3538,12 +2988,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
             "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "fbf768f571c04cbc1e90520b30880e676516c22b"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3560,7 +3005,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3f8f2f82d00fa73fe6e0133757d9d69a2a35028e"
+              "123af86dc3efac471cdd92d4cd561b74c0a2b4c5"
             ]
           },
           "content": "Umm, first I think you should move them back to the website folder. Move `header.png` back to the `website` folder.",
@@ -3572,12 +3017,7 @@
             "Enter `mv header.png ..` in the terminal",
             "Make sure you are in the `images` folder first",
             "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "3ba2b552ee7cf1787b8edb7642e222fa1ed1d0fa"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3594,7 +3034,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "02cc8c27ba0df3ff48c8c19ef17fceb82665033a"
+              "382e96f8952d75568871b31ea765bb81ec1e6cc6"
             ]
           },
           "content": "List the contents of the `images` folder to see if it's gone.",
@@ -3603,12 +3043,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
             "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "6ee02721b230624ddb7e9eebedda4cdb01e3ee0e"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3625,7 +3060,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "da9f47631374ff71f34b2cb1e6c59912b5215aa6"
+              "a6a71ecdb8d372d3c0a90bc8e937ac2c94eb9c68"
             ]
           },
           "content": "It's gone. Go back to the `website` folder.",
@@ -3634,12 +3069,7 @@
             "Enter `cd ..` in the terminal from the `images` folder",
             "Make sure you are in the `images` folder first",
             "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "717c89c66825f5a9d29b633596bf0699661a0368"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3656,7 +3086,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "dd3340193c3473f7ccff1b8c16401c443ec1b98e"
+              "729586900d7d6edbe5110d0382903e71bc66d3a3"
             ]
           },
           "content": "List what's here",
@@ -3665,12 +3095,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "3bebe7dedce4cc0fa649aacd4c9a3dd5fb95844f"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3687,7 +3112,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8329d3aa06aa8d90dd82e374b80d8726f4b954ed"
+              "c8f29884f14f4a84991520980e4e44f4537857e4"
             ]
           },
           "content": "I see the file you just moved. Next, I want you to move it to the other images folder. First, use `find` to search for the `images` folder. Don't forget the correct flag.",
@@ -3698,12 +3123,7 @@
             "Enter `find -name images` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "75084b78d58bed7abc32ed3bece88f64506c287f"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3720,7 +3140,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c872d3cad18d8a23cf2f552d338cca86bd995a38"
+              "72e7a5d4c8a5bfbb0763f6b244ad9990c8cf06e0"
             ]
           },
           "content": "There's your two image folders. Move `header.png` to the one with the longer path.",
@@ -3733,12 +3153,7 @@
             "Enter `mv header.png client/assets/images` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "8a4e59f28d36d182092327752da19b9aa606d3af"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3755,7 +3170,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "672e5b3966a49e6af7162104f7dca68612d3a2d1"
+              "4363c25c09c5f37f4f192a18b0c03b94b3129393"
             ]
           },
           "content": "Use `find` to search for your `header.png` file and make sure it moved.",
@@ -3767,12 +3182,7 @@
             "Enter `find -name header.png` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "db1d9f08bd4edafa9b9b139a416e9155acb5f58f"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3789,7 +3199,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "228a1b70ffb0abb235c1bf04dd4016372c62db23"
+              "230c1f6eb97bd16bf9a5b91d69995c20ed0bd0f9"
             ]
           },
           "content": "There it is. Right where you put it. Next, search for your `footer.jpeg` file so you can move that over there.",
@@ -3800,12 +3210,7 @@
             "Enter `find -name footer.jpeg` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "b86ce8019c97a7599deabdd8ad238c0bdcdb0331"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3822,7 +3227,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b348efe6ce5cfe9c5d5a66de9bd5a5af2f6494c7"
+              "160dddaa9015507ae02d30d685444722d89d9d99"
             ]
           },
           "content": "It's in the original `images` folder. You can **use that path** with the move command to move it. Move `footer.jpeg` to the `client/assets/images` folder while in the `website` folder.",
@@ -3835,12 +3240,7 @@
             "Enter `mv images/footer.jpeg client/assets/images` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "4d2a285d023a65694733647620d8cc5fd02dae9c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3857,7 +3257,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c4b90aa27d4cabb337460096c3b984f56b7d9978"
+              "bb0e702aade40322faf5fec36d8b458bedb10349"
             ]
           },
           "content": "View the file tree of this folder to make sure all your images are over in their new folder. Don't use any flags.",
@@ -3866,12 +3266,7 @@
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "6d3f879f39de5cf50ca75d1ceaf97cf89227fbf8"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3888,7 +3283,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b90a6985fe54341f6fac4b514f546749890c3999"
+              "c86713433dd62f244cc43fb2de630654df87d83c"
             ]
           },
           "content": "You don't need the old `images` folder anymore. You can use `rmdir folder-name` to remove a folder. `rmdir` stands for \"remove directory\". Try to remove the `images` folder with `rmdir`. Make sure it's the one in the `website` folder.",
@@ -3896,12 +3291,7 @@
             "Enter `rmdir images` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "174e474e2fb28d2a3a44624a7f1f7f94b13f7b42"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3918,7 +3308,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "48a0a9ce0a6bc9c44b382bf0fdcfa00c1dcf0735"
+              "5418d24b2fa770a53736be0649c5df284b2af388"
             ]
           },
           "content": "Directory not empty? Oh yeah, there's still the background image in there. Remove the background image file in the `images` folder from here. Make sure it's the `images` folder in the `website` folder.",
@@ -3928,12 +3318,7 @@
             "Enter `rm images/background.jpg` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "e75e0b6638a6bd44377fe327798dc6f2aa1ddc60"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3950,7 +3335,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "495cee99dfcc8cecd22271a3cabdf7adc9c735bd"
+              "13d07fbd4563090422478800ae6b68811b854d42"
             ]
           },
           "content": "Try to remove the `images` folder again with `rmdir`. Make sure it's the one in the `website` folder.",
@@ -3959,12 +3344,7 @@
             "Enter `rmdir images` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "76a71dccd57290af8bead2325e6e48b8b45dad2a"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -3981,7 +3361,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "28a372299ed20b49b3fe157faaca0ff3e10a1432"
+              "bd14875388d6baf6342707c0535e8de328ee7e83"
             ]
           },
           "content": "I think it worked this time. List the contents to find out.",
@@ -3990,12 +3370,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "ffb4ad335e310e0de15b3e939e017b872708bee3"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4012,7 +3387,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c2643561e3cc6e5d9ed7c32124d2463f6209858a"
+              "8d26b9b7ec4c1b81c8d9ac65ca02fef6513e39b9"
             ]
           },
           "content": "It worked, the `images` folder is gone. Make a new `icons` folder in your `assets` folder while in the `website` folder.",
@@ -4023,12 +3398,7 @@
             "Enter `mkdir client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "296608424140dc98cba721ed2a81037777e46f8c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4045,23 +3415,18 @@
               "../.bash_history"
             ],
             "commits": [
-              "c19eaedfaa6117a196ee9b90aa546fd1a2b0c0d6"
+              "ee089dfcb33430f36a619d804488bccbda4265d3"
             ]
           },
-          "content": "Move the `Strove.svg` file to your new `icons` folder.",
+          "content": "Move the `CodeAlly.svg` file to your new `icons` folder.",
           "hints": [
             "Use the \"move\" command",
-            "Here's a tip: `mv Strove.svg path-to-icons-folder`",
+            "Here's a tip: `mv CodeAlly.svg path-to-icons-folder`",
             "The destination path is `client/assets/icons`",
-            "Enter `mv Strove.svg client/assets/icons` into the terminal",
+            "Enter `mv CodeAlly.svg client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "ff04017d8507fdf508ca30de42268d6a4dd710bb"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4078,7 +3443,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "028bc9aaaa0e1775357a39346f7f132c0c472b04"
+              "69e6b61939981c0d7db5f2ba37e42305b3e4cf4d"
             ]
           },
           "content": "View the file tree of the `website` folder and make sure it moved.",
@@ -4087,12 +3452,7 @@
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "2e62d7b38970d8ff6407e64c176499eb5980b393"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4109,7 +3469,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "282a97c5ed5c164c946bf8109a6f8ceb6167c59f"
+              "19a851a98cfcd3902f1c32fe38b67abcdaf7aac3"
             ]
           },
           "content": "Verify that the file moved to the `icons` folder. Next, move the \"CodeRoad\" file to your `icons` folder.",
@@ -4120,12 +3480,7 @@
             "Enter `mv CodeRoad.svg client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "a6ec2edda508180ea50d8a00308962306fefee97"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4142,7 +3497,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5ea690152900e7788d5fc4e4654c743dd24363b1"
+              "e656ff4422130583b5af632422669acaec9b8f11"
             ]
           },
           "content": "Last, move the \"freeCodeCamp\" file to your `icons` folder.",
@@ -4153,12 +3508,7 @@
             "Enter `mv freeCodeCamp.svg client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "6e1a5ae476a80baecbc6cd6e6bb2ff7a5307652a"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4175,7 +3525,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "523b6c09ec92a58650746f6baad67b6dd771f6ee"
+              "7515cfadb5cfcc551753ef50a145d731d9a32c45"
             ]
           },
           "content": "View the file tree and make sure the files moved.",
@@ -4184,12 +3534,7 @@
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "791a889a1990b3e70cb252185a32abf186691566"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4206,7 +3551,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fde3d3e7f483bd6d88f4b0b2850a942930133755"
+              "97c982b31d723cb7d4fb830c49d1f1a427df0c6c"
             ]
           },
           "content": "This looks much better. The three icons are now in the `icons` folder. Make a `fonts` folder in your `assets` folder from here for all the font files.",
@@ -4216,12 +3561,7 @@
             "Enter `mkdir client/assets/fonts` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "1feece5ffbfee5e539e343ab570f84290d135d1c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4238,7 +3578,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8c65bf1e5e5817ecf208531332b0c9b8d51ec2a8"
+              "63eefadba79bbd9536ac7bc2cc3bcf8bdeadb096"
             ]
           },
           "content": "Turns out I need some different font files for the website. From here, create `roboto-bold.woff` in your new `fonts` folder. You can put the path in front of the filename of where you want it to go.",
@@ -4249,12 +3589,7 @@
             "Enter `touch client/assets/fonts/roboto-bold.woff` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "c0590e8829f7faffd75da95feb7118d46e13a06b"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4271,7 +3606,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4ff88ca6de8013f2fe59538e8e24ea3902066f06"
+              "59c2d0784aa0d1a26aa9b596da4cfcdeda004f36"
             ]
           },
           "content": "Next, create `roboto-light.woff` in your new `fonts` folder from here.",
@@ -4282,12 +3617,7 @@
             "Enter `touch client/assets/fonts/roboto-light.woff` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "077d8604bd32a27c96cef199f7e8a2aa83e1eafc"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4304,7 +3634,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5d009ff3d01c0496c8e62a1d806079580f3a8e2e"
+              "79d27e77d36843c57a8071b4849c1f99d2464564"
             ]
           },
           "content": "View the file tree of the `client/assets/fonts` folder from here to see if your new files are there.",
@@ -4313,12 +3643,7 @@
             "Enter `find client/assets/fonts` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "76942cee0cdcfa7a4c4b02e3698b875780f6edc1"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4335,7 +3660,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "cc70b1d80b5f7c8b980a0decb4e9197e2156fcd0"
+              "7dfb5d93737a4e28a6010f46682b3b1a72d136d6"
             ]
           },
           "content": "Two more font's to go. Create `lato-bold.ttf` in the new `fonts` folder from here.",
@@ -4346,12 +3671,7 @@
             "Enter `touch client/assets/fonts/lato-bold.ttf` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "02df160b0a7398dfe75d178103688bff0d037fbf"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4368,7 +3688,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a14e8a07186b5442988c75cfe54472054e2fdd57"
+              "29867a05111edfccc66b3fb87ef1ed3b7a0633c4"
             ]
           },
           "content": "Lastly, create `lato-light.ttf` in your new `fonts` folder from here.",
@@ -4378,12 +3698,7 @@
             "Enter `touch client/assets/fonts/lato-light.ttf` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "187cddb209de69f25e2ee176e1facb1c6ef53604"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4400,7 +3715,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "968bba6bb6f0cb696866aeaa0a52ed8169ef9942"
+              "c240c05b5b4b3a2053587b203d44f57c37cc51ed"
             ]
           },
           "content": "View your file tree and make sure the files are there.",
@@ -4409,12 +3724,7 @@
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "d3d6ed61ca721c5a8c6aabe42f75627cdcc1dff8"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4431,7 +3741,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "95b026157cc9cc91183f0f589f73f6628d3d37c1"
+              "f919411931c0584da3b0d11191ca6127dab45dc3"
             ]
           },
           "content": "Things are looking more organized :smile: I see the new fonts. Now you can remove the old `fonts` folder and everything in it. You can't do that with `rmdir` since it's not empty. I have an idea, view the \"help\" menu of the `rm` command.",
@@ -4441,12 +3751,7 @@
             "Enter `rm --help` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "32fb1683a90f736d8c4fc43fc97d347b5d218a48"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4463,7 +3768,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4762c160b230d637996186c3c1b746f68cd88270"
+              "91562e7dc97ffd61c1a9050227d7fd070dcf0e59"
             ]
           },
           "content": "I see a `-r` flag that says, \"remove directories and their contents recursively\". That will remove the folder and everything in it. Use the \"remove\" command with that flag to remove the `fonts` folder. Make sure it's the one in the `website` folder.",
@@ -4474,12 +3779,7 @@
             "Enter `rm -r fonts` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "f8ea94ebfef6df235bf92e8ca734f2690c3a7079"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4496,7 +3796,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c0b4be712d115eae7281f1b9499b1808178e8fd0"
+              "960b74447eb9103c2701077fc5f19625dca81407"
             ]
           },
           "content": "List what's here to see if it's gone.",
@@ -4505,12 +3805,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "da211233dce0e2cf0d2a5794850e9dc507eaba3e"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4527,7 +3822,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fae1aab0d2a3ce041226a5af4ebbcded184a4770"
+              "82b909159fa4ee3f5c5c959c78c91fa257ca6d6c"
             ]
           },
           "content": "Looks like it’s gone. I’m sure it went to the trash can right? No, it’s just gone. I would recommend you **be very careful when recursively removing files** like that. I need a few more files for the boilerplate. Create `package.json` in the `website` folder.",
@@ -4536,12 +3831,7 @@
             "Enter `touch package.json` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "5cbd46aad6bbd309c00c11cf6757a096dd0979f6"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4558,7 +3848,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6dcabe6b221e8880af38ce29751bfbc0803bc8be"
+              "2a9fb03405ea8ef8151e9e18dce43d0c9843bde9"
             ]
           },
           "content": "Next, create `server.js` in the `website` folder.",
@@ -4567,12 +3857,7 @@
             "Enter `touch server.js` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "8c905e68ba325ede85e66f6ea11b59bd82e280db"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4589,7 +3874,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0ee4f38b165cbcf3f0a3abffbcd94de794a66d22"
+              "dc4af69c5597b67ee5da5fcdd51b70f43ada97a7"
             ]
           },
           "content": "Lastly, create `README.md` in the `website` folder.",
@@ -4599,12 +3884,7 @@
             "Enter `touch README.md` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "2620883e53a73981f18c14ddbc7dbdb568241a89"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4621,7 +3901,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c3470840ffef743fa870794ad0969e8bb8636add"
+              "554c144e5c96868c73bee625ae4158fb66b52a78"
             ]
           },
           "content": "List the content of this folder to make sure your new files are there.",
@@ -4630,12 +3910,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "d57fbd3c46d5ad6bacdd92adba9c99ca13e4d1a3"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4652,7 +3927,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b52729ae2684b9ae1a3bc28438eb1917e406517c"
+              "95535551a7ef4303fb6ad3450de5160adbb3e7f5"
             ]
           },
           "content": "I think the boilerplate is complete. Print `Yay!` to the terminal.",
@@ -4661,12 +3936,7 @@
             "Enter `echo Yay!` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "1e975f519b8287770e073c41279ef8598d4c391c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4683,7 +3953,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8f13bd865184f1f42a460009b42988e4b969a865"
+              "adeb05788d242b955b92bb8a78eccc80d1146bf9"
             ]
           },
           "content": "Print `I finished the boilerplate!` to the terminal",
@@ -4692,12 +3962,7 @@
             "Enter `echo I finished the boilerplate!` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "4cb1aa5c2dbd3e7c110a9cef30f3c412a3472d9b"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4714,7 +3979,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "450a548c45ee698b8119bb20d47e89270719fdc8"
+              "45140edf48f5d46d3965a2a6cc986704a36e9768"
             ]
           },
           "content": "Print `one more thing...` to the terminal",
@@ -4723,12 +3988,7 @@
             "Enter `echo one more thing...` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "bdb5995658f4c8231540e4328441dcd697c9543f"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4745,7 +4005,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "77ded68fd286119f3f2c1ccaa9b0e7b7a9174412"
+              "878b7ace032f9acfbe39264dc3bd7839945aea81"
             ]
           },
           "content": "You can print to a file instead of the terminal with `echo text >> filename`. Echo `I made this boilerplate` to your `README.md` file.",
@@ -4754,12 +4014,7 @@
             "Enter `echo I made this boilerplate >> README.md` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "3d311112e516ad94356e2de59f1e13182dba3a32"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4776,7 +4031,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d2287e6133e1640a6f34477219c2810f008e17c3"
+              "56f2b789a917ddfe098099e119cc16ce821d0ad9"
             ]
           },
           "content": "Use `more` to view your `README.md` file.",
@@ -4785,12 +4040,7 @@
             "Enter `more README.md` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "c12be9f89885d2bdd49a9a8194c81cfb74890721"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4807,7 +4057,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "920d012c8a8db1b24d17ccae881ae8807f6498e4"
+              "0a624e4394a95ac5d1d81353f142348553b12278"
             ]
           },
           "content": "Now that line is in the file. Add `from the command line` to your `README.md` file with the `echo` command.",
@@ -4818,12 +4068,7 @@
             "Enter `echo from the command line >> README.md` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "450562218e5659fbb215527151b48f016f626325"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4840,7 +4085,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5229374911ccf24401a29a154a80532464ae0a4e"
+              "977a317eb6449722ae87b2a147be36d78f3c5352"
             ]
           },
           "content": "Use `more` to view the \"readme\" file again.",
@@ -4849,12 +4094,7 @@
             "Enter `more README.md` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "4e69f85ae4359f1db3f5acbce6275b34677bf191"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4871,7 +4111,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f7f660218192931ac597c4f738dffadc631aa16e"
+              "802ce69f18b06d7b11c1ab74ca33bf194e5a6a70"
             ]
           },
           "content": "Now the file has two lines. Add `for the freeCodeCamp bash lessons` to your \"readme\" file with the `echo` command like you did before.",
@@ -4882,12 +4122,7 @@
             "Enter `echo for the freeCodeCamp bash lessons >> README.md` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "ad5a2141632fa5b501124051edf2091369f85c32"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4904,7 +4139,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f2c39856b10f9911206b6398eb958f618119b67f"
+              "e7a813168c6d10e3f08f050262f87a6422f4a635"
             ]
           },
           "content": "View your \"readme\" file again like you did before.",
@@ -4913,12 +4148,7 @@
             "Enter `more README.md` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "f6b3eb468fcf65843c146c8558038d24b806da48"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4935,7 +4165,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "76621c90fe108999b294770a806b20b62eec91aa"
+              "d3f74621f2bd9ef24a1572f145618f49119a28b8"
             ]
           },
           "content": ":smile: Change to the `project` folder.",
@@ -4944,12 +4174,7 @@
             "Enter `cd ..` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "c79afc0e8fe0ca87df1efe92796e4dca638b5fb1"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4966,7 +4191,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "62185c78543db6fec00cab880e3dfcb5c421f375"
+              "e2fa7a82e2b8bdcd779b06ec37b927874d8a6344"
             ]
           },
           "content": "You are back where you started. List what's here for me.",
@@ -4975,12 +4200,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "9a29d1a35717416f5ed42b06637a76370738f2fa"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -4997,7 +4217,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3865142944cf3f685adf17ce18e6d2c9eba6d79b"
+              "3333fe30dc058d701a2d6409461bd86fb4927855"
             ]
           },
           "content": "Still the same two folders. Rename the `website` folder to `website-boilerplate`",
@@ -5008,12 +4228,7 @@
             "Enter `mv website website-boilerplate` in the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "d1fc2af3945aecc5ceeb84adee69a79a49b23d16"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -5030,7 +4245,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "bbdca9e80b9f729b5d49de2b4edfbcdf8d1f376c"
+              "c70d3e95a7cf702913e38826bb6e81ebd6fe3a65"
             ]
           },
           "content": "List the contents of this folder to see the new name.",
@@ -5039,12 +4254,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "58762b073d1391bfcdb9d998b523489d9f7ac658"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -5061,7 +4271,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ef1a03046c4c47e64b1eb62d93df1a005994f20d"
+              "ed36871d8427d52b3ed06594f11273656cf420b8"
             ]
           },
           "content": "Thanks for making this for me. I need you to make me a copy of it. Take a look at the \"help\" menu of the \"copy\" command.",
@@ -5071,12 +4281,7 @@
             "Enter `cp --help` in the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "66b606c3834b43f2e280d44ae13325afd971f05d"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -5093,7 +4298,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0ecd7d60910cf97cd9830a030b855b747fbff7d3"
+              "949388eb11a48fb9a67f7ceb7214e24fee7412dd"
             ]
           },
           "content": "Scroll up to find that \"recursive\" flag. You need to use it again to copy the whole folder for me. Copy the whole boilerplate into a folder named `toms-website`.",
@@ -5104,12 +4309,7 @@
             "Enter `cp -r website-boilerplate toms-website` in the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "eef714e5482c0a88acfb3cd4beabac4ff208643e"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -5126,7 +4326,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9f94ebefa50c7b56395ec4f810c70d812963d476"
+              "715f2289484de137ef7add57c441d95b763ab93b"
             ]
           },
           "content": "List the contents of the `project` folder so I can see the folder for me.",
@@ -5135,12 +4335,7 @@
             "Enter `ls` in the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "7cd9898cdbb33da544a875704cad97c88603ceeb"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -5157,7 +4352,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "71781cc7c3d91672e3f2c915bd46f389e2e20f7f"
+              "8ae990493a7e5cce9607a876eb3b735a32e9455a"
             ]
           },
           "content": "Thanks. Use `find` to view the tree of my folder.",
@@ -5169,12 +4364,7 @@
             "Enter `find toms-website` in the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "660ad2bc1d80cf756b9fb3a6435886b37bb597b2"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -5191,7 +4381,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0b55eeb45fdc3e9c35640ddd648785d38d76e0c0"
+              "a194b09954667b9c2afea81ac278b06b94527b58"
             ]
           },
           "content": "Use `find` to view the tree of the boilerplate folder so I can make sure it matches.",
@@ -5202,12 +4392,7 @@
             "Enter `find website-boilerplate` in the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "5b456c45e797085e9061fb39da1ec823e24ad594"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -5224,19 +4409,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "4768c608617d3ec05daa1f83af067f002672743d"
+              "3ae4acb0a835e2b5e968e754ec66aaeb93f79879"
             ]
           },
           "content": "Awesome! I think we're done here. Clear the terminal one last time for me.",
           "hints": [
             "Use the \"clear\" command",
             "Enter `clear` into the terminal"
-          ],
-          "solution": {
-            "commits": [
-              "b31d06326742a67e06bfe829d7c6b2d4a25a05c7"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -5253,19 +4433,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "abbbd51a4053702470e290c35d7e5b83aa418b2b"
+              "1e7d2dd5098cd375da5afccec3645cc8b12f320e"
             ]
           },
           "content": "Print \"goodbye terminal\" to the terminal.",
           "hints": [
             "Use the \"echo\" command",
             "Enter `echo goodbye terminal` into the terminal"
-          ],
-          "solution": {
-            "commits": [
-              "027cdd67cb2450eb4555e75f7192194920a9ecee"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -5282,19 +4457,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "1977d78b019c9b641acf808d1945a681270aa7d9"
+              "c3e5b24c253f5e733f8a07c8b42f451ee62b68ab"
             ]
           },
           "content": "Use the \"exit\" command to exit the terminal.",
           "hints": [
             "Enter `exit` into the terminal",
             "Have a nice day"
-          ],
-          "solution": {
-            "commits": [
-              "4b286ed32e92d56ce4b971dc3ddb0ee758408081"
-            ]
-          }
+          ]
         }
       ]
     }
