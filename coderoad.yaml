@@ -1,17 +1,17 @@
-version: '0.2.3'
+version: '0.2.4'
 config:
   setup:
     commands:
       - cd freeCodeCamp && npm install
       - sudo cp ~/project/freeCodeCamp/.bashrc ~
   testRunner:
-    command: ./node_modules/.bin/mocha
+    command: npm run programmatic-test
     args:
       tap: --reporter=mocha-tap-reporter
     directory: freeCodeCamp
   repo:
     uri: https://github.com/moT01/.learn-bash-by-building-a-boilerplate
-    branch: v0.2.3
+    branch: v0.2.4
   dependencies:
     - name: node
       version: '>=10'

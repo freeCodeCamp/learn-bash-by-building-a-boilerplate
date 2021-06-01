@@ -29,7 +29,7 @@ What you see in the terminal below is a folder (or directory) on this machine. T
 
 ### 20.1
 
-The output tells you where the folder you are in is located. You are in the `project` folder, which is in the `strove` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for "list".
+The output tells you where the folder you are in is located. You are in the `project` folder, which is in the `CodeAlly` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for "list".
 
 #### HINTS
 
@@ -739,14 +739,14 @@ List the contents of this folder to see your new font files.
 
 ### 490.1
 
-Your three font files are there. I have three icons for the website as well. Create `Strove.svg` in the `website` folder.
+Your three font files are there. I have three icons for the website as well. Create `CodeAlly.svg` in the `website` folder.
 
 #### HINTS
 
 - Capitalization matters
 - Use the "touch" command
 - Don't try to create the file with another method
-- Enter `touch Strove.svg` in the terminal
+- Enter `touch CodeAlly.svg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
 
@@ -1737,14 +1737,14 @@ It worked, the `images` folder is gone. Make a new `icons` folder in your `asset
 
 ### 1210.1
 
-Move the `Strove.svg` file to your new `icons` folder.
+Move the `CodeAlly.svg` file to your new `icons` folder.
 
 #### HINTS
 
 - Use the "move" command
-- Here's a tip: `mv Strove.svg path-to-icons-folder`
+- Here's a tip: `mv CodeAlly.svg path-to-icons-folder`
 - The destination path is `client/assets/icons`
-- Enter `mv Strove.svg client/assets/icons` into the terminal
+- Enter `mv CodeAlly.svg client/assets/icons` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
 
