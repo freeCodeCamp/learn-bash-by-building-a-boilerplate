@@ -11,7 +11,7 @@
         "sudo cp ~/project/freeCodeCamp/.bashrc ~"
       ],
       "commits": [
-        "3f8d83b789d8a556b55e620fa7b71cebea775672"
+        "150c6961efe8351cd5694578cb3a36c201a875c7"
       ]
     },
     "testRunner": {
@@ -51,7 +51,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "86bf8d90dd84fdfda11c40cb2cc920be569e42f4"
+              "056d6ffbd1b490356f0f779fc3e38090a02d953e"
             ]
           },
           "content": "**The first thing you need to do is start the terminal.** Do that by clicking the \"hamburger\" menu at the top left of the screen, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello terminal` into the terminal and press enter.",
@@ -75,7 +75,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6a63bb2f6be8a0af347601cee83c79be868e6a49"
+              "3fb16067b605c949ed3d5895bf4d1541a8185b66"
             ]
           },
           "content": "What you see in the terminal below is a folder (or directory) on this machine. Type `pwd` into the terminal and press enter to see the path of the folder. `pwd` stands for \"print working directory\".",
@@ -100,7 +100,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "051f1b3a952c3e8272f761326980d8db70c2c647"
+              "a8c995e626d759848acc6d687c0e04afe26167ba"
             ]
           },
           "content": "The output tells you where the folder you are in is located. You are in the `project` folder, which is in the `CodeAlly` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for \"list\".",
@@ -125,7 +125,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c364e805abe0d38e637d773eb24449250da24060"
+              "058825eeaa7393a56792429ac60791ad8ab7c346"
             ]
           },
           "content": "The output is showing everything in this folder. There's one folder here. You can use `cd <folder_name>` to go into a folder. `cd` stands for \"change directory\". Change to the `freeCodeCamp` directory.",
@@ -151,7 +151,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "65996a711eca450b3eacd613ee00f63ba3dc0419"
+              "d72d70a85724b4e32a9ebb27419fd053cc25233f"
             ]
           },
           "content": "You are in the `freecodecamp` folder now. You may have noticed that the prompt changed to include it. Print the working directory of the `freeCodeCamp` folder to see the full path of where you are.",
@@ -177,7 +177,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "999564d894472435a59507537f39dfa80f426467"
+              "b1ebb45db56b0a07151cae5c2bb15019b1699e03"
             ]
           },
           "content": "You can see the path of the `freeCodeCamp` folder. It's in the `project` folder you were just in. List the contents of the `freeCodeCamp` folder to see what's here.",
@@ -203,7 +203,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "849a8e1ffe2a8047e3fe8eb3d85c5cc63e95670c"
+              "114c3265e6ecfb9db60cd0090e5fc48e5b223835"
             ]
           },
           "content": "There's two folders and two files here. The folders are blue and the files include their extension. Next, change to that `test` directory.",
@@ -230,7 +230,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "87c4d0df2912cf7337e7ef009574809fe78a279a"
+              "15f4c96b9c2838cc51f5595ec9a8a7371098e5d4"
             ]
           },
           "content": "You can see you are in the `test` folder now. It shows `test` in the prompt. Print the full path of this directory. Remember that \"folder\" and \"directory\" are the same thing.",
@@ -256,7 +256,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d293f8d8ec84a2c4ffc30efa59a684ec9d14a253"
+              "2821a919120339dd6087e823009768732fb1597f"
             ]
           },
           "content": "That's the path to the `test` folder, it's in the `freeCodeCamp` folder. **List** the contents of this folder.",
@@ -282,7 +282,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1727cccfeeae00432d9ff549a9307998d65cdbc6"
+              "5bece1e8787e764f5e4fe38af1d995667f3ca7f3"
             ]
           },
           "content": "These are all files. There's no more folders to go into here. You can use `cd ..` to go back a folder level. The two dots will take you back one level. Go back to the `freeCodeCamp` folder.",
@@ -308,7 +308,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "398dc5106f0f387652a2b0ab583e5371c4393eba"
+              "e3bc7a07d4b62f70a7a22c1ee84374af1db039fa"
             ]
           },
           "content": "`test` got removed from the prompt since you left that folder and you're back in the `freeCodeCamp` folder. List the contents of what's here to remind yourself.",
@@ -334,7 +334,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c234687fb6cf80e1cc1546bb88d7fef77105c41e"
+              "3b27df082f5c84714a1d131768246428754ea868"
             ]
           },
           "content": "There's the `test` folder you were just in. You can see what's in a file with `more <filename>`. Use it to view what's in the `package.json` file.",
@@ -360,7 +360,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0bef3b3ba1e154061a697276339fa58613a2416d"
+              "79a5008964bd65e9a91d52e9695d9c14fb006fe6"
             ]
           },
           "content": "It looks like a JSON object. You can empty the terminal with `clear`. The terminal looks a little cluttered, why don't you clear it.",
@@ -384,7 +384,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e4637cbb410c68119ac24458af430afeb457b1f1"
+              "5a344161ea40bdd30df36da4d911cb015f4452c3"
             ]
           },
           "content": "Now you have a fresh screen :smile: List what's in here again.",
@@ -410,7 +410,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b4b56a2733b416e5f66a72331abe33eec61ccdc4"
+              "9a8fa6287ebb08941f35199a7b06bc5d5ed147d2"
             ]
           },
           "content": "You checked out the `test` folder and the `package.json` file. What next? Why don't you go into that `node_modules` directory.",
@@ -436,7 +436,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f6d84ae1167de36325176a0f147aee3ef7b82fe7"
+              "38d2edcec4905b1533a616328e4d9d878378f1c5"
             ]
           },
           "content": "Now the prompt includes `node_modules` since that's where you are. List what's in the here.",
@@ -462,7 +462,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "51670f99ba96196eca3a1e287b5a41818e7d9e33"
+              "aa8e286ce113844ca596c0f9581b9ec0f9563745"
             ]
           },
           "content": "That's a lot of folders. You can add a **flag** to a command to use it different ways like this: `ls <flag>`. List the contents of the `node_modules` folder in \"long list format\". Do that by adding the `-l` flag to the \"list\" command.",
@@ -489,7 +489,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "62cec5d11d4811405138d53e38b15610d06d56a7"
+              "0178881797b49dfdb79802c5532a05fcc83affb2"
             ]
           },
           "content": "It is showing more details about each item in here and it's a little easier to read. One of the folders is named `has`, why don't you change into it.",
@@ -515,7 +515,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "40d05ba9d1655bd41d4b6339010d5bf39233f665"
+              "8057df4a8404af08328ed47a7308f16f96e97697"
             ]
           },
           "content": "You are now in the `has` folder. List its contents.",
@@ -541,7 +541,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9c6215473fa5356d324299125a1b7d2e0d134249"
+              "5ee410043a4bf7ce891bea3d4180cc9015d70bcd"
             ]
           },
           "content": "There's a few files and folders here. Can you tell the difference? Take a look at **more** of that `README.md` file.",
@@ -569,7 +569,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "02e782c1311b40e51e3b03a3196c3d5f1e377119"
+              "131c33f6687cfca18d7adf3dbee13dcb7203a1f7"
             ]
           },
           "content": "Nothing noteworthy in there. You can't see what's in the here anymore, list the contents again.",
@@ -595,7 +595,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c8059ded4ea46f6825dc872b448e288d4a18b2ce"
+              "fcb2507d3d9d95a2d558400eeaddb6c09e2b2f93"
             ]
           },
           "content": "That one file doesn't appear to have an extension. Strange. Take a look at **more** of the that \"license\" file that doesn't show an extension.",
@@ -622,7 +622,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8d5fe65182fefa7711d3526d789d77baa1685b03"
+              "aa2711bd3a6d0a9e34a88edffe75ebb139afc495"
             ]
           },
           "content": "Pretend you read all that. It looks a little messy in here again so why don't you clear the terminal.",
@@ -646,7 +646,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "172b37bde32523a8a84dc53786704c3f90492d75"
+              "39c279658031e74f0998916550c2bf6aec01531f"
             ]
           },
           "content": "Better. Remind yourself what's in here with the list command.",
@@ -672,7 +672,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f965a0efa3f2073481088c794012e81a39611e7a"
+              "321f394b0152ec6c481141b92ae79cdd87d1075f"
             ]
           },
           "content": "Go into that `src` directory to see what you can find in there.",
@@ -698,7 +698,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "93295e35ad1785610f4d709fe96846ea8bfee483"
+              "1af8b560fa7feb4b9d8b6014369534870aa447af"
             ]
           },
           "content": "View the full path of this folder.",
@@ -724,7 +724,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3186d651df47550f7553d6d1fdac29c01c0e7bdb"
+              "6da08fa1768313efedea343defe89da95ee9ff50"
             ]
           },
           "content": "Getting deeper still. You can see that each new folder has a `/` in front of it. Take a look at what's in this folder.",
@@ -750,7 +750,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e475bfeb2904a18c77bb584124e72e02df2c8be7"
+              "bf771fb850828bd67406a0abfb1704ef3db4e53a"
             ]
           },
           "content": "Only one file here. Show me what's in it with `more`.",
@@ -778,7 +778,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "92f57bb0c2a5a0932a2336fcce1382c5bd71026e"
+              "7cfd7394138d8d5524d46249fbe5a37e36e1aaed"
             ]
           },
           "content": "It's some JavaScript :smile: I think you've fooled around enough. Why don't you navigate out of here. Change back to the `has` directory.",
@@ -805,7 +805,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7bb03787248d68482c7dd3f139e160d6c35e621e"
+              "82cadcdfe214cf055dbc73bad21d212eba603a0c"
             ]
           },
           "content": "You're getting pretty good. Change back to the `node_modules` directory.",
@@ -832,7 +832,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "db42ce7790766b3513902c964989be07ed71ba24"
+              "ef4e3bb0184710d5191ea96220e44cc7192721d5"
             ]
           },
           "content": "You can go back two folders with `cd ../..`. Each set of dots represents another folder level. Go back to the `project` directory from the `node_modules` directory.",
@@ -858,7 +858,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3709b8fd68e69e13cb043894d46e35675413e0fd"
+              "14e682286c137dfada7ce19b0ca3d211f9e0a962"
             ]
           },
           "content": "You are back in the `project` folder where you started. List what's in here again.",
@@ -884,7 +884,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "615b6ab8f439ccb29089f898264667a3e1702bc1"
+              "3e0c240066f8ab921f59c2fa3550ac09aa96cfe6"
             ]
           },
           "content": "That's right. Why don't you get a fresh start by clearing the terminal.",
@@ -908,7 +908,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d02b61b188109495885b58e9e5ef9e51b7b1b319"
+              "5b08d41fd1a77dea3f5a5b3c33e04cb0842cb2e5"
             ]
           },
           "content": "You will be making a website boilerplate. You can make a new folder with `mkdir <folder_name>`. `mkdir` stands for \"make directory\". Make a `website` directory in this `project` folder. Remeber that \"directory\" and \"folder\" mean the same thing.",
@@ -935,7 +935,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "800e1ed347451d4c4c7972739a72051d5a07a5d6"
+              "8cbdeea20690ea9ef9ed65695ac3315d8d5ae4c4"
             ]
           },
           "content": "List what's here to make sure it got created.",
@@ -961,7 +961,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "bfb09afcdc0561b6d2d8cac9d67b63d4e9e884b8"
+              "b0d334aa2aa3bbae1878b8bc813f577903c83159"
             ]
           },
           "content": "It worked. The website files will be in the new directory. Change to the `website` directory so you can start creating them.",
@@ -987,7 +987,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9266aed0352162f2fdc60217540941b1e63f84c8"
+              "a4e28426b4e49a49152e96a7ae5a3943dc1e7b14"
             ]
           },
           "content": "List the contents of the `website` folder.",
@@ -1013,7 +1013,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9819824d59e75e6f55dbb07e6ec3745907f929f3"
+              "375f22911831046701d655e1f51379bfddf6ddc2"
             ]
           },
           "content": "It's brand new, there's nothing in it yet. The `echo` command lets you print anything to the terminal. You used it in the first lesson. Just type what you want to print after it. Use it to print `hello website` to the terminal.",
@@ -1040,7 +1040,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0817507dea38f57c5eca7a5a7f5e29ecd4e897bc"
+              "d49dbc3bb6c22be3020c12cfd6c739c7eab81c3c"
             ]
           },
           "content": "Websites usually have an `index.html` file. You can use `touch <filename>` to create a new file. Create `index.html` in the `website` folder.",
@@ -1068,7 +1068,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7ae1569637ced048f41cbfbb5ed9b75a245f837b"
+              "a12dd4f2c5446e64b9cdd27522e8cf4ef7534d1a"
             ]
           },
           "content": "They usually have a CSS file as well. Create `styles.css` in the `website` folder using the same method.",
@@ -1096,7 +1096,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "13496578bd343f9ed9707aa83dd4f46a02e9b083"
+              "aa0fe3f92635686e750a639df0934b16867e4f54"
             ]
           },
           "content": "List the contents of the `website` folder to make sure they got created.",
@@ -1122,7 +1122,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9b75224d0107660626bd4d9df0db30533ba769b3"
+              "7a97c13ea21dfca81254a6dba9b8fc91027e0b55"
             ]
           },
           "content": "There they are. Next is a JavaScript file. Create `index.js` in the `website` folder with the method you have been using.",
@@ -1150,7 +1150,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d5798b1255ac4520cee24758da02529f6146df7f"
+              "d8a1a16d5766b7fbfc2b1f35c5b14dbb7c464238"
             ]
           },
           "content": "You might turn this into a git repository. Create `.gitignore` in the `website` folder with the same method.",
@@ -1178,7 +1178,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4664196029cd4627fd394a88adac87ab8f1f3746"
+              "4e1053312568a28ac66acbdc201b2c1828eb91b5"
             ]
           },
           "content": "List the contents of the `website` folder to see your new files.",
@@ -1203,7 +1203,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "91d661e9ea3892a005159c208e64cba17ea86478"
+              "818be705ebc01338c805c5d152a0e3350bf0c5ab"
             ]
           },
           "content": "There's three files, but where's the `.gitignore` file? I think it's hidden. Most commands have a `--help` flag to show what the command can do. Display the \"help\" menu for the `ls` command. Here's an example: `command <flag>`",
@@ -1230,7 +1230,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8a9492412d838286c2fd737d7f9385d34b06483b"
+              "f28c8dfb8dcba932623a31abb7823c2eb9ddf02d"
             ]
           },
           "content": "Scroll through the menu to see the flags that go with `ls`. The flag you are looking for is `--all`, or `-a` for short. List **all** the contents of the `website` folder using the correct flag.",
@@ -1257,7 +1257,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "06bd4534212b9f8e47b42aab1f4ad518c0a5126b"
+              "0a49e7f6d84a5efddfb0c03da1a0ad093d0ee7ba"
             ]
           },
           "content": "There's the hidden file. Do you see it? It didn't display before. It also includes `.` and `..`. You used `cd ..` to go back a folder earlier. Change to the `.` directory.",
@@ -1283,7 +1283,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0c5f12b13c334c890d1a1e245032daa7139765f0"
+              "b36086a3be1ea9c8421741a265353a00b66375b1"
             ]
           },
           "content": "You didn't go anywhere. The `.` takes you to the folder you are in, and `..` takes you back, or up, a folder. Websites need some images. Create `background.jpg` in the `website` folder.",
@@ -1311,7 +1311,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2e8717a2d27986f398756d8b1016619dcf03c5cb"
+              "47be77106714ae78f9cced48062b71d066194f76"
             ]
           },
           "content": "Next, add a header image. Create `header.png` in the `website` folder.",
@@ -1339,7 +1339,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1e86b859c1deac8dedff659b21b30e0d38a917a9"
+              "582ba86cbe83c0ca6b40eab56becd0409a8cecfe"
             ]
           },
           "content": "Finally, create `footer.jpeg` in the `website` folder.",
@@ -1367,7 +1367,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "edec5bb4b9770412372a234fbed4bc3a39a8670e"
+              "11603d70019359b65c56d84d7de44cbf0e6236d6"
             ]
           },
           "content": "Use the **list** command to check out the images you just added.",
@@ -1393,7 +1393,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5ffb432b8384c7e8d2d0be874b45dbdfa7ec0355"
+              "b8c44829c7c9fba04fbdd2643a02f14cb0b3ef7a"
             ]
           },
           "content": "Looks like images show up in pink. There's also three fonts to use for the website. The first one is \"roboto\". Create `roboto.font` in the `website` folder.",
@@ -1420,7 +1420,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "44e488d352f1badf95387c671f24c65f5212f4be"
+              "6c8cc56b3d9d21817a6cd2324779150f42465c94"
             ]
           },
           "content": "The next one is \"lato\". Create `lato.font` in the `website` folder.",
@@ -1447,7 +1447,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "eb282a07a756fb7dbd005dc22a34cc17103247bf"
+              "c12707fed67a6a0968ac90501e20a0bc7077517f"
             ]
           },
           "content": "Lastly, create `menlo.font` in the `website` folder.",
@@ -1474,7 +1474,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ce097f239919ca7e4ab1dceb0fec61b41bd34b18"
+              "1f1a1ed2108b35b78b7169148e2474167e940d07"
             ]
           },
           "content": "List the contents of this folder to see your new font files.",
@@ -1500,7 +1500,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5e33ee3df01584af1c230b21f712f5377b5c12ef"
+              "7603329f249da9cf8c85484bde042562b01599a2"
             ]
           },
           "content": "Your three font files are there. There's three icons for the website as well. Create `CodeAlly.svg` in the `website` folder.",
@@ -1528,7 +1528,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "455220df2c17c2c189d77630db64ef91bd8f83fd"
+              "b58c1f61e16bb2212f2896a4d8eaf33b265cd0bb"
             ]
           },
           "content": "Next, create `CodeRoad.svg` in the `website` folder.",
@@ -1556,7 +1556,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "943227de4e2ba399447bd0798b180df5f1ef92d1"
+              "de7fb6b5d3a3c8ff580505f5308fa0603356af88"
             ]
           },
           "content": "Finally, create `freeCodeCamp.svg` in the `website` folder.",
@@ -1584,7 +1584,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "827f022a0b73df3b68afd0ebd0a2051064437540"
+              "16a568c2dba217cf79d29b9a2ca375c7d97e8a1d"
             ]
           },
           "content": "Check out the new icons you just added by listing the contents of the folder they are in.",
@@ -1610,7 +1610,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "29b6d5f1d53ee6dd667f2a59975604fd1013a261"
+              "c6ff91b9be8b40b19f522359df7d6e8e8f8bb918"
             ]
           },
           "content": "The icons are pink as well. I think the images should go in a separate folder to clean it up a little. Make an `images` directory in the `website` folder to put them in.",
@@ -1639,7 +1639,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a681cc5246583317aee786a787b90fbdcb92fe06"
+              "9f34d6587be8ad28cc139708551641dd32da80d3"
             ]
           },
           "content": "List the contents of the `website` folder to make sure your new folder is there.",
@@ -1665,7 +1665,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b32b010c2aa6185132012526ddc1ac336dc230b2"
+              "919c0f9d4ac1cd0d8cd1059c08b87c8a93e70f7b"
             ]
           },
           "content": "There's your new `images` folder. It's blue. You can copy a file with `cp <file> <destination>`. `cp` stands for \"copy\". Copy `background.jpg` to your `images` folder.",
@@ -1691,7 +1691,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "61c671d5cb0771a2d53883c22f0a74392853fbb7"
+              "64019b93e6f7da64909b2d5457c5977e3364028d"
             ]
           },
           "content": "Better make sure it worked. Change to the `images` directory.",
@@ -1717,7 +1717,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "95bb164f0537a94812fc8b17a3d35cb43991e6fb"
+              "e48e1bdadfb1b9641c0c7a176f71798c261f5a64"
             ]
           },
           "content": "List the contents to see if `background.jpg` is here.",
@@ -1744,7 +1744,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "26620d41210da318e7249dffdc38266380eba74e"
+              "10f0b746d038fa94e3b4f1af33c46e11069b7bcf"
             ]
           },
           "content": "There it is. Looks like the copy worked. Change back to the `website` directory so you can copy the other ones.",
@@ -1771,7 +1771,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4a18bc66ca67f885472f98e01f29097943d7a5e7"
+              "7e26b4c2aa189783fa197d52b37e62cdccadf433"
             ]
           },
           "content": "Remind yourself of the files here by listing the contents.",
@@ -1797,7 +1797,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c5aaaf43fd67c56e0b27f3f0355363d7f1fde736"
+              "6e006590a001e57aac2f18cd22c8bdd73cb730e0"
             ]
           },
           "content": "You copied the background image to the `images` folder so you don't need the one here anymore. You can remove a file with `rm <filename>`. Remove `background.jpg` from the `website` folder.",
@@ -1822,7 +1822,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c443fe06e5c67920eb4a31a51d1dae8b01125e61"
+              "54805e82571573283de2d3a3cebb38162238a33f"
             ]
           },
           "content": "List the contents to make sure it's gone.",
@@ -1848,7 +1848,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fb03156b32a6613b1324ef9816e3b5f19251c38c"
+              "3874abe30fed3f067d48c7921e25e00e2887710e"
             ]
           },
           "content": "Okay, it's gone. Next, copy `header.png` to the `images` folder.",
@@ -1876,7 +1876,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c0358d8bb1aa84c31b24a0da31f264626abdac15"
+              "d75e616a72bf6928f960fa3580277db2eb7895cc"
             ]
           },
           "content": "Last, copy the \"footer\" image to the `images` folder.",
@@ -1904,7 +1904,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "466e5e29e38db57859babe29b95451bda974b521"
+              "5fb98513d7818afe4f5bea375a25bb5ac6cb23ad"
             ]
           },
           "content": "All the images should be copied over. Change to the `images` directory so you can make sure.",
@@ -1931,7 +1931,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "464770e735fc699334398705a7af56d65643e8e3"
+              "836bfaa6e48ceaff5ae50bd3fe54c7b2f6394926"
             ]
           },
           "content": "Check if the images are here by listing the contents.",
@@ -1957,7 +1957,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b960183d3a4a15b44fd3f4bcaec318a6c3079db3"
+              "edcc4b0680fc402419656eed2c1d50793dd62a61"
             ]
           },
           "content": "They all made it here. Go back to the `website` folder so you can delete the original files.",
@@ -1984,7 +1984,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d3dd36da01642614fcbfc5275f095a32f268661b"
+              "1296c222c86dba85571503c5cf72dfaaaed5fa38"
             ]
           },
           "content": "List the contents to remind youself of the filenames to delete.",
@@ -2010,7 +2010,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "89c08c89216b2bf1c092efcbac3296ee7b225dfe"
+              "3166bec011064a1f446d59170a5c314e7ef2ea84"
             ]
           },
           "content": "There's two that you don't need anymore. Remove the \"header\" image file from the `website` folder since you copied to the images folder.",
@@ -2040,7 +2040,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ba78b971bdf4f598d265b39daaa747b9c8e589a8"
+              "daf4c6f0e3d7180d7bcffaf1abbe9075ca923c99"
             ]
           },
           "content": "It should be gone. Remove the \"footer\" image from the `website` folder as well.",
@@ -2069,7 +2069,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3e9cca2465c8c1f83fa349aaa0903d5bd5fcd6e6"
+              "5426d24c8c42c0263c57ccf7248eb86cd926570d"
             ]
           },
           "content": "List the contents of the `website` folder to check if they are gone.",
@@ -2095,7 +2095,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5c4058d5af5db83e7db995df9f4ec6d3ce6292da"
+              "26662b6fd90ce056a6b6f4c9e03067dbce22110d"
             ]
           },
           "content": "Looks like they're all deleted. There was a mistake with the extensions for the font files. You can rename them with `mv` like this: `mv <filename> <new_filename>`. `mv` stands for \"move\", it can **rename or move** something. Rename `roboto.font` to `roboto.woff`.",
@@ -2121,7 +2121,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2b1a3e72268f3cedf094f95dbe3cdee47d077909"
+              "15d5310811cb26a5bad2174837a2ac00f2dd64d4"
             ]
           },
           "content": "Use \"list\" to check if it worked.",
@@ -2147,7 +2147,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e5e6db78dcade3d29f9c408502f0904b008f4c09"
+              "5aa0359873c26261209643c0773a808658a5270d"
             ]
           },
           "content": "Do you see the \"roboto\" font? The rename worked. Next, rename the \"lato\" font file to `lato.ttf`.",
@@ -2177,7 +2177,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b5f5cd586761e4851c02fc28a21808576ed318e2"
+              "1dd347a9873b94b7b92a8e2dd5c53402172b8cdc"
             ]
           },
           "content": "Lastly, rename the \"menlo\" font to `menlo.otf`.",
@@ -2207,7 +2207,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e1f9bdd528d399dd0fef0c2385a0aebd17f3cc7f"
+              "2308a8e7d5e8ca5902ad973d590dc7584372a1e8"
             ]
           },
           "content": "Use the \"list\" command to make sure those last two got renamed.",
@@ -2233,7 +2233,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3a20b2997989d0c561a1b090db2eb6760189febb"
+              "9b7ab683d5af48bfc6a96fe4c3137403fe0d968f"
             ]
           },
           "content": "Take a look at the files to make sure they got renamed. Those font files could be organized into a folder as well. Make a `fonts` directory in the `website` folder to put them in.",
@@ -2262,7 +2262,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "27ef2b6398705e147b4d257ffe9ca6932be9c8df"
+              "40a8e963bb5837cf0e63b87aec6bdcbfbe1a995b"
             ]
           },
           "content": "List the contents of the `website` folder to make sure your new folder is there.",
@@ -2288,7 +2288,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b179157338e1bd8fce80afe514fc2e1ddd4741a3"
+              "1cce99994895bb9776e2ee4c5691eb04901fd09a"
             ]
           },
           "content": "See it? You renamed the font files with `mv`, you can also move files with it. Move the \"roboto\" font to the new `fonts` folder. Here's an example: `mv <file> <destination>`.",
@@ -2316,7 +2316,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "aad9856e4e1b5f6bd96c6b51441f83b5f0bde475"
+              "35f1a889be6242e24a9860465c4d8e90154f8514"
             ]
           },
           "content": "You can use `find` to find things or view a file tree. Enter `find` to view the file tree of the `website` folder to see all the files and folders withing it.",
@@ -2343,7 +2343,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4573f2faa1502d1fa84a639db932014d57533cc7"
+              "9d9d7bd3e603c3afd5541255f7304745633f8556"
             ]
           },
           "content": "You can see everything in this `website` folder and it's descendant folders. Notice that they all start with `./` to represent this folder. You can see that your font moved to the `fonts` folder. Next, move the \"lato\" font to the `fonts` folder.",
@@ -2373,7 +2373,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "13ea8ef699fd81f33458f19f224957156b3142c8"
+              "c68f3a1421e866317b9a6e733b09bb5fef2aceaa"
             ]
           },
           "content": "There's one more font to move. Move the \"menlo\" font to the `fonts` folder.",
@@ -2403,7 +2403,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c6cf0d1a26649747d21ddc46cf22a1c8f0ad6131"
+              "aa851d822f9952911c7eb61348078a7001272f41"
             ]
           },
           "content": "Use `find` again to list the whole file tree and make sure those two got moved.",
@@ -2429,7 +2429,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d294417f62fb05b44943fcbed5f609743bb6d3f6"
+              "f200684731e948406b654d6d9b37b03652ffbbce"
             ]
           },
           "content": "Yes, you can see them all in the `fonts` folder. Let's organize some more. Make a `client` directory in the `website` folder for the client side files.",
@@ -2456,7 +2456,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "856c17e4fa67c5bf0acf03e71354922cb2d6a503"
+              "56cbeb7d3e2b01ff1a8ec9d904a2bc6ee4f5ae12"
             ]
           },
           "content": "You can make a folder in that `client` folder from here by adding it to the path like this: `mkdir client/<new_folder_name>`. Make a `src` directory in the `client` folder from here.",
@@ -2483,7 +2483,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "da3b7bdf54def540e2b1c1cf188de315435d717c"
+              "9735bb5d19d7f8ee86b286be45ef5d8a575860ea"
             ]
           },
           "content": "You can move files all the way across the system from here with the right path. Move `index.html` to the `client/src` folder from here.",
@@ -2510,7 +2510,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "dbb13ddae815ed2c8521b67c4a6722dfa28960bd"
+              "0fd0da1d79d12b470147880eaf5b8298fe8ce496"
             ]
           },
           "content": "Use `find` to view the file tree and make sure it moved.",
@@ -2535,7 +2535,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fa876ad882133c34e794c8a381af26e74b32f941"
+              "3d5895638bd3605f4c8b02bd17ba00065a9f8c7f"
             ]
           },
           "content": "Can you see the `index.html` file in your new `src` folder? Looks like it moved :smile: There's some more files that can go in the `src` folder. Move `index.js` to it from here.",
@@ -2561,7 +2561,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fed3180c969e6ce83da73eb0dd3f06f955bf0201"
+              "c3d717b2972ba5dea88401dec786e7a49bbcb879"
             ]
           },
           "content": "Last is the CSS file. Move `styles.css` to the `src` folder.",
@@ -2588,7 +2588,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2bded9898db6cdfc3e1ad96a92b0661983315874"
+              "08a2a9bcf83e23e9df50df0dbd624a78ea54f751"
             ]
           },
           "content": "Seems like you can do anything right from here. Take another look at the tree with `find`.",
@@ -2614,7 +2614,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "526b0cd132eac9770b5501d6ae21cf70530c8a95"
+              "61e384be7990f6cf0b83f58107ff4febae0f93e6"
             ]
           },
           "content": "Things are looking more organized :smile: You can use `find <folder_name>` to display the tree of a different folder. View the file tree of the `client` folder from the `website` folder.",
@@ -2641,7 +2641,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "65e8d648a9b28b4fa1e5c4c6ac6df9dc967a82e0"
+              "18ffc28f7b327830cc9a631f1d9d9436e7df4291"
             ]
           },
           "content": "Now you just see what's in the `client` folder. What else can `find` do? View the \"help\" menu of the `find` command to look around.",
@@ -2669,7 +2669,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4d6766dcf210fe63caacb9e9fd11d2cde88ee1d8"
+              "826f82b8f2841b265b6d5730974d879eaf2ca438"
             ]
           },
           "content": "The menu isn't very pretty, but there's a `-name` flag in there. You can use it to search for something with `find -name <filename>`. Use `find` with the `-name` flag to search for `index.html`.",
@@ -2694,7 +2694,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a16c7d43f61550854baa23d202ecfea820986b01"
+              "4e3329a5c8ce931873544a50d3a8bd631a69a98e"
             ]
           },
           "content": "It shows you where that file is. Using the same command, find where the `styles.css` file is.",
@@ -2722,7 +2722,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ddeb826e521697b2dcd041ed1678e50205bd8f1e"
+              "3f8262acaaffe1577cd62d4899736fc01abbc5e1"
             ]
           },
           "content": "You can search for folders with it, as well. Using the same command and flag, find the `src` folder.",
@@ -2750,7 +2750,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8d8e39b188687d463febdccd8190e60020ff5fdb"
+              "e1de8ae0633fc527bd4319e93aa1a844a20db48b"
             ]
           },
           "content": ":smile: View the file tree of the `website` folder to see what else you need to do.",
@@ -2777,7 +2777,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f2d1f78b2ca209a4b96cccbb14d0bead0c76cce2"
+              "56b28529bfa525932acae3535bbb142b907c00dc"
             ]
           },
           "content": "What's next? More organizing! You should put all the assets in one spot. Change into the `client` folder.",
@@ -2803,7 +2803,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e1fc4ed87acc56dd52fb650e636306eba7e6efb2"
+              "a884ab2d3b04c60fd04a5cf49a31e68d60cc6385"
             ]
           },
           "content": "Make a new directory named `assets` in the `client` folder.",
@@ -2832,7 +2832,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8f7cfb9c8089f3ecaff15e0659afa1fb05afbadd"
+              "bcf54492f7b49eaf74b6d6839d1b02e7120d601d"
             ]
           },
           "content": "Change into the new `assets` folder.",
@@ -2859,7 +2859,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "df1aa464f6b345eb4a3354ee1f3d06cab7730583"
+              "4cf5bea585ea49987f1a2ccf5f0c6dceeff978cc"
             ]
           },
           "content": "All the images and other assets can go here. Make an `images` directory in the `assets` folder for all the images.",
@@ -2887,7 +2887,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9198b6d4cb0dbcfc9bc015c135dc22f47cc2aeda"
+              "24cb977478dc9a5b9f2b51753f2cb7a0594b7346"
             ]
           },
           "content": "Go to your new `images` folder.",
@@ -2914,7 +2914,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3c6e1c73b46ceaf136e872903a7e4de147e07207"
+              "94b0651d88c5fde4ea3db771196e87111cccc577"
             ]
           },
           "content": "You want the images here. Create `background.jpg` in this folder.",
@@ -2941,7 +2941,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "083fd13ddb3b1372c86986d6b94523e21d41952d"
+              "65558465bb8095071c1154c3ad161f37f810c07d"
             ]
           },
           "content": "Wait. You don't need to recreate them. You can just move the other images here. Go back to the `website` folder from here. It's three folder back.",
@@ -2968,7 +2968,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "85a2a625a86f7e4b606b4cadd39c7d8b79499b95"
+              "fcf3af194b2de9bc739f31743bd91782f61cc532"
             ]
           },
           "content": "Now go to where the original images are. Change into the `images` folder.",
@@ -2993,7 +2993,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1e1858be4eabad075718536f8aa3cd037ce1274a"
+              "72648bbb1684c537d500595ebf0d28f1049eb6f9"
             ]
           },
           "content": "List the contents of the `images` folder to see the files here.",
@@ -3019,7 +3019,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "594d0e512ed3592816cfad5c3f222db911f216de"
+              "cdc05cf1bfb4c8ab14bfe164ecdc0da68b3b5bef"
             ]
           },
           "content": "Umm, first I think you should move them back to the website folder. Move `header.png` back to the `website` folder. The destination for the file is `..`",
@@ -3047,7 +3047,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d03faf9588f42e6e00de326b5e2706a3fc28fc68"
+              "6cf1eadff03b277f0c86bcf57f324b46fcff3ee7"
             ]
           },
           "content": "List the contents of the `images` folder to see if it's gone.",
@@ -3073,7 +3073,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d820d42b76449a7ea1abdf4783df292ffc425d24"
+              "5874d74a760b9f87e0183954f62ac2419e6f1a44"
             ]
           },
           "content": "It's gone. Go back to the `website` folder.",
@@ -3099,7 +3099,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "172798217b911e383720d197570d26aabdd1d5b7"
+              "16119664344c466a7fbb90e3332bfe85b5d2054d"
             ]
           },
           "content": "List what's here.",
@@ -3125,7 +3125,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5c02afed333e37f320bbd35618c0e52797087c33"
+              "a829f5beaba842db7830793715bb2d26c71065ef"
             ]
           },
           "content": "There's the file you just moved. Next, you will move it to the `client/assets/images` folder. First, use `find` with the correct flag to search for `images`.",
@@ -3154,7 +3154,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "db1e3c54f3e4ef24007f06bee108d765a9ba7532"
+              "e6b3f2cf4574c6937078335eba9ab3cc936a9378"
             ]
           },
           "content": "There's your two image folders. Move `header.png` to the one with the longer path. Just use it as the destination to do so.",
@@ -3183,7 +3183,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "64255708f622ad679a9ce0b3723d5af9fcb6bac3"
+              "7a42c315b9ba82d330784e482e44cce54113e4fd"
             ]
           },
           "content": "Use `find` to search for your `header.png` file and make sure it moved.",
@@ -3212,7 +3212,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7bc1b5a0eb9ccd27465593317baf4e411d73ceea"
+              "dbf0174eeef820c7b835a96358314cd73aeda094"
             ]
           },
           "content": "There it is. Right where you put it. Next, search for your `footer.jpeg` file so you can move that over there.",
@@ -3240,7 +3240,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e60e0a5d64798dd595d86272ededb1775f296b25"
+              "c8a2d748d0bdfdc1ce5d7a62690aa05e57019a12"
             ]
           },
           "content": "It's in the original `images` folder. You can **use that path** with the move command to move it. Move `footer.jpeg` to the `client/assets/images` folder while in the `website` folder.",
@@ -3270,7 +3270,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d741dffb1333c6e0595a498107d9382c0e69bf73"
+              "ce7a1ffba474293edb3b69c0867579c3bc8da897"
             ]
           },
           "content": "View the file tree of this folder to make sure all your images are over in their new folder. Don't use any flags.",
@@ -3296,7 +3296,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1b64e126f32f85fda7bb753372f55ca76bc9c8b2"
+              "76f71e94df8a180bab581b897c0a876e1a4bcdb2"
             ]
           },
           "content": "You don't need the old `images` folder anymore. You can use `rmdir <directory_name>` to remove a folder. `rmdir` stands for \"remove directory\". Try to remove the `images` folder with `rmdir`. Make sure it's the one in the `website` folder.",
@@ -3321,7 +3321,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "be1fea500e6872a8a268602ca3278fb7d825c6e0"
+              "7790f43b67869172ef23ba8ab89e97c62640d130"
             ]
           },
           "content": "Directory not empty? Oh yeah, there's still the background image in there. Remove the background image file in the `images` folder from here. Make sure it's the one in the `website/images` folder.",
@@ -3349,7 +3349,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "04cbddc973d5458df891faadd07fe143b60c0a89"
+              "326e3bdd1880642afb47b5b373f9e9e64b5b8ac6"
             ]
           },
           "content": "Try to remove the `images` folder again with `rmdir`. Make sure it's the one in the `website` folder.",
@@ -3375,7 +3375,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "25f6af192276fb4d789956d0a35d6cece4c4d811"
+              "09bc30862cb5eb7ca0d5c1e7a597f8a37ab54e9d"
             ]
           },
           "content": "I think it worked this time. List the contents to find out.",
@@ -3401,7 +3401,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "732e4af18edd22cd08550a4dc56a80b9170da378"
+              "9269baa38f0b2d72ed144cdf574c405794195735"
             ]
           },
           "content": "It worked, the `images` folder is gone. Make a new `icons` folder in your `assets` folder while in the `website` folder.",
@@ -3429,7 +3429,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "cd8262a7e23f67e0f3eaff4f38eafbe4c14289ba"
+              "25377ca7edc3a4388723f3cfa72301e68135f07a"
             ]
           },
           "content": "Move the `CodeAlly.svg` file to your new `icons` folder.",
@@ -3457,7 +3457,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6725811858313b2a9887bc52493c017a0267a680"
+              "f8e89f318c3cc8a59af643bcf408b656b5b68174"
             ]
           },
           "content": "View the file tree of the `website` folder and make sure it moved.",
@@ -3483,7 +3483,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "76238b75c4d3b82ca5f51aef82af58aaf5dc0a42"
+              "a6d25d4779619bb14d6d6a156ee9feb9ea6683b5"
             ]
           },
           "content": "Verify that the file moved to the `icons` folder. Next, move the \"CodeRoad\" file to your `icons` folder.",
@@ -3511,7 +3511,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "aefe974708e4f31fabd74fb38db95f9f6b8223f1"
+              "b01b5fddb8f7a6f6a8e23f9c0bf5d7e076636781"
             ]
           },
           "content": "Lastly, move the \"freeCodeCamp\" file to your `icons` folder.",
@@ -3539,7 +3539,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2251d72b4c828958d632253be636c6d41d1ee571"
+              "674f7b0cb73455723521a01ba6f150ee88ab77c1"
             ]
           },
           "content": "View the file tree and make sure the files moved.",
@@ -3565,7 +3565,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fa5e208b48fb59c62f698fa53d6e2f6f5b3563b0"
+              "31979adca6efe239943894de15f625c116b3e205"
             ]
           },
           "content": "This looks much better. The three icons are now in the `icons` folder. Make a `fonts` folder in your `assets` folder from here for all the font files.",
@@ -3592,7 +3592,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3e9e03caf4e23aa1f736e07585a4d8c90f5dd62d"
+              "0fcd1e6927b1ce26160de1e9d743934320344326"
             ]
           },
           "content": "Turns out you want some different font for the website. From here, create `roboto-bold.woff` in your new `fonts` folder. You can put the path in front of the filename of where you want it to go.",
@@ -3620,7 +3620,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7ea9bd97f8355fe7661ef2072b8e734cf4b9d2a7"
+              "3f2c2908972d536e6f8fdf508cb76a32aaa5bb9b"
             ]
           },
           "content": "Next, create `roboto-light.woff` in your new `fonts` folder from here.",
@@ -3649,7 +3649,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ca0090e625e2e8993c48cfceae9097cbf70f69ce"
+              "f13a04649272ce1e9e19d16e57b031d0c262fbee"
             ]
           },
           "content": "View the file tree of the `client/assets/fonts` folder from here to see if your new files are there.",
@@ -3676,7 +3676,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ef404ed37a97a4e2678133b7f8596c64ab58588e"
+              "80bd9fcd5faf92c1a6f9403b55cd57b8c9e70924"
             ]
           },
           "content": "Two more font's to go. Create `lato-bold.ttf` in the new `fonts` folder from here.",
@@ -3705,7 +3705,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d4b042967c2f389591f925ab074afc2fbfe79655"
+              "9bbce6c78ffc6b9e9d444c129c285db91d1ceac8"
             ]
           },
           "content": "Lastly, create `lato-light.ttf` in your new `fonts` folder from here.",
@@ -3733,7 +3733,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "65fbaef2bd7b2b9d23c23b953cf60f9ec7f4470d"
+              "ee765f7b67150c645b682d678630631bb403bf83"
             ]
           },
           "content": "View your file tree and make sure the files are there.",
@@ -3759,7 +3759,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e328ffeeb0bf9591b8bad8711b6f2789ec2e286a"
+              "b45056a1737ae959e4ecf0430f3b99af49f53be4"
             ]
           },
           "content": "Things are looking more organized :smile: The new fonts are there. Now you can remove the old `fonts` folder and everything in it. You can't do that with `rmdir` since it's not empty. View the \"help\" menu of the `rm` command to see if you can find anything.",
@@ -3786,7 +3786,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1bf91476ff6bba30dd667fd0304b543ccbdf6e26"
+              "74933783efd666d189adf50f4776c7825e9ae4b4"
             ]
           },
           "content": "There's a `-r` flag that says, `remove directories and their contents recursively`. That will remove the folder and everything in it. Use the \"remove\" command with that flag to remove the `fonts` folder. Make sure it's the one in the `website` folder. Be careful not to remove the wrong folder.",
@@ -3814,7 +3814,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5d795bed5166f1008665a9130dfe4286df9553e8"
+              "c945faab623530061954fd27dceb65d2915a4ab4"
             ]
           },
           "content": "List what's here to see if it's gone.",
@@ -3840,7 +3840,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "548662c86d8cf9886b553d75a29b4ac60ab4b953"
+              "e449c05defca2099eb2c4741a11d092917512f1d"
             ]
           },
           "content": "Looks like it’s gone. Surely, it went to the trash can right? No, it’s just gone. You should **be very careful when recursively removing files** like that. It will delete everything, and can destroy your operating system. There's a few more files for the boilerplate. Create `package.json` in the `website` folder.",
@@ -3866,7 +3866,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5af218b7250cfb8218bacc84c4dd1de1d0e49e3b"
+              "16df44037f8d654c3140ebe2585d31e01c4c258b"
             ]
           },
           "content": "Next, create `server.js` in the `website` folder.",
@@ -3892,7 +3892,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ab756bfbd40dfb0e9b05d63c44151b0d79318e3f"
+              "4e2b29472e0527209b43b3dbe654e4bade07f5ff"
             ]
           },
           "content": "Lastly, create `README.md` in the `website` folder.",
@@ -3919,7 +3919,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0e4c380f4cb61965b7c1ad0c201328434d763e78"
+              "7f764f7fbbfe6a03bd01085f7f6cd8e6a281e0c1"
             ]
           },
           "content": "List the content of this folder to make sure your new files are there.",
@@ -3945,7 +3945,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c447d19cf5d6de39242d9ee05b744e406412e79f"
+              "b9df508504727a82f2e91cc1e61d3f5f48282ba4"
             ]
           },
           "content": "The boilerplate is complete. Use `echo` to print `Yay!` to the terminal.",
@@ -3972,7 +3972,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7a39c2dcd924e1f9eb066e28f4610e343e9f7814"
+              "3a27509bfbfc31edb8b121b88eaf23ad926d573f"
             ]
           },
           "content": "Print `I finished the boilerplate!` to the terminal.",
@@ -3998,7 +3998,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d4df940750f5d21ea4c935e3d16501a0ed8a1a71"
+              "3cdb3642c5b7f80a193a303b264dde02ed4f2f0c"
             ]
           },
           "content": "Print `one more thing...` to the terminal",
@@ -4024,7 +4024,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c9ce08d61824719f875967737e58a5983a1a7f83"
+              "ef42073f4badaa6a2393a4100a04310df9cb84a9"
             ]
           },
           "content": "You can print to a file instead of the terminal with `echo text >> filename`. Use it to print `I made this boilerplate` to your `README.md` file.",
@@ -4050,7 +4050,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8041f1ac01977ac9411d5d565d990bae904e7012"
+              "0c16cfe83563f3f9e324b117f219b79ff02b2e9e"
             ]
           },
           "content": "Use `more` to view your `README.md` file.",
@@ -4076,7 +4076,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d7a4a0ca29451ede0eb89a2a77af1b04022dfddc"
+              "32c8fef2032b5522065868e355b319a12f9f6c92"
             ]
           },
           "content": "Now that line is in the file. Add `from the command line` to your `README.md` file with the `echo` command and the same method.",
@@ -4104,7 +4104,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1a9298ec6977410a4b0691383fc2d41407d895de"
+              "51b5fec90eb9e4d1af2d94e53374a9b93be417f7"
             ]
           },
           "content": "Use `more` to view the \"readme\" file again.",
@@ -4130,7 +4130,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "09c4965c30977bae5f3b0947eba6b713612a7b43"
+              "b6da815d31eacbe03b93fe464096432ef69a2b92"
             ]
           },
           "content": "Now the file has two lines. Add `for the freeCodeCamp bash lessons` to your \"readme\" file with the `echo` command like you did before.",
@@ -4158,7 +4158,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e8dd4f0a21f6d6bfd86331d7485489cfa8e83cf1"
+              "d18d2cf3c077881e462b9f223e27f3c7d31c9a3d"
             ]
           },
           "content": "View your \"readme\" file again like you did before.",
@@ -4184,7 +4184,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "30ae53fa0e3b579c9eba3f5bb9f820b4903e38fa"
+              "55f328ae4e1c40fe1a9d04a89fe6c33d33095d32"
             ]
           },
           "content": ":smile: Change to the `project` folder.",
@@ -4210,7 +4210,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a0492e1e39b21620593909f3ef6f2f8e18c68217"
+              "b19e07ec128d3e6801e5153c424bb4c81ffa6c4e"
             ]
           },
           "content": "You are back where you started. List what's here.",
@@ -4236,7 +4236,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0ec3098417ec29d4a6a4de75cbb932d7a6364966"
+              "19a74679aeef8bf5b0b4e9205e2d3d9d40bd5bee"
             ]
           },
           "content": "Still the same two folders. Rename the `website` folder to `website-boilerplate`.",
@@ -4264,7 +4264,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3dc694d28db244d6f24863d7d89b595336b55cd3"
+              "995fd4cabc7e86d86c161013b290e68fe04c5a92"
             ]
           },
           "content": "List the contents of this folder to see the new name.",
@@ -4290,7 +4290,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "cc22516017deb63e34559145ba19a77069753d4f"
+              "9b4468202d6508f64bb8a95f3eb5935635b5c007"
             ]
           },
           "content": "Thanks for making this. You need to make copy of it. Take a look at the \"help\" menu of the \"copy\" command.",
@@ -4317,7 +4317,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "be01e8c8424b1196317999416ae62864d91fa3ed"
+              "8ccff50f6f92b6627fad16e021c7579ab709c724"
             ]
           },
           "content": "Scroll up to find that \"recursive\" flag. You need to use it again to copy the whole folder. Copy the whole boilerplate into a folder named `toms-website`.",
@@ -4345,7 +4345,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4638f3a8328455f29314d7a689cdcfab09912138"
+              "3f40588e7ad01c2333a839c041405e6b1bc2cfb6"
             ]
           },
           "content": "List the contents of the `project` folder to see the new copy.",
@@ -4371,7 +4371,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "bdabc1e9e41c063e7badc087d7854f1d5dfd759a"
+              "cf426f413d7823e6526bbdf1ced41cdb7d14e115"
             ]
           },
           "content": "Thanks. Use `find` to view the tree of `toms-website`.",
@@ -4400,7 +4400,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "883197b6f2d598ce2e58099a599aa92a353e3bda"
+              "cebb05c4f32f168dee6f962aa230650f14e044b7"
             ]
           },
           "content": "Use `find` to view the tree of the boilerplate folder to make sure it matches.",
@@ -4428,7 +4428,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "30b248d428c44358ab2b950cbf183a931900ae7f"
+              "d29adcd8a7d761fda3c0cf069da1a6e0469a9c77"
             ]
           },
           "content": "Awesome! You are finished for now. Clear the terminal one last time.",
@@ -4452,7 +4452,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b0d3ca874daf86253f8253c29abaceed3c50b06b"
+              "4366a20bf0b040b95e22d3552fe2ba473db70274"
             ]
           },
           "content": "Print \"goodbye terminal\" to the terminal.",
@@ -4477,7 +4477,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ba5ab441de40056ed9404a45c410286981659161"
+              "a9bf7fb3b3686261c30f9e6e1970bf8eb24066ab"
             ]
           },
           "content": "Use the \"exit\" command to exit the terminal.",
