@@ -12,6 +12,9 @@ config:
   repo:
     uri: https://github.com/moT01/.learn-bash-by-building-a-boilerplate
     branch: v0.2.4
+  reset:
+    commands:
+      - './.freeCodeCamp/reset.sh'
   dependencies:
     - name: node
       version: '>=10'
