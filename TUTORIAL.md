@@ -487,7 +487,7 @@ List the contents of the `website` folder.
 
 ### 310.1
 
-It's brand new, there's nothing in it yet :facepalm: The `echo` command lets you print anything to the terminal. You used it in the first lesson. Just type what you want to print after it. Use it to print `hello website` to the terminal.
+It's brand new, there's nothing in it yet. The `echo` command lets you print anything to the terminal. You used it in the first lesson. Just type what you want to print after it. Use it to print `hello website` to the terminal.
 
 #### HINTS
 
@@ -614,7 +614,7 @@ Scroll through the menu to see the flags that go with `ls`. The flag you are loo
 
 ### 400.1
 
-There's the hidden file. Do you see it? It didn't display before. I notice it also includes `.` and `..`. You used `cd ..` to go back a folder earlier. Change to the `.` directory.
+There's the hidden file. Do you see it? It didn't display before. It also includes `.` and `..`. You used `cd ..` to go back a folder earlier. Change to the `.` directory.
 
 #### HINTS
 
@@ -1335,7 +1335,7 @@ Things are looking more organized :smile: You can use `find <folder_name>` to di
 
 ### 930.1
 
-Now you just see what's in the `client` folder. I wonder what else `find` can do. View the "help" menu of the `find` command.
+Now you just see what's in the `client` folder. What else can `find` do? View the "help" menu of the `find` command to look around.
 
 #### HINTS
 
@@ -1350,7 +1350,7 @@ Now you just see what's in the `client` folder. I wonder what else `find` can do
 
 ### 940.1
 
-The menu isn't very pretty, but there a `-name` flag in there. You can use it to search for something with `find -name <filename>`. Use `find` with the `-name` flag to search for `index.html`.
+The menu isn't very pretty, but there's a `-name` flag in there. You can use it to search for something with `find -name <filename>`. Use `find` with the `-name` flag to search for `index.html`.
 
 #### HINTS
 
@@ -2191,7 +2191,7 @@ List the contents of this folder to see the new name.
 
 ### 1470.1
 
-Thanks for making this. You to make copy of it. Take a look at the "help" menu of the "copy" command.
+Thanks for making this. You need to make copy of it. Take a look at the "help" menu of the "copy" command.
 
 #### HINTS
 
