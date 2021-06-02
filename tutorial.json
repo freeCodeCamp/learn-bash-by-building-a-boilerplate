@@ -943,7 +943,8 @@
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
             "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -969,7 +970,8 @@
             "Use the \"change directory\" command",
             "Enter `cd website` into the terminal",
             "Enter the command from the `project` folder",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -995,7 +997,8 @@
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1022,7 +1025,8 @@
             "Capitalization matters",
             "Enter `echo hello website` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1050,7 +1054,8 @@
             "Capitalization matters",
             "Enter `touch index.html` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1078,7 +1083,8 @@
             "Don't try to create the file with another method",
             "Enter `touch styles.css` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1104,7 +1110,8 @@
             "Use the `list` command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1132,7 +1139,8 @@
             "Don't try to create the file with another method",
             "Enter `touch index.js` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1160,7 +1168,8 @@
             "Don't try to create the file with another method",
             "Enter `touch .gitignore` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1185,7 +1194,9 @@
           "hints": [
             "Use the `list` command",
             "Make sure you are in the `website` folder",
-            "Enter `ls` in the terminal"
+            "Enter `ls` in the terminal",
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1212,7 +1223,8 @@
             "You previously used: `ls -l`",
             "Enter `ls --help` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1239,7 +1251,8 @@
             "Here's an exmple: `command <flag>`",
             "Enter `ls -a` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1265,7 +1278,8 @@
             "Use the \"change directory\" command",
             "Enter `cd .` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1293,7 +1307,8 @@
             "Don't try to create the file with another method",
             "Enter `touch background.jpg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1321,7 +1336,8 @@
             "Don't try to create the file with another method",
             "Enter `touch header.png` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1349,7 +1365,8 @@
             "Don't try to create the file with another method",
             "Enter `touch footer.jpeg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1375,7 +1392,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1402,7 +1420,8 @@
             "Don't try to create the file with another method",
             "Enter `touch roboto.font` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1429,7 +1448,8 @@
             "Don't try to create the file with another method",
             "Enter `touch lato.font` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1456,7 +1476,8 @@
             "Don't try to create the file with another method",
             "Enter `touch menlo.font` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1482,7 +1503,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1510,7 +1532,8 @@
             "Don't try to create the file with another method",
             "Enter `touch CodeAlly.svg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1538,7 +1561,8 @@
             "Don't try to create the file with another method",
             "Enter `touch CodeRoad.svg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1566,7 +1590,8 @@
             "Don't try to create the file with another method",
             "Enter `touch freeCodeCamp.svg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1592,7 +1617,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1621,7 +1647,8 @@
             "Here's an example: `mkdir <folder_name>`",
             "Enter `mkdir images` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1647,7 +1674,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1673,7 +1701,8 @@
             "Enter `cp background.jpg images` into the terminal",
             "Don't try to use a different method to copy it",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1699,7 +1728,8 @@
             "Use the \"change directory\" command",
             "Enter `cd images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1726,7 +1756,8 @@
             "Make sure you are in the `images` folder",
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
+            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1753,7 +1784,8 @@
             "Add `..` to the command to go back a folder",
             "Enter `cd ..` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
+            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1779,7 +1811,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1804,7 +1837,8 @@
           "hints": [
             "Enter `rm background.jpg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1830,7 +1864,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1858,7 +1893,8 @@
             "Don't try to use a different method to copy it",
             "Enter `cp header.png images`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1886,7 +1922,8 @@
             "Don't try to use a different method to copy it",
             "Enter `cp footer.jpeg images`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1913,7 +1950,8 @@
             "Add the path of where you want to go to the command",
             "Enter `cd images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1939,7 +1977,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
+            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1966,7 +2005,8 @@
             "Add `..` to the command to go back a folder",
             "Enter `cd ..` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
+            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -1992,7 +2032,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2022,7 +2063,8 @@
             "Enter `rm header.png` in the terminal",
             "Don't try to use a different method to delete the file",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2051,7 +2093,8 @@
             "Don't try to use a different method to delete the file",
             "Enter `rm footer.jpeg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2077,7 +2120,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2103,7 +2147,8 @@
             "Enter `mv roboto.font roboto.woff`",
             "Don't try to rename it with other methods",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2129,7 +2174,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2159,7 +2205,8 @@
             "Don't try to rename it with other methods",
             "Enter `mv lato.font lato.ttf`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2189,7 +2236,8 @@
             "Don't try to rename it with other methods",
             "Enter `mv menlo.font menlo.otf`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2215,7 +2263,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2244,7 +2293,8 @@
             "Don't try to create the folder with another method",
             "Enter `mkdir fonts` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2270,7 +2320,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2298,7 +2349,8 @@
             "Don't try to move the file with another method",
             "Enter `mv roboto.woff fonts`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2325,7 +2377,8 @@
             "Make sure you are in the `website` folder",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2355,7 +2408,8 @@
             "Don't try to move the file with another method",
             "Enter `mv lato.ttf fonts`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2385,7 +2439,8 @@
             "Don't try to move the file with another method",
             "Enter `mv menlo.otf fonts`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2411,7 +2466,8 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2438,7 +2494,8 @@
             "Here's an example: `mkdir <directory_name>`",
             "Enter `mkdir client` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2465,7 +2522,8 @@
             "Enter `mkdir client/src` from the `website` folder",
             "Don't try to create the folder with another method",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2492,7 +2550,8 @@
             "You previously used: `mv menlo.otf fonts`",
             "Enter `mv index.html client/src` from the `website` folder",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2517,7 +2576,9 @@
           "hints": [
             "Use the \"find\" command",
             "Enter `find` in the terminal",
-            "Make sure you are in the `website` folder"
+            "Make sure you are in the `website` folder",
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2543,7 +2604,8 @@
             "Use the \"move\" command",
             "You previously used: `mv index.html client/src`",
             "Enter `mv index.js client/src` from the `website` folder",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2570,7 +2632,8 @@
             "Don't try to move the file with another method",
             "You've used `mv index.js client/src` to move a file",
             "Enter `mv styles.css client/src` from the `website` folder",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2596,7 +2659,8 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2623,7 +2687,8 @@
             "Add `client` at the end of the command",
             "Enter `find client` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2651,7 +2716,8 @@
             "You previously used `ls --help`",
             "Enter `find --help` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2676,7 +2742,8 @@
           "hints": [
             "Enter `find -name index.html` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2704,7 +2771,8 @@
             "You previously used `find -name index.html`",
             "Enter `find -name style.css` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2732,7 +2800,8 @@
             "You previously used `find -name index.html`",
             "Enter `find -name src` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2759,7 +2828,8 @@
             "Don't use any flags this time",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2785,7 +2855,8 @@
             "Use the \"change directory command",
             "Enter `cd client` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2814,7 +2885,8 @@
             "You previously used `mkdir client`",
             "Enter `mkdir assets` in the terminal",
             "Make sure you are in the `client` folder first",
-            "Enter `cd ~/project/website/client` to get to the `client` folder if you aren't there"
+            "Enter `cd ~/project/website/client` to get to the `client` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2841,7 +2913,8 @@
             "It's the `cd` command",
             "Enter `cd assets` in the terminal",
             "Make sure you are in the `client` folder first",
-            "Enter `cd ~/project/website/client` to get to the `client` folder if you aren't there"
+            "Enter `cd ~/project/website/client` to get to the `client` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2869,7 +2942,8 @@
             "You previously used `mkdir assets`",
             "Enter `mkdir images` in the terminal",
             "Make sure you are in the `assets` folder first",
-            "Enter `cd ~/project/website/client/assets` to get to the `assets` folder if you aren't there"
+            "Enter `cd ~/project/website/client/assets` to get to the `assets` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2896,7 +2970,8 @@
             "It's the `cd` command",
             "Enter `cd images` in the terminal",
             "Make sure you are in the `assets` folder first",
-            "Enter `cd ~/project/website/client/assets` to get to the `assets` folder if you aren't there"
+            "Enter `cd ~/project/website/client/assets` to get to the `assets` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2923,7 +2998,8 @@
             "You previously used `touch freeCodeCamp.svg`",
             "Enter `touch background.jpg` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/client/assets/images` to get to the `images` folder if you aren't there"
+            "Enter `cd ~/project/website/client/assets/images` to get to the `images` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2950,7 +3026,8 @@
             "You went back two folders with `cd ../..`",
             "Enter `cd ../../..` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/client/assets/images` to get to the `images` folder if you aren't there"
+            "Enter `cd ~/project/website/client/assets/images` to get to the `images` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -2975,7 +3052,8 @@
           "hints": [
             "Use the \"change directory\" command",
             "Enter `cd images` in the terminal from the `website` folder",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3001,7 +3079,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
+            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3029,7 +3108,8 @@
             "Don't try to move the file with another method",
             "Enter `mv header.png ..` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
+            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3055,7 +3135,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
+            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3081,7 +3162,8 @@
             "Use the \"change directory\" command",
             "Enter `cd ..` in the terminal from the `images` folder",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there"
+            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3107,7 +3189,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3136,7 +3219,8 @@
             "You previously used `find -name src`",
             "Enter `find -name images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3165,7 +3249,8 @@
             "Don't try to move the file with another method",
             "Enter `mv header.png client/assets/images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3194,7 +3279,8 @@
             "You previously used `find -name images`",
             "Enter `find -name header.png` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3222,7 +3308,8 @@
             "You previously used `find -name header.png`",
             "Enter `find -name footer.jpeg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3252,7 +3339,8 @@
             "The second path is `client/assets/images`",
             "Enter `mv images/footer.jpeg client/assets/images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3278,7 +3366,8 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3303,7 +3392,8 @@
           "hints": [
             "Enter `rmdir images` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3331,7 +3421,8 @@
             "The file path you want is `images/background.jpg`",
             "Enter `rm images/background.jpg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3357,7 +3448,8 @@
             "Use the \"remove directory\" command",
             "Enter `rmdir images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3383,7 +3475,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3411,7 +3504,8 @@
             "Don't try to create the directory with another method",
             "Enter `mkdir client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3439,7 +3533,8 @@
             "The destination path is `client/assets/icons`",
             "Enter `mv CodeAlly.svg client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3465,7 +3560,8 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3493,7 +3589,8 @@
             "Here's a tip: `mv CodeRoad.svg <path_to_icons_folder>`",
             "Enter `mv CodeRoad.svg client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3521,7 +3618,8 @@
             "The path is `client/assets/icons`",
             "Enter `mv freeCodeCamp.svg client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3547,7 +3645,8 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3574,7 +3673,8 @@
             "Put the `fonts` folder in the `client/assets` folder",
             "Enter `mkdir client/assets/fonts` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3602,7 +3702,8 @@
             "The file needs to be created in the `client/assets/fonts` folder",
             "Enter `touch client/assets/fonts/roboto-bold.woff` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3631,7 +3732,8 @@
             "You previously used: `touch client/assets/fonts/roboto-bold.woff`",
             "Enter `touch client/assets/fonts/roboto-light.woff` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3658,7 +3760,8 @@
             "Here's an example: `find <path_to_folder>`",
             "Enter `find client/assets/fonts` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3687,7 +3790,8 @@
             "You previously used: `touch client/assets/fonts/roboto-light.woff`",
             "Enter `touch client/assets/fonts/lato-bold.ttf` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3715,7 +3819,8 @@
             "You previously used: `touch client/assets/fonts/lato-bold.ttf`",
             "Enter `touch client/assets/fonts/lato-light.ttf` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3741,7 +3846,8 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3768,7 +3874,8 @@
             "The \"help\" flag is `--help`",
             "Enter `rm --help` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3822,7 +3929,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3848,7 +3956,8 @@
             "Use the \"touch\" command",
             "Enter `touch package.json` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3874,7 +3983,8 @@
             "Use the \"touch\" command",
             "Enter `touch server.js` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3901,7 +4011,8 @@
             "Capitalization matters",
             "Enter `touch README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3927,7 +4038,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3954,7 +4066,8 @@
             "Here's an example: `echo <text>`",
             "Enter `echo Yay!` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -3980,7 +4093,8 @@
             "Use the \"echo\" command",
             "Enter `echo I finished the boilerplate!` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4006,7 +4120,8 @@
             "Use the \"echo\" command",
             "Enter `echo one more thing...` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4032,7 +4147,8 @@
             "Use the \"echo\" command",
             "Enter `echo I made this boilerplate >> README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4058,7 +4174,8 @@
             "Use the \"more\" command",
             "Enter `more README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4086,7 +4203,8 @@
             "You previously used: `echo I made this boilerplate >> README.md`",
             "Enter `echo from the command line >> README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4112,7 +4230,8 @@
             "Use the \"more\" command",
             "Enter `more README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4140,7 +4259,8 @@
             "You previously used: `echo from the command line >> README.md` in the terminal",
             "Enter `echo for the freeCodeCamp bash lessons >> README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4166,7 +4286,8 @@
             "Use the \"more\" command",
             "Enter `more README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4192,7 +4313,8 @@
             "Use the \"change directory\" command",
             "Enter `cd ..` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4218,7 +4340,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4246,7 +4369,8 @@
             "Here's an example: `mv <folder_name> <new_folder_name>`",
             "Enter `mv website website-boilerplate` in the terminal",
             "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4272,7 +4396,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4299,7 +4424,8 @@
             "The \"help\" flag is `--help`",
             "Enter `cp --help` in the terminal",
             "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4327,7 +4453,8 @@
             "Here's an example: `cp -r <folder_to_copy> <name_of_copy>`",
             "Enter `cp -r website-boilerplate toms-website` in the terminal",
             "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4353,7 +4480,8 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4382,7 +4510,8 @@
             "It's the `toms-website` folder",
             "Enter `find toms-website` in the terminal",
             "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
@@ -4410,7 +4539,8 @@
             "It's the `website-boilerplate` folder",
             "Enter `find website-boilerplate` in the terminal",
             "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
       ]
