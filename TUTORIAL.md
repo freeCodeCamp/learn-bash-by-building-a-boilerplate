@@ -456,6 +456,7 @@ List what's here to make sure it got created.
 - Enter `ls` into the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 290. Change Directory
 
@@ -469,6 +470,7 @@ It worked. The website files will be in the new directory. Change to the `websit
 - Enter `cd website` into the terminal
 - Enter the command from the `project` folder
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 300. List
 
@@ -482,6 +484,7 @@ List the contents of the `website` folder.
 - Enter `ls` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 310. Echo
 
@@ -496,6 +499,7 @@ It's brand new, there's nothing in it yet. The `echo` command lets you print any
 - Enter `echo hello website` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 320. Touch
 
@@ -511,6 +515,7 @@ Websites usually have an `index.html` file. You can use `touch <filename>` to cr
 - Enter `touch index.html` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 330. Touch
 
@@ -526,6 +531,7 @@ They usually have a CSS file as well. Create `styles.css` in the `website` folde
 - Enter `touch styles.css` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 340. List
 
@@ -539,6 +545,7 @@ List the contents of the `website` folder to make sure they got created.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 350. Touch
 
@@ -554,6 +561,7 @@ There they are. Next is a JavaScript file. Create `index.js` in the `website` fo
 - Enter `touch index.js` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 360. Touch
 
@@ -569,6 +577,7 @@ You might turn this into a git repository. Create `.gitignore` in the `website` 
 - Enter `touch .gitignore` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 370. List
 
@@ -581,6 +590,8 @@ List the contents of the `website` folder to see your new files.
 - Use the `list` command
 - Make sure you are in the `website` folder
 - Enter `ls` in the terminal
+- Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 380. Help
 
@@ -595,6 +606,7 @@ There's three files, but where's the `.gitignore` file? I think it's hidden. Mos
 - Enter `ls --help` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 390. List All
 
@@ -609,6 +621,7 @@ Scroll through the menu to see the flags that go with `ls`. The flag you are loo
 - Enter `ls -a` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 400. Change Directory
 
@@ -622,6 +635,7 @@ There's the hidden file. Do you see it? It didn't display before. It also includ
 - Enter `cd .` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 410. Touch
 
@@ -637,6 +651,7 @@ You didn't go anywhere. The `.` takes you to the folder you are in, and `..` tak
 - Enter `touch background.jpg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 420. Touch
 
@@ -652,6 +667,7 @@ Next, add a header image. Create `header.png` in the `website` folder.
 - Enter `touch header.png` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 430. Touch
 
@@ -667,6 +683,7 @@ Finally, create `footer.jpeg` in the `website` folder.
 - Enter `touch footer.jpeg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 440. List
 
@@ -680,6 +697,7 @@ Use the **list** command to check out the images you just added.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 450. Touch
 
@@ -694,6 +712,7 @@ Looks like images show up in pink. There's also three fonts to use for the websi
 - Enter `touch roboto.font` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 460. Touch
 
@@ -708,6 +727,7 @@ The next one is "lato". Create `lato.font` in the `website` folder.
 - Enter `touch lato.font` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 470. Touch
 
@@ -722,6 +742,7 @@ Lastly, create `menlo.font` in the `website` folder.
 - Enter `touch menlo.font` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 480. List
 
@@ -735,6 +756,7 @@ List the contents of this folder to see your new font files.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 490. Touch
 
@@ -750,6 +772,7 @@ Your three font files are there. There's three icons for the website as well. Cr
 - Enter `touch CodeAlly.svg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 500. Touch
 
@@ -765,6 +788,7 @@ Next, create `CodeRoad.svg` in the `website` folder.
 - Enter `touch CodeRoad.svg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 510. Touch
 
@@ -780,6 +804,7 @@ Finally, create `freeCodeCamp.svg` in the `website` folder.
 - Enter `touch freeCodeCamp.svg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 520. List
 
@@ -793,6 +818,7 @@ Check out the new icons you just added by listing the contents of the folder the
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 530. Make Directory
 
@@ -809,6 +835,7 @@ The icons are pink as well. I think the images should go in a separate folder to
 - Enter `mkdir images` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 540. List
 
@@ -822,6 +849,7 @@ List the contents of the `website` folder to make sure your new folder is there.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 550. Copy
 
@@ -835,6 +863,7 @@ There's your new `images` folder. It's blue. You can copy a file with `cp <file>
 - Don't try to use a different method to copy it
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 560. Change Directory
 
@@ -848,6 +877,7 @@ Better make sure it worked. Change to the `images` directory.
 - Enter `cd images` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 570. List
 
@@ -862,6 +892,7 @@ List the contents to see if `background.jpg` is here.
 - Enter `ls` in the terminal
 - Make sure you are in the `images` folder first
 - Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 580. Change Directory
 
@@ -876,6 +907,7 @@ There it is. Looks like the copy worked. Change back to the `website` directory 
 - Enter `cd ..` in the terminal
 - Make sure you are in the `images` folder first
 - Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 585. List
 
@@ -889,6 +921,7 @@ Remind yourself of the files here by listing the contents.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 590. Remove
 
@@ -901,6 +934,7 @@ You copied the background image to the `images` folder so you don't need the one
 - Enter `rm background.jpg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 600. List
 
@@ -914,6 +948,7 @@ List the contents to make sure it's gone.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 610. Copy
 
@@ -929,6 +964,7 @@ Okay, it's gone. Next, copy `header.png` to the `images` folder.
 - Enter `cp header.png images`
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 620. Copy
 
@@ -944,6 +980,7 @@ Last, copy the "footer" image to the `images` folder.
 - Enter `cp footer.jpeg images`
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 630. Change Directory
 
@@ -958,6 +995,7 @@ All the images should be copied over. Change to the `images` directory so you ca
 - Enter `cd images` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 640. List
 
@@ -971,6 +1009,7 @@ Check if the images are here by listing the contents.
 - Enter `ls` in the terminal
 - Make sure you are in the `images` folder first
 - Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 650. Change Directory
 
@@ -985,6 +1024,7 @@ They all made it here. Go back to the `website` folder so you can delete the ori
 - Enter `cd ..` in the terminal
 - Make sure you are in the `images` folder first
 - Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 660. List
 
@@ -998,6 +1038,7 @@ List the contents to remind youself of the filenames to delete.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 670. Remove
 
@@ -1015,6 +1056,7 @@ There's two that you don't need anymore. Remove the "header" image file from the
 - Don't try to use a different method to delete the file
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 680. Remove
 
@@ -1031,6 +1073,7 @@ It should be gone. Remove the "footer" image from the `website` folder as well.
 - Enter `rm footer.jpeg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 690. List
 
@@ -1044,6 +1087,7 @@ List the contents of the `website` folder to check if they are gone.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 700. Rename
 
@@ -1057,6 +1101,7 @@ Looks like they're all deleted. There was a mistake with the extensions for the 
 - Don't try to rename it with other methods
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 710. List
 
@@ -1070,6 +1115,7 @@ Use "list" to check if it worked.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 720. Rename
 
@@ -1087,6 +1133,7 @@ Do you see the "roboto" font? The rename worked. Next, rename the "lato" font fi
 - Enter `mv lato.font lato.ttf`
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 730. Rename
 
@@ -1104,6 +1151,7 @@ Lastly, rename the "menlo" font to `menlo.otf`.
 - Enter `mv menlo.font menlo.otf`
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 740. List
 
@@ -1117,6 +1165,7 @@ Use the "list" command to make sure those last two got renamed.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 750. Make Directory
 
@@ -1133,6 +1182,7 @@ Take a look at the files to make sure they got renamed. Those font files could b
 - Enter `mkdir fonts` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 755. List
 
@@ -1146,6 +1196,7 @@ List the contents of the `website` folder to make sure your new folder is there.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 760. Move
 
@@ -1161,6 +1212,7 @@ See it? You renamed the font files with `mv`, you can also move files with it. M
 - Enter `mv roboto.woff fonts`
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 770. Find
 
@@ -1175,6 +1227,7 @@ You can use `find` to find things or view a file tree. Enter `find` to view the 
 - Enter `find` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 780. Move
 
@@ -1192,6 +1245,7 @@ You can see everything in this `website` folder and it's descendant folders. Not
 - Enter `mv lato.ttf fonts`
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 790. Move
 
@@ -1209,6 +1263,7 @@ There's one more font to move. Move the "menlo" font to the `fonts` folder.
 - Enter `mv menlo.otf fonts`
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 800. Find
 
@@ -1222,6 +1277,7 @@ Use `find` again to list the whole file tree and make sure those two got moved.
 - Enter `find` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 850. Make Directory
 
@@ -1236,6 +1292,7 @@ Yes, you can see them all in the `fonts` folder. Let's organize some more. Make 
 - Enter `mkdir client` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 860. Make Directory
 
@@ -1250,6 +1307,7 @@ You can make a folder in that `client` folder from here by adding it to the path
 - Don't try to create the folder with another method
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 870. Move
 
@@ -1264,6 +1322,7 @@ You can move files all the way across the system from here with the right path. 
 - Enter `mv index.html client/src` from the `website` folder
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 880. Find
 
@@ -1276,6 +1335,8 @@ Use `find` to view the file tree and make sure it moved.
 - Use the "find" command
 - Enter `find` in the terminal
 - Make sure you are in the `website` folder
+- Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 890. Move
 
@@ -1289,6 +1350,7 @@ Can you see the `index.html` file in your new `src` folder? Looks like it moved 
 - You previously used: `mv index.html client/src`
 - Enter `mv index.js client/src` from the `website` folder
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 900. Move
 
@@ -1303,6 +1365,7 @@ Last is the CSS file. Move `styles.css` to the `src` folder.
 - You've used `mv index.js client/src` to move a file
 - Enter `mv styles.css client/src` from the `website` folder
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 910. Find
 
@@ -1316,6 +1379,7 @@ Seems like you can do anything right from here. Take another look at the tree wi
 - Enter `find` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 920. Find Subfolder
 
@@ -1330,6 +1394,7 @@ Things are looking more organized :smile: You can use `find <folder_name>` to di
 - Enter `find client` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 930. Find
 
@@ -1345,6 +1410,7 @@ Now you just see what's in the `client` folder. What else can `find` do? View th
 - Enter `find --help` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 940. Find
 
@@ -1357,6 +1423,7 @@ The menu isn't very pretty, but there's a `-name` flag in there. You can use it 
 - Enter `find -name index.html` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 950. Find
 
@@ -1372,6 +1439,7 @@ It shows you where that file is. Using the same command, find where the `styles.
 - Enter `find -name style.css` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 960. Find
 
@@ -1387,6 +1455,7 @@ You can search for folders with it, as well. Using the same command and flag, fi
 - Enter `find -name src` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 970. Find
 
@@ -1401,6 +1470,7 @@ You can search for folders with it, as well. Using the same command and flag, fi
 - Enter `find` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 980. Change Directory
 
@@ -1414,6 +1484,7 @@ What's next? More organizing! You should put all the assets in one spot. Change 
 - Enter `cd client` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 990. Make Directory
 
@@ -1430,6 +1501,7 @@ Make a new directory named `assets` in the `client` folder.
 - Enter `mkdir assets` in the terminal
 - Make sure you are in the `client` folder first
 - Enter `cd ~/project/website/client` to get to the `client` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1000. Change Directory
 
@@ -1444,6 +1516,7 @@ Change into the new `assets` folder.
 - Enter `cd assets` in the terminal
 - Make sure you are in the `client` folder first
 - Enter `cd ~/project/website/client` to get to the `client` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1010. Make Directory
 
@@ -1459,6 +1532,7 @@ All the images and other assets can go here. Make an `images` directory in the `
 - Enter `mkdir images` in the terminal
 - Make sure you are in the `assets` folder first
 - Enter `cd ~/project/website/client/assets` to get to the `assets` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1020. Change Directory
 
@@ -1473,6 +1547,7 @@ Go to your new `images` folder.
 - Enter `cd images` in the terminal
 - Make sure you are in the `assets` folder first
 - Enter `cd ~/project/website/client/assets` to get to the `assets` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1030. Touch
 
@@ -1487,6 +1562,7 @@ You want the images here. Create `background.jpg` in this folder.
 - Enter `touch background.jpg` in the terminal
 - Make sure you are in the `images` folder first
 - Enter `cd ~/project/website/client/assets/images` to get to the `images` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1040. Change Directory
 
@@ -1501,6 +1577,7 @@ Wait. You don't need to recreate them. You can just move the other images here. 
 - Enter `cd ../../..` in the terminal
 - Make sure you are in the `images` folder first
 - Enter `cd ~/project/website/client/assets/images` to get to the `images` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1050. Change Directory
 
@@ -1513,6 +1590,7 @@ Now go to where the original images are. Change into the `images` folder.
 - Use the "change directory" command
 - Enter `cd images` in the terminal from the `website` folder
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1055. List
 
@@ -1526,6 +1604,7 @@ List the contents of the `images` folder to see the files here.
 - Enter `ls` in the terminal
 - Make sure you are in the `images` folder first
 - Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1060. Move
 
@@ -1541,6 +1620,7 @@ Umm, first I think you should move them back to the website folder. Move `header
 - Enter `mv header.png ..` in the terminal
 - Make sure you are in the `images` folder first
 - Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1065. List
 
@@ -1554,6 +1634,7 @@ List the contents of the `images` folder to see if it's gone.
 - Enter `ls` in the terminal
 - Make sure you are in the `images` folder first
 - Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1070. Change Directory
 
@@ -1567,6 +1648,7 @@ It's gone. Go back to the `website` folder.
 - Enter `cd ..` in the terminal from the `images` folder
 - Make sure you are in the `images` folder first
 - Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1080. List
 
@@ -1580,6 +1662,7 @@ List what's here.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1090. Find
 
@@ -1596,6 +1679,7 @@ There's the file you just moved. Next, you will move it to the `client/assets/im
 - Enter `find -name images` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1100. Move
 
@@ -1612,6 +1696,7 @@ There's your two image folders. Move `header.png` to the one with the longer pat
 - Enter `mv header.png client/assets/images` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1110. Find
 
@@ -1628,6 +1713,7 @@ Use `find` to search for your `header.png` file and make sure it moved.
 - Enter `find -name header.png` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1120. Find
 
@@ -1643,6 +1729,7 @@ There it is. Right where you put it. Next, search for your `footer.jpeg` file so
 - Enter `find -name footer.jpeg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1130. Move
 
@@ -1660,6 +1747,7 @@ It's in the original `images` folder. You can **use that path** with the move co
 - Enter `mv images/footer.jpeg client/assets/images` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1135. Find
 
@@ -1673,6 +1761,7 @@ View the file tree of this folder to make sure all your images are over in their
 - Enter `find` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1150. Remove Directory
 
@@ -1685,6 +1774,7 @@ You don't need the old `images` folder anymore. You can use `rmdir <directory_na
 - Enter `rmdir images` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1170. Remove
 
@@ -1700,6 +1790,7 @@ Directory not empty? Oh yeah, there's still the background image in there. Remov
 - Enter `rm images/background.jpg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1190. Remove Directory
 
@@ -1713,6 +1804,7 @@ Try to remove the `images` folder again with `rmdir`. Make sure it's the one in 
 - Enter `rmdir images` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1195. List
 
@@ -1726,6 +1818,7 @@ I think it worked this time. List the contents to find out.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1200. Make Directory
 
@@ -1741,6 +1834,7 @@ It worked, the `images` folder is gone. Make a new `icons` folder in your `asset
 - Enter `mkdir client/assets/icons` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1210. Move
 
@@ -1756,6 +1850,7 @@ Move the `CodeAlly.svg` file to your new `icons` folder.
 - Enter `mv CodeAlly.svg client/assets/icons` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1215. Find
 
@@ -1769,6 +1864,7 @@ View the file tree of the `website` folder and make sure it moved.
 - Enter `find` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1220. Move
 
@@ -1784,6 +1880,7 @@ Verify that the file moved to the `icons` folder. Next, move the "CodeRoad" file
 - Enter `mv CodeRoad.svg client/assets/icons` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1230. Move
 
@@ -1799,6 +1896,7 @@ Lastly, move the "freeCodeCamp" file to your `icons` folder.
 - Enter `mv freeCodeCamp.svg client/assets/icons` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1240. Find
 
@@ -1812,6 +1910,7 @@ View the file tree and make sure the files moved.
 - Enter `find` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1250. Make Directory
 
@@ -1826,6 +1925,7 @@ This looks much better. The three icons are now in the `icons` folder. Make a `f
 - Enter `mkdir client/assets/fonts` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1260. Touch
 
@@ -1841,6 +1941,7 @@ Turns out you want some different font for the website. From here, create `robot
 - Enter `touch client/assets/fonts/roboto-bold.woff` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1270. Touch
 
@@ -1857,6 +1958,7 @@ Next, create `roboto-light.woff` in your new `fonts` folder from here.
 - Enter `touch client/assets/fonts/roboto-light.woff` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1275. Find
 
@@ -1871,6 +1973,7 @@ View the file tree of the `client/assets/fonts` folder from here to see if your 
 - Enter `find client/assets/fonts` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1280. Touch
 
@@ -1887,6 +1990,7 @@ Two more font's to go. Create `lato-bold.ttf` in the new `fonts` folder from her
 - Enter `touch client/assets/fonts/lato-bold.ttf` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1290. Touch
 
@@ -1902,6 +2006,7 @@ Lastly, create `lato-light.ttf` in your new `fonts` folder from here.
 - Enter `touch client/assets/fonts/lato-light.ttf` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1300. Find
 
@@ -1915,6 +2020,7 @@ View your file tree and make sure the files are there.
 - Enter `find` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1310. Remove Help
 
@@ -1929,6 +2035,7 @@ Things are looking more organized :smile: The new fonts are there. Now you can r
 - Enter `rm --help` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1315. Remove Recursively
 
@@ -1957,6 +2064,7 @@ List what's here to see if it's gone.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1330. Touch
 
@@ -1970,6 +2078,7 @@ Looks like it’s gone. Surely, it went to the trash can right? No, it’s just 
 - Enter `touch package.json` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1340. Touch
 
@@ -1983,6 +2092,7 @@ Next, create `server.js` in the `website` folder.
 - Enter `touch server.js` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1350. Touch
 
@@ -1997,6 +2107,7 @@ Lastly, create `README.md` in the `website` folder.
 - Enter `touch README.md` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1360. List
 
@@ -2010,6 +2121,7 @@ List the content of this folder to make sure your new files are there.
 - Enter `ls` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1370. Echo
 
@@ -2024,6 +2136,7 @@ The boilerplate is complete. Use `echo` to print `Yay!` to the terminal.
 - Enter `echo Yay!` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1380. Echo
 
@@ -2037,6 +2150,7 @@ Print `I finished the boilerplate!` to the terminal.
 - Enter `echo I finished the boilerplate!` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1390. Echo
 
@@ -2050,6 +2164,7 @@ Print `one more thing...` to the terminal
 - Enter `echo one more thing...` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1400. Echo to File
 
@@ -2063,6 +2178,7 @@ You can print to a file instead of the terminal with `echo text >> filename`. Us
 - Enter `echo I made this boilerplate >> README.md` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1405. More
 
@@ -2076,6 +2192,7 @@ Use `more` to view your `README.md` file.
 - Enter `more README.md` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1410. Echo to File
 
@@ -2091,6 +2208,7 @@ Now that line is in the file. Add `from the command line` to your `README.md` fi
 - Enter `echo from the command line >> README.md` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1415. More
 
@@ -2104,6 +2222,7 @@ Use `more` to view the "readme" file again.
 - Enter `more README.md` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1420. Echo to File
 
@@ -2119,6 +2238,7 @@ Now the file has two lines. Add `for the freeCodeCamp bash lessons` to your "rea
 - Enter `echo for the freeCodeCamp bash lessons >> README.md` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1430. More
 
@@ -2132,6 +2252,7 @@ View your "readme" file again like you did before.
 - Enter `more README.md` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1440. Change Directory
 
@@ -2145,6 +2266,7 @@ View your "readme" file again like you did before.
 - Enter `cd ..` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1445. List
 
@@ -2158,6 +2280,7 @@ You are back where you started. List what's here.
 - Enter `ls` in the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1450. Rename
 
@@ -2173,6 +2296,7 @@ Still the same two folders. Rename the `website` folder to `website-boilerplate`
 - Enter `mv website website-boilerplate` in the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1460. List
 
@@ -2186,6 +2310,7 @@ List the contents of this folder to see the new name.
 - Enter `ls` in the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1470. Copy Help
 
@@ -2200,6 +2325,7 @@ Thanks for making this. You need to make copy of it. Take a look at the "help" m
 - Enter `cp --help` in the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1475. Copy
 
@@ -2215,6 +2341,7 @@ Scroll up to find that "recursive" flag. You need to use it again to copy the wh
 - Enter `cp -r website-boilerplate toms-website` in the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1480. List
 
@@ -2228,6 +2355,7 @@ List the contents of the `project` folder to see the new copy.
 - Enter `ls` in the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1490. Find
 
@@ -2244,6 +2372,7 @@ Thanks. Use `find` to view the tree of `toms-website`.
 - Enter `find toms-website` in the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1500. Find
 
@@ -2259,6 +2388,7 @@ Use `find` to view the tree of the boilerplate folder to make sure it matches.
 - Enter `find website-boilerplate` in the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
+- If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there
 
 ## 1510. Clear
 
