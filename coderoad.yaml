@@ -1,4 +1,4 @@
-version: '0.2.4'
+version: '0.2.5'
 config:
   setup:
     commands:
@@ -11,7 +11,7 @@ config:
     directory: freeCodeCamp
   repo:
     uri: https://github.com/moT01/.learn-bash-by-building-a-boilerplate
-    branch: v0.2.4
+    branch: v0.2.5
   reset:
     commands:
       - './freeCodeCamp/reset.sh'
