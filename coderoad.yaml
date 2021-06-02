@@ -14,7 +14,7 @@ config:
     branch: v0.2.4
   reset:
     commands:
-      - './.freeCodeCamp/reset.sh'
+      - './freeCodeCamp/reset.sh'
   dependencies:
     - name: node
       version: '>=10'
