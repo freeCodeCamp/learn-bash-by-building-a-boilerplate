@@ -41,7 +41,7 @@ The output tells you where the folder you are in is located. You are in the `pro
 
 ### 30.1
 
-That ouput is showing everything in this folder. There's one folders here. I wonder what's in that `freeCodeCamp` folder. Use `cd folder-name` to go into a folder. `cd` stands for "change directory". Change to the `freeCodeCamp` directory.
+The output is showing everything in this folder. There's one folder here. You can use `cd <folder_name>` to go into a folder. `cd` stands for "change directory". Change to the `freeCodeCamp` directory.
 
 #### HINTS
 
@@ -54,7 +54,7 @@ That ouput is showing everything in this folder. There's one folders here. I won
 
 ### 40.1
 
-You are in the `freecodecamp` folder now. I noticed that the prompt changed to include it. Print the working directory of the `freeCodeCamp` folder to see the full path of where you are.
+You are in the `freecodecamp` folder now. You may have noticed that the prompt changed to include it. Print the working directory of the `freeCodeCamp` folder to see the full path of where you are.
 
 #### HINTS
 
@@ -120,7 +120,7 @@ That's the path to the `test` folder, it's in the `freeCodeCamp` folder. **List*
 
 ### 90.1
 
-These are all files. Looks like there's nowhere deeper to go here. You can use `cd ..` to go back a folder level. The two dots will take you back. Go back to the `freeCodeCamp` folder.
+These are all files. There's no more folders to go into here. You can use `cd ..` to go back a folder level. The two dots will take you back one level. Go back to the `freeCodeCamp` folder.
 
 #### HINTS
 
@@ -133,7 +133,7 @@ These are all files. Looks like there's nowhere deeper to go here. You can use `
 
 ### 100.1
 
-Notice that `test` got removed from the prompt since you left that folder, and you're back in the `freeCodeCamp` folder. I forgot what was in here, list the contents again for me.
+`test` got removed from the prompt since you left that folder and you're back in the `freeCodeCamp` folder. List the contents of what's here to remind yourself.
 
 #### HINTS
 
@@ -146,7 +146,7 @@ Notice that `test` got removed from the prompt since you left that folder, and y
 
 ### 110.1
 
-There's the `test` folder you were just in. I wonder what's in that `package.json` file. You can see what's in a file with `more filename`. View the `package.json` file for me please.
+There's the `test` folder you were just in. You can see what's in a file with `more <filename>`. Use it to view what's in the `package.json` file.
 
 #### HINTS
 
@@ -159,7 +159,7 @@ There's the `test` folder you were just in. I wonder what's in that `package.jso
 
 ### 120.1
 
-Looks like a json object. You can empty the terminal with `clear`. The terminal looks a little cluttered, can you clear it for me?
+It looks like a JSON object. You can empty the terminal with `clear`. The terminal looks a little cluttered, why don't you clear it.
 
 #### HINTS
 
@@ -170,7 +170,7 @@ Looks like a json object. You can empty the terminal with `clear`. The terminal 
 
 ### 130.1
 
-Now you have a fresh screen :smile: Remind me what's in here again please.
+Now you have a fresh screen :smile: List what's in here again.
 
 #### HINTS
 
@@ -183,12 +183,12 @@ Now you have a fresh screen :smile: Remind me what's in here again please.
 
 ### 140.1
 
-You checked out the `test` folder and the `package.json` file. What next? I see a `node_modules` directory. Why don't you go there.
+You checked out the `test` folder and the `package.json` file. What next? Why don't you go into that `node_modules` directory.
 
 #### HINTS
 
 - Use the "change directory" command
-- Here's an example: `cd folder-name`
+- Here's an example: `cd <folder_name>`
 - Enter `cd node_modules` into the terminal
 - Enter `cd ~/project/freeCodeCamp` to get back to the `freeCodeCamp` folder and try again
 
@@ -196,7 +196,7 @@ You checked out the `test` folder and the `package.json` file. What next? I see 
 
 ### 150.1
 
-Now the prompt includes `node_modules` since that's where you are. List what's in the here for me.
+Now the prompt includes `node_modules` since that's where you are. List what's in the here.
 
 #### HINTS
 
@@ -209,7 +209,7 @@ Now the prompt includes `node_modules` since that's where you are. List what's i
 
 ### 160.1
 
-That's a lot of folders. You can add a **flag** to a command to use it different ways like this: `ls -flag`. List the contents of the `node_modules` folder in "long list format". Do that by adding the `-l` flag to the "list" command.
+That's a lot of folders. You can add a **flag** to a command to use it different ways like this: `ls <flag>`. List the contents of the `node_modules` folder in "long list format". Do that by adding the `-l` flag to the "list" command.
 
 #### HINTS
 
@@ -223,7 +223,7 @@ That's a lot of folders. You can add a **flag** to a command to use it different
 
 ### 170.1
 
-I'm not sure what all that means, but it looks like more details about each folder and it's little easier to read. Hmm, which one should we check out? I see one called `has`. Go into it.
+It is showing more details about each item in here and it's a little easier to read. One of the folders is named `has`, why don't you change into it.
 
 #### HINTS
 
@@ -236,7 +236,7 @@ I'm not sure what all that means, but it looks like more details about each fold
 
 ### 180.1
 
-You are now in the `has` folder. List its contents for me please.
+You are now in the `has` folder. List its contents.
 
 #### HINTS
 
@@ -264,7 +264,7 @@ There's a few files and folders here. Can you tell the difference? Take a look a
 
 ### 182.1
 
-Not very informative. I can't see what's here anymore. List the contents again please.
+Nothing noteworthy in there. You can't see what's in the here anymore, list the contents again.
 
 #### HINTS
 
@@ -277,7 +277,7 @@ Not very informative. I can't see what's here anymore. List the contents again p
 
 ### 183.1
 
-That one file doesn't appear to have an extension. Seems strange. Take a look at **more** of the that "license" file that doesn't show an extension.
+That one file doesn't appear to have an extension. Strange. Take a look at **more** of the that "license" file that doesn't show an extension.
 
 #### HINTS
 
@@ -291,7 +291,7 @@ That one file doesn't appear to have an extension. Seems strange. Take a look at
 
 ### 184.1
 
-Let's just pretend we read that. It looks a little messy in here again. Clear the terminal.
+Pretend you read all that. It looks a little messy in here again so why don't you clear the terminal.
 
 #### HINTS
 
@@ -302,7 +302,7 @@ Let's just pretend we read that. It looks a little messy in here again. Clear th
 
 ### 185.1
 
-Remind me what's in here please.
+Better. Remind yourself what's in here with the list command.
 
 #### HINTS
 
@@ -315,7 +315,7 @@ Remind me what's in here please.
 
 ### 190.1
 
-Go into that `src` directory.
+Go into that `src` directory to see what you can find in there.
 
 #### HINTS
 
@@ -328,7 +328,7 @@ Go into that `src` directory.
 
 ### 200.1
 
-Show me the full path of this folder.
+View the full path of this folder.
 
 #### HINTS
 
@@ -410,7 +410,7 @@ You can go back two folders with `cd ../..`. Each set of dots represents another
 
 ### 260.1
 
-You are back in the `project` folder where you started. Remind me what's in this folder.
+You are back in the `project` folder where you started. List what's in here again.
 
 #### HINTS
 
@@ -434,7 +434,7 @@ That's right. Why don't you get a fresh start by clearing the terminal.
 
 ### 280.1
 
-I want you to make a website boilerplate for me. You can make a new folder with `mkdir folder-name`. `mkdir` stands for "make directory". Make a `website` directory in the `project` folder. Remeber that "directory" and "folder" mean the same thing.
+You will be making a website boilerplate. You can make a new folder with `mkdir <folder_name>`. `mkdir` stands for "make directory". Make a `website` directory in this `project` folder. Remeber that "directory" and "folder" mean the same thing.
 
 #### HINTS
 
@@ -474,7 +474,7 @@ It worked. The website files will be in the new directory. Change to the `websit
 
 ### 300.1
 
-List the contents of the `website` folder for me.
+List the contents of the `website` folder.
 
 #### HINTS
 
@@ -487,11 +487,11 @@ List the contents of the `website` folder for me.
 
 ### 310.1
 
-Nothing. I should have known :confused: The `echo` command lets you print anything to the terminal. You used it in the first lesson. Just type what you want to print after it. Use it to print "hello website" to the terminal.
+It's brand new, there's nothing in it yet :facepalm: The `echo` command lets you print anything to the terminal. You used it in the first lesson. Just type what you want to print after it. Use it to print `hello website` to the terminal.
 
 #### HINTS
 
-- Here's an example: `echo text here`
+- Here's an example: `echo <text_here>`
 - Capitalization matters
 - Enter `echo hello website` into the terminal
 - Make sure you are in the `website` folder first
@@ -501,7 +501,7 @@ Nothing. I should have known :confused: The `echo` command lets you print anythi
 
 ### 320.1
 
-Websites usually have an `index.html` file. You can use `touch filename` to create a new file. Create `index.html` in the `website` folder.
+Websites usually have an `index.html` file. You can use `touch <filename>` to create a new file. Create `index.html` in the `website` folder.
 
 #### HINTS
 
@@ -516,12 +516,12 @@ Websites usually have an `index.html` file. You can use `touch filename` to crea
 
 ### 330.1
 
-They usually have a CSS file as well. Create `styles.css` in the `website` folder.
+They usually have a CSS file as well. Create `styles.css` in the `website` folder using the same method.
 
 #### HINTS
 
 - Use the "touch" command
-- Here's an example: `touch filename`
+- Here's an example: `touch <filename>`
 - Don't try to create the file with another method
 - Enter `touch styles.css` in the terminal
 - Make sure you are in the `website` folder first
@@ -544,12 +544,12 @@ List the contents of the `website` folder to make sure they got created.
 
 ### 350.1
 
-There they are. Next is the JavaScript file. Create `index.js` in the `website` folder.
+There they are. Next is a JavaScript file. Create `index.js` in the `website` folder with the method you have been using.
 
 #### HINTS
 
 - Use the "touch" command
-- Here's an example: `touch filename`
+- Here's an example: `touch <filename>`
 - Don't try to create the file with another method
 - Enter `touch index.js` in the terminal
 - Make sure you are in the `website` folder first
@@ -559,12 +559,12 @@ There they are. Next is the JavaScript file. Create `index.js` in the `website` 
 
 ### 360.1
 
-You might make this into a git repository. Create `.gitignore` in the `website` folder.
+You might turn this into a git repository. Create `.gitignore` in the `website` folder with the same method.
 
 #### HINTS
 
 - Use the "touch" command
-- Here's an example: `touch filename`
+- Here's an example: `touch <filename>`
 - Don't try to create the file with another method
 - Enter `touch .gitignore` in the terminal
 - Make sure you are in the `website` folder first
@@ -586,7 +586,7 @@ List the contents of the `website` folder to see your new files.
 
 ### 380.1
 
-I see three files, but where's `.gitignore`? I think it's hidden. Most commands have a `--help` flag to show what the command can do. Display the "help" menu for the `ls` command. Here's an example: `command --flag`
+There's three files, but where's the `.gitignore` file? I think it's hidden. Most commands have a `--help` flag to show what the command can do. Display the "help" menu for the `ls` command. Here's an example: `command <flag>`
 
 #### HINTS
 
@@ -605,6 +605,7 @@ Scroll through the menu to see the flags that go with `ls`. The flag you are loo
 #### HINTS
 
 - Use the `list` command with the "all" flag
+- Here's an exmple: `command <flag>`
 - Enter `ls -a` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
@@ -613,7 +614,7 @@ Scroll through the menu to see the flags that go with `ls`. The flag you are loo
 
 ### 400.1
 
-There's the hidden file. Do you see it? It didn't display before. I notice it also includes `.` and `..`. You used `cd ..` to go back a folder. Change to the `.` directory.
+There's the hidden file. Do you see it? It didn't display before. I notice it also includes `.` and `..`. You used `cd ..` to go back a folder earlier. Change to the `.` directory.
 
 #### HINTS
 
@@ -626,12 +627,12 @@ There's the hidden file. Do you see it? It didn't display before. I notice it al
 
 ### 410.1
 
-You didn't go anywhere. The `.` takes you to the folder you are in, and `..` takes you back a folder. Websites need some images. Create `background.jpg` in the `website` folder.
+You didn't go anywhere. The `.` takes you to the folder you are in, and `..` takes you back, or up, a folder. Websites need some images. Create `background.jpg` in the `website` folder.
 
 #### HINTS
 
 - Use the "touch" command
-- Here's an example: `touch filename`
+- Here's an example: `touch <filename>`
 - Don't try to create the file with another method
 - Enter `touch background.jpg` in the terminal
 - Make sure you are in the `website` folder first
@@ -646,7 +647,7 @@ Next, add a header image. Create `header.png` in the `website` folder.
 #### HINTS
 
 - Use the "touch" command
-- Here's an example: `touch filename`
+- Here's an example: `touch <filename>`
 - Don't try to create the file with another method
 - Enter `touch header.png` in the terminal
 - Make sure you are in the `website` folder first
@@ -661,7 +662,7 @@ Finally, create `footer.jpeg` in the `website` folder.
 #### HINTS
 
 - Use the "touch" command
-- Here's an example: `touch filename`
+- Here's an example: `touch <filename>`
 - Don't try to create the file with another method
 - Enter `touch footer.jpeg` in the terminal
 - Make sure you are in the `website` folder first
@@ -671,7 +672,7 @@ Finally, create `footer.jpeg` in the `website` folder.
 
 ### 440.1
 
-Use **list** to check out the images you just added.
+Use the **list** command to check out the images you just added.
 
 #### HINTS
 
@@ -684,7 +685,7 @@ Use **list** to check out the images you just added.
 
 ### 450.1
 
-Looks like the images show up as pink. I also have three fonts to use for the website. The first one is "roboto". Create `roboto.font` in the `website` folder.
+Looks like images show up in pink. There's also three fonts to use for the website. The first one is "roboto". Create `roboto.font` in the `website` folder.
 
 #### HINTS
 
@@ -739,7 +740,7 @@ List the contents of this folder to see your new font files.
 
 ### 490.1
 
-Your three font files are there. I have three icons for the website as well. Create `CodeAlly.svg` in the `website` folder.
+Your three font files are there. There's three icons for the website as well. Create `CodeAlly.svg` in the `website` folder.
 
 #### HINTS
 
@@ -804,7 +805,7 @@ The icons are pink as well. I think the images should go in a separate folder to
 - Use the "make directory" command
 - It's the `mkdir` command
 - Add the folder name after the command
-- Here's an example: `mkdir folder-name`
+- Here's an example: `mkdir <folder_name>`
 - Enter `mkdir images` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
@@ -826,7 +827,7 @@ List the contents of the `website` folder to make sure your new folder is there.
 
 ### 550.1
 
-There's your new `images` folder. It's blue. You can copy a file with `cp file destination`. `cp` stands for "copy". Copy `background.jpg` to your `images` folder.
+There's your new `images` folder. It's blue. You can copy a file with `cp <file> <destination>`. `cp` stands for "copy". Copy `background.jpg` to your `images` folder.
 
 #### HINTS
 
@@ -880,7 +881,7 @@ There it is. Looks like the copy worked. Change back to the `website` directory 
 
 ### 585.1
 
-Remind me of the files here by listing the contents.
+Remind yourself of the files here by listing the contents.
 
 #### HINTS
 
@@ -893,7 +894,7 @@ Remind me of the files here by listing the contents.
 
 ### 590.1
 
-You copied the background image to the `images` folder so you don't need the one here anymore. You can remove a file with `rm filename`. Remove `background.jpg` from the `website` folder.
+You copied the background image to the `images` folder so you don't need the one here anymore. You can remove a file with `rm <filename>`. Remove `background.jpg` from the `website` folder.
 
 #### HINTS
 
@@ -922,8 +923,8 @@ Okay, it's gone. Next, copy `header.png` to the `images` folder.
 
 #### HINTS
 
-- Here's the example again: `cp file destination`
-- You used `cp background.jpg images` before
+- Here's the example again: `cp <file> <destination>`
+- You previously used `cp background.jpg images`
 - Don't try to use a different method to copy it
 - Enter `cp header.png images`
 - Make sure you are in the `website` folder first
@@ -937,8 +938,8 @@ Last, copy the "footer" image to the `images` folder.
 
 #### HINTS
 
-- Here's the example again: `cp file destination`
-- You used `cp header.png images` before
+- Here's the example again: `cp <file> <destination>`
+- You previously used `cp header.png images`
 - Don't try to use a different method to copy it
 - Enter `cp footer.jpeg images`
 - Make sure you are in the `website` folder first
@@ -948,7 +949,7 @@ Last, copy the "footer" image to the `images` folder.
 
 ### 630.1
 
-They should all be copied over. Change to the `images` directory so you can make sure.
+All the images should be copied over. Change to the `images` directory so you can make sure.
 
 #### HINTS
 
@@ -975,7 +976,7 @@ Check if the images are here by listing the contents.
 
 ### 650.1
 
-Yes, they all made it here. Go back to the `website` folder so you can delete the original files.
+They all made it here. Go back to the `website` folder so you can delete the original files.
 
 #### HINTS
 
@@ -989,7 +990,7 @@ Yes, they all made it here. Go back to the `website` folder so you can delete th
 
 ### 660.1
 
-List the contents to remind me of the file names to delete please.
+List the contents to remind youself of the filenames to delete.
 
 #### HINTS
 
@@ -1007,9 +1008,11 @@ There's two that you don't need anymore. Remove the "header" image file from the
 #### HINTS
 
 - Use the "remove" command
+- Here's an example: `rm <filename>`
 - You previously used `rm background.jpg`
-- Don't try to use a different method to delete the file
+- It's the `header.png` file
 - Enter `rm header.png` in the terminal
+- Don't try to use a different method to delete the file
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
 
@@ -1046,7 +1049,7 @@ List the contents of the `website` folder to check if they are gone.
 
 ### 700.1
 
-Looks like they're all deleted. I got the extensions wrong for the font files. You can rename them with `mv` like this: `mv filename new-filename`. `mv` stands for "move", it can **rename or move** something. Rename `roboto.font` to `roboto.woff`.
+Looks like they're all deleted. There was a mistake with the extensions for the font files. You can rename them with `mv` like this: `mv <filename> <new_filename>`. `mv` stands for "move", it can **rename or move** something. Rename `roboto.font` to `roboto.woff`.
 
 #### HINTS
 
@@ -1077,8 +1080,9 @@ Do you see the "roboto" font? The rename worked. Next, rename the "lato" font fi
 #### HINTS
 
 - Use the "move" command to rename a file
-- Here's the example: `mv filename new-filename`
+- Here's the example: `mv <filename> <new_filename>`
 - You previously used: `mv roboto.font roboto.woff`
+- It's the `lato.font` file
 - Don't try to rename it with other methods
 - Enter `mv lato.font lato.ttf`
 - Make sure you are in the `website` folder first
@@ -1088,13 +1092,14 @@ Do you see the "roboto" font? The rename worked. Next, rename the "lato" font fi
 
 ### 730.1
 
-Last, rename the "menlo" font to `menlo.otf`.
+Lastly, rename the "menlo" font to `menlo.otf`.
 
 #### HINTS
 
 - Use the "move" command to rename a file
-- Here's the example: `mv filename new-filename`
+- Here's the example: `mv <filename> <new_filename>`
 - You previously used: `mv lato.font lato.ttf`
+- It's the `menlo.font` file
 - Don't try to rename it with other methods
 - Enter `mv menlo.font menlo.otf`
 - Make sure you are in the `website` folder first
@@ -1104,7 +1109,7 @@ Last, rename the "menlo" font to `menlo.otf`.
 
 ### 740.1
 
-Use "list" to make sure those last two got renamed.
+Use the "list" command to make sure those last two got renamed.
 
 #### HINTS
 
@@ -1117,12 +1122,13 @@ Use "list" to make sure those last two got renamed.
 
 ### 750.1
 
-Take a look at the files to make sure they got renamed. I think those font files could be organized into a folder as well. Make a `fonts` directory in the `website` folder.
+Take a look at the files to make sure they got renamed. Those font files could be organized into a folder as well. Make a `fonts` directory in the `website` folder to put them in.
 
 #### HINTS
 
 - Use the "make directory" command
 - It's the `mkdir` command
+- Here's an example: `mkdir <directory_name>`
 - Don't try to create the folder with another method
 - Enter `mkdir fonts` into the terminal
 - Make sure you are in the `website` folder first
@@ -1145,12 +1151,11 @@ List the contents of the `website` folder to make sure your new folder is there.
 
 ### 760.1
 
-See it? You renamed the font files with `mv`, you can also move them with it. Move the "roboto" font to the new `fonts` folder.
+See it? You renamed the font files with `mv`, you can also move files with it. Move the "roboto" font to the new `fonts` folder. Here's an example: `mv <file> <destination>`.
 
 #### HINTS
 
 - Use the "move" command
-- Here's an example: `mv file destination`
 - The file to move is `roboto.woff`
 - Don't try to move the file with another method
 - Enter `mv roboto.woff fonts`
@@ -1161,7 +1166,7 @@ See it? You renamed the font files with `mv`, you can also move them with it. Mo
 
 ### 770.1
 
-I found a command called `find`. You can use it to find things, but it can also list your whole file tree. Enter `find` to view the file tree of the `website` folder.
+You can use `find` to find things or view a file tree. Enter `find` to view the file tree of the `website` folder to see all the files and folders withing it.
 
 #### HINTS
 
@@ -1175,11 +1180,12 @@ I found a command called `find`. You can use it to find things, but it can also 
 
 ### 780.1
 
-You can see everything in this `website` folder and it's descendant folders. Notice that they all start with `./` to represent this folder. Can you see that your font moved to the `fonts` folder? Next, move the "lato" font to the `fonts` folder.
+You can see everything in this `website` folder and it's descendant folders. Notice that they all start with `./` to represent this folder. You can see that your font moved to the `fonts` folder. Next, move the "lato" font to the `fonts` folder.
 
 #### HINTS
 
 - Use the "move" command
+- Here's an example: `mv <file> <destination>`
 - The file to move is `lato.ttf`
 - You previously used: `mv roboto.woff fonts`
 - Don't try to move the file with another method
@@ -1196,6 +1202,7 @@ There's one more font to move. Move the "menlo" font to the `fonts` folder.
 #### HINTS
 
 - Use the "move" command
+- Here's an example: `mv <file> <destination>`
 - The file to move is `menlo.otf`
 - You previously used: `mv lato.ttf fonts`
 - Don't try to move the file with another method
@@ -1207,7 +1214,7 @@ There's one more font to move. Move the "menlo" font to the `fonts` folder.
 
 ### 800.1
 
-Use `find` again to make sure those two got moved.
+Use `find` again to list the whole file tree and make sure those two got moved.
 
 #### HINTS
 
@@ -1225,6 +1232,7 @@ Yes, you can see them all in the `fonts` folder. Let's organize some more. Make 
 #### HINTS
 
 - Use the "make directory" command
+- Here's an example: `mkdir <directory_name>`
 - Enter `mkdir client` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
@@ -1233,7 +1241,7 @@ Yes, you can see them all in the `fonts` folder. Let's organize some more. Make 
 
 ### 860.1
 
-You can make a folder in that `client` folder from here by adding it to the path like this: `mkdir client/new-folder-name`. Make a `src` directory in the `client` folder from here.
+You can make a folder in that `client` folder from here by adding it to the path like this: `mkdir client/<new_folder_name>`. Make a `src` directory in the `client` folder from here.
 
 #### HINTS
 
@@ -1273,7 +1281,7 @@ Use `find` to view the file tree and make sure it moved.
 
 ### 890.1
 
-Can you see the `index.html` file in your new `src` folder? Looks like it moved :smile: There's some more files that can go in the `src` folder. Move `index.js` there from here.
+Can you see the `index.html` file in your new `src` folder? Looks like it moved :smile: There's some more files that can go in the `src` folder. Move `index.js` to it from here.
 
 #### HINTS
 
@@ -1313,7 +1321,7 @@ Seems like you can do anything right from here. Take another look at the tree wi
 
 ### 920.1
 
-Things are looking more organized :smile: You can use `find folder-name` to display the tree of a different folder. View the file tree of the `client` folder from the `website` folder.
+Things are looking more organized :smile: You can use `find <folder_name>` to display the tree of a different folder. View the file tree of the `client` folder from the `website` folder.
 
 #### HINTS
 
@@ -1327,7 +1335,7 @@ Things are looking more organized :smile: You can use `find folder-name` to disp
 
 ### 930.1
 
-Now you just see what's in `client`. I wonder what else `find` can do. View the "help" menu of the `find` command.
+Now you just see what's in the `client` folder. I wonder what else `find` can do. View the "help" menu of the `find` command.
 
 #### HINTS
 
@@ -1342,7 +1350,7 @@ Now you just see what's in `client`. I wonder what else `find` can do. View the 
 
 ### 940.1
 
-The menu isn't very pretty, but I see `-name` there. You can search for something with `find -name filename`. Use `find` and the `-name` flag to search for `index.html`.
+The menu isn't very pretty, but there a `-name` flag in there. You can use it to search for something with `find -name <filename>`. Use `find` with the `-name` flag to search for `index.html`.
 
 #### HINTS
 
@@ -1354,7 +1362,7 @@ The menu isn't very pretty, but I see `-name` there. You can search for somethin
 
 ### 950.1
 
-That's nice, it shows you where that file is. Using the same command, find where `styles.css` is.
+It shows you where that file is. Using the same command, find where the `styles.css` file is.
 
 #### HINTS
 
@@ -1369,7 +1377,7 @@ That's nice, it shows you where that file is. Using the same command, find where
 
 ### 960.1
 
-I wonder if you can search for a folder like that. Using the same command, find the `src` folder.
+You can search for folders with it, as well. Using the same command and flag, find the `src` folder.
 
 #### HINTS
 
@@ -1384,7 +1392,7 @@ I wonder if you can search for a folder like that. Using the same command, find 
 
 ### 970.1
 
-It works :smile: View the file tree of the `website` folder so I can see what else we need to do.
+:smile: View the file tree of the `website` folder to see what else you need to do.
 
 #### HINTS
 
@@ -1398,7 +1406,7 @@ It works :smile: View the file tree of the `website` folder so I can see what el
 
 ### 980.1
 
-What's next? More organizing! I think you should put all the assets in one spot. Change into the `client` folder for me please.
+What's next? More organizing! You should put all the assets in one spot. Change into the `client` folder.
 
 #### HINTS
 
@@ -1417,6 +1425,7 @@ Make a new directory named `assets` in the `client` folder.
 
 - Use the "make directory" command
 - It's the `mkdir` command
+- Here's an example: `mkdir <directory_name>`
 - You previously used `mkdir client`
 - Enter `mkdir assets` in the terminal
 - Make sure you are in the `client` folder first
@@ -1426,7 +1435,7 @@ Make a new directory named `assets` in the `client` folder.
 
 ### 1000.1
 
-Change into the `assets` folder.
+Change into the new `assets` folder.
 
 #### HINTS
 
@@ -1469,7 +1478,7 @@ Go to your new `images` folder.
 
 ### 1030.1
 
-I want the images here instead. Create `background.jpg` in this folder.
+You want the images here. Create `background.jpg` in this folder.
 
 #### HINTS
 
@@ -1483,7 +1492,7 @@ I want the images here instead. Create `background.jpg` in this folder.
 
 ### 1040.1
 
-Wait a second, why are you making these again. You can just move the other images here. Go back to the `website` folder from here. It's three folder back.
+Wait. You don't need to recreate them. You can just move the other images here. Go back to the `website` folder from here. It's three folder back.
 
 #### HINTS
 
@@ -1522,13 +1531,12 @@ List the contents of the `images` folder to see the files here.
 
 ### 1060.1
 
-Umm, first I think you should move them back to the website folder. Move `header.png` back to the `website` folder.
+Umm, first I think you should move them back to the website folder. Move `header.png` back to the `website` folder. The destination for the file is `..`
 
 #### HINTS
 
 - Use the "move" command
-- Here's an example: `mv file destination`
-- The destination you want is `..`
+- Here's an example: `mv <file> <destination>`
 - Don't try to move the file with another method
 - Enter `mv header.png ..` in the terminal
 - Make sure you are in the `images` folder first
@@ -1564,7 +1572,7 @@ It's gone. Go back to the `website` folder.
 
 ### 1080.1
 
-List what's here
+List what's here.
 
 #### HINTS
 
@@ -1577,12 +1585,13 @@ List what's here
 
 ### 1090.1
 
-I see the file you just moved. Next, I want you to move it to the other images folder. First, use `find` to search for the `images` folder. Don't forget the correct flag.
+There's the file you just moved. Next, you will move it to the `client/assets/images` folder. First, use `find` with the correct flag to search for `images`.
 
 #### HINTS
 
 - Use the "find" command with the "name" flag
 - The name flag is: `-name`
+- Here's an example `find -name <folder>`
 - You previously used `find -name src`
 - Enter `find -name images` in the terminal
 - Make sure you are in the `website` folder first
@@ -1592,13 +1601,12 @@ I see the file you just moved. Next, I want you to move it to the other images f
 
 ### 1100.1
 
-There's your two image folders. Move `header.png` to the one with the longer path.
+There's your two image folders. Move `header.png` to the one with the longer path. Just use it as the destination to do so.
 
 #### HINTS
 
 - Use the "move" command
-- Here's an example: `mv file destination`
-- Use the longer path from the find command as the destination
+- Here's an example: `mv <file> <destination>`
 - The destination you want is `client/assets/images`
 - Don't try to move the file with another method
 - Enter `mv header.png client/assets/images` in the terminal
@@ -1670,7 +1678,7 @@ View the file tree of this folder to make sure all your images are over in their
 
 ### 1150.1
 
-You don't need the old `images` folder anymore. You can use `rmdir folder-name` to remove a folder. `rmdir` stands for "remove directory". Try to remove the `images` folder with `rmdir`. Make sure it's the one in the `website` folder.
+You don't need the old `images` folder anymore. You can use `rmdir <directory_name>` to remove a folder. `rmdir` stands for "remove directory". Try to remove the `images` folder with `rmdir`. Make sure it's the one in the `website` folder.
 
 #### HINTS
 
@@ -1682,12 +1690,13 @@ You don't need the old `images` folder anymore. You can use `rmdir folder-name` 
 
 ### 1170.1
 
-Directory not empty? Oh yeah, there's still the background image in there. Remove the background image file in the `images` folder from here. Make sure it's the `images` folder in the `website` folder.
+Directory not empty? Oh yeah, there's still the background image in there. Remove the background image file in the `images` folder from here. Make sure it's the one in the `website/images` folder.
 
 #### HINTS
 
 - Use the `rm` command
-- The filename is `background.jpg` in the `images` folder
+- Here's an example: `rm <file_path>`
+- The file path you want is `images/background.jpg`
 - Enter `rm images/background.jpg` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
@@ -1742,7 +1751,7 @@ Move the `CodeAlly.svg` file to your new `icons` folder.
 #### HINTS
 
 - Use the "move" command
-- Here's a tip: `mv CodeAlly.svg path-to-icons-folder`
+- Here's a tip: `mv CodeAlly.svg <path_to_icons_folder>`
 - The destination path is `client/assets/icons`
 - Enter `mv CodeAlly.svg client/assets/icons` into the terminal
 - Make sure you are in the `website` folder first
@@ -1771,7 +1780,7 @@ Verify that the file moved to the `icons` folder. Next, move the "CodeRoad" file
 
 - Use the "move" command
 - The filename is `CodeRoad.svg`
-- Here's a tip: `mv CodeRoad.svg path-to-icons-folder`
+- Here's a tip: `mv CodeRoad.svg <path_to_icons_folder>`
 - Enter `mv CodeRoad.svg client/assets/icons` into the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
@@ -1780,12 +1789,12 @@ Verify that the file moved to the `icons` folder. Next, move the "CodeRoad" file
 
 ### 1230.1
 
-Last, move the "freeCodeCamp" file to your `icons` folder.
+Lastly, move the "freeCodeCamp" file to your `icons` folder.
 
 #### HINTS
 
 - Use the "move" command
-- Here's a tip: `mv freeCodeCamp.svg path-to-icons-folder`
+- Here's a tip: `mv freeCodeCamp.svg <path_to_icons_folder>`
 - The path is `client/assets/icons`
 - Enter `mv freeCodeCamp.svg client/assets/icons` into the terminal
 - Make sure you are in the `website` folder first
@@ -1822,12 +1831,12 @@ This looks much better. The three icons are now in the `icons` folder. Make a `f
 
 ### 1260.1
 
-Turns out I need some different font files for the website. From here, create `roboto-bold.woff` in your new `fonts` folder. You can put the path in front of the filename of where you want it to go.
+Turns out you want some different font for the website. From here, create `roboto-bold.woff` in your new `fonts` folder. You can put the path in front of the filename of where you want it to go.
 
 #### HINTS
 
 - Use the "touch" command
-- Here's an example: `touch path/filename`
+- Here's an example: `touch <path/filename>`
 - The file needs to be created in the `client/assets/fonts` folder
 - Enter `touch client/assets/fonts/roboto-bold.woff` in the terminal
 - Make sure you are in the `website` folder first
@@ -1842,6 +1851,7 @@ Next, create `roboto-light.woff` in your new `fonts` folder from here.
 #### HINTS
 
 - Use the "touch" command
+- Here's an example: `touch <path/filename>`
 - Put the file in the `client/assets/fonts` folder
 - You previously used: `touch client/assets/fonts/roboto-bold.woff`
 - Enter `touch client/assets/fonts/roboto-light.woff` in the terminal
@@ -1857,6 +1867,7 @@ View the file tree of the `client/assets/fonts` folder from here to see if your 
 #### HINTS
 
 - Use the "find" command with the folder path you want to see
+- Here's an example: `find <path_to_folder>`
 - Enter `find client/assets/fonts` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
@@ -1870,6 +1881,7 @@ Two more font's to go. Create `lato-bold.ttf` in the new `fonts` folder from her
 #### HINTS
 
 - Use the "touch" command
+- Here's an example: `touch <path/filename>`
 - Put the file in the `client/assets/fonts` folder
 - You previously used: `touch client/assets/fonts/roboto-light.woff`
 - Enter `touch client/assets/fonts/lato-bold.ttf` in the terminal
@@ -1885,6 +1897,7 @@ Lastly, create `lato-light.ttf` in your new `fonts` folder from here.
 #### HINTS
 
 - Use the "touch" command
+- Here's an example: `touch <path/filename>`
 - You previously used: `touch client/assets/fonts/lato-bold.ttf`
 - Enter `touch client/assets/fonts/lato-light.ttf` in the terminal
 - Make sure you are in the `website` folder first
@@ -1907,7 +1920,7 @@ View your file tree and make sure the files are there.
 
 ### 1310.1
 
-Things are looking more organized :smile: I see the new fonts. Now you can remove the old `fonts` folder and everything in it. You can't do that with `rmdir` since it's not empty. I have an idea, view the "help" menu of the `rm` command.
+Things are looking more organized :smile: The new fonts are there. Now you can remove the old `fonts` folder and everything in it. You can't do that with `rmdir` since it's not empty. View the "help" menu of the `rm` command to see if you can find anything.
 
 #### HINTS
 
@@ -1921,13 +1934,13 @@ Things are looking more organized :smile: I see the new fonts. Now you can remov
 
 ### 1315.1
 
-I see a `-r` flag that says, "remove directories and their contents recursively". That will remove the folder and everything in it. Use the "remove" command with that flag to remove the `fonts` folder. Make sure it's the one in the `website` folder.
+There's a `-r` flag that says, `remove directories and their contents recursively`. That will remove the folder and everything in it. Use the "remove" command with that flag to remove the `fonts` folder. Make sure it's the one in the `website` folder. Be careful not to remove the wrong folder.
 
 #### HINTS
 
 - The "remove" command is `rm`
 - The flag you want is `-r`
-- Here's an example: `rm -r folder`
+- Here's an example: `rm -r <folder>`
 - Enter `rm -r fonts` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
@@ -1949,7 +1962,7 @@ List what's here to see if it's gone.
 
 ### 1330.1
 
-Looks like it’s gone. I’m sure it went to the trash can right? No, it’s just gone. I would recommend you **be very careful when recursively removing files** like that. I need a few more files for the boilerplate. Create `package.json` in the `website` folder.
+Looks like it’s gone. Surely, it went to the trash can right? No, it’s just gone. You should **be very careful when recursively removing files** like that. It will delete everything, and can destroy your operating system. There's a few more files for the boilerplate. Create `package.json` in the `website` folder.
 
 #### HINTS
 
@@ -2002,11 +2015,12 @@ List the content of this folder to make sure your new files are there.
 
 ### 1370.1
 
-I think the boilerplate is complete. Print `Yay!` to the terminal.
+The boilerplate is complete. Use `echo` to print `Yay!` to the terminal.
 
 #### HINTS
 
 - Use the "echo" command
+- Here's an example: `echo <text>`
 - Enter `echo Yay!` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
@@ -2015,7 +2029,7 @@ I think the boilerplate is complete. Print `Yay!` to the terminal.
 
 ### 1380.1
 
-Print `I finished the boilerplate!` to the terminal
+Print `I finished the boilerplate!` to the terminal.
 
 #### HINTS
 
@@ -2041,7 +2055,7 @@ Print `one more thing...` to the terminal
 
 ### 1400.1
 
-You can print to a file instead of the terminal with `echo text >> filename`. Echo `I made this boilerplate` to your `README.md` file.
+You can print to a file instead of the terminal with `echo text >> filename`. Use it to print `I made this boilerplate` to your `README.md` file.
 
 #### HINTS
 
@@ -2067,12 +2081,12 @@ Use `more` to view your `README.md` file.
 
 ### 1410.1
 
-Now that line is in the file. Add `from the command line` to your `README.md` file with the `echo` command.
+Now that line is in the file. Add `from the command line` to your `README.md` file with the `echo` command and the same method.
 
 #### HINTS
 
 - Use the "echo" command with `>>` to add text to a file
-- Here's an example: `echo text >> filename`
+- Here's an example: `echo <text> >> <filename>`
 - You previously used: `echo I made this boilerplate >> README.md`
 - Enter `echo from the command line >> README.md` in the terminal
 - Make sure you are in the `website` folder first
@@ -2100,7 +2114,7 @@ Now the file has two lines. Add `for the freeCodeCamp bash lessons` to your "rea
 #### HINTS
 
 - Use the "echo" command with `>>` to add text to a file
-- Here's an example: `echo text >> filename`
+- Here's an example: `echo <text> >> <filename>`
 - You previously used: `echo from the command line >> README.md` in the terminal
 - Enter `echo for the freeCodeCamp bash lessons >> README.md` in the terminal
 - Make sure you are in the `website` folder first
@@ -2136,7 +2150,7 @@ View your "readme" file again like you did before.
 
 ### 1445.1
 
-You are back where you started. List what's here for me.
+You are back where you started. List what's here.
 
 #### HINTS
 
@@ -2149,13 +2163,13 @@ You are back where you started. List what's here for me.
 
 ### 1450.1
 
-Still the same two folders. Rename the `website` folder to `website-boilerplate`
+Still the same two folders. Rename the `website` folder to `website-boilerplate`.
 
 #### HINTS
 
 - Use the "move" command
 - You previously used: `mv menlo.font menlo.otf` to rename a file
-- Here's an example: `mv folder-name new-folder-name`
+- Here's an example: `mv <folder_name> <new_folder_name>`
 - Enter `mv website website-boilerplate` in the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
@@ -2177,7 +2191,7 @@ List the contents of this folder to see the new name.
 
 ### 1470.1
 
-Thanks for making this for me. I need you to make me a copy of it. Take a look at the "help" menu of the "copy" command.
+Thanks for making this. You to make copy of it. Take a look at the "help" menu of the "copy" command.
 
 #### HINTS
 
@@ -2191,13 +2205,13 @@ Thanks for making this for me. I need you to make me a copy of it. Take a look a
 
 ### 1475.1
 
-Scroll up to find that "recursive" flag. You need to use it again to copy the whole folder for me. Copy the whole boilerplate into a folder named `toms-website`.
+Scroll up to find that "recursive" flag. You need to use it again to copy the whole folder. Copy the whole boilerplate into a folder named `toms-website`.
 
 #### HINTS
 
 - The "copy" command is `cp`
 - The "recursive" flag is `-r`
-- Here's an example: `cp -r folder-to-copy name-of-copy`
+- Here's an example: `cp -r <folder_to_copy> <name_of_copy>`
 - Enter `cp -r website-boilerplate toms-website` in the terminal
 - Make sure you are in the `project` folder first
 - Enter `cd ~/project` to get to the `project` folder if you aren't there
@@ -2206,7 +2220,7 @@ Scroll up to find that "recursive" flag. You need to use it again to copy the wh
 
 ### 1480.1
 
-List the contents of the `project` folder so I can see the folder for me.
+List the contents of the `project` folder to see the new copy.
 
 #### HINTS
 
@@ -2219,13 +2233,13 @@ List the contents of the `project` folder so I can see the folder for me.
 
 ### 1490.1
 
-Thanks. Use `find` to view the tree of my folder.
+Thanks. Use `find` to view the tree of `toms-website`.
 
 #### HINTS
 
 - Use the "find" command
 - Add the folder name to the command
-- It's the folder you made for me
+- Here's an example: `find <folder_name>`
 - It's the `toms-website` folder
 - Enter `find toms-website` in the terminal
 - Make sure you are in the `project` folder first
@@ -2235,7 +2249,7 @@ Thanks. Use `find` to view the tree of my folder.
 
 ### 1500.1
 
-Use `find` to view the tree of the boilerplate folder so I can make sure it matches.
+Use `find` to view the tree of the boilerplate folder to make sure it matches.
 
 #### HINTS
 
@@ -2250,7 +2264,7 @@ Use `find` to view the tree of the boilerplate folder so I can make sure it matc
 
 ### 1510.1
 
-Awesome! I think we're done here. Clear the terminal one last time for me.
+Awesome! You are finished for now. Clear the terminal one last time.
 
 #### HINTS
 
@@ -2266,6 +2280,7 @@ Print "goodbye terminal" to the terminal.
 #### HINTS
 
 - Use the "echo" command
+- Here's an example: `echo <text>`
 - Enter `echo goodbye terminal` into the terminal
 
 ## 1530. Exit
