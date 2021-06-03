@@ -2,8 +2,8 @@ version: '0.2.5'
 config:
   setup:
     commands:
-      - cd freeCodeCamp && npm install
       - sudo cp ~/project/freeCodeCamp/.bashrc ~
+      - cd freeCodeCamp && npm install
   testRunner:
     command: npm run programmatic-test
     args:
