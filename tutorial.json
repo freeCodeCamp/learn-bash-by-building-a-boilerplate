@@ -206,7 +206,7 @@
               "9ffcb96e7be5533f9da05ab9c215655cc11005de"
             ]
           },
-          "content": "There's two folders and two files here. The folders are blue and the files include their extension. Next, change to that `test` directory.",
+          "content": "There's two folders and three files here. The folders are blue and the files include their extension. Next, change to that `test` directory.",
           "hints": [
             "Use the \"change directory\" command",
             "Here's an example: `cd folder-name`",
