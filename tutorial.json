@@ -3695,7 +3695,7 @@
               "2d74e9a265c59002d83eba77680590ad908e91d8"
             ]
           },
-          "content": "Turns out you want some different font for the website. From here, create `roboto-bold.woff` in your new `fonts` folder. You can put the path in front of the filename of where you want it to go.",
+          "content": "Turns out you want some different fonts for the website. From here, create `roboto-bold.woff` in your new `fonts` folder. You can put the path in front of the filename of where you want it to go.",
           "hints": [
             "Use the \"touch\" command",
             "Here's an example: `touch <path/filename>`",
