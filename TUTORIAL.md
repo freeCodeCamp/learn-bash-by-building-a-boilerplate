@@ -1931,7 +1931,7 @@ This looks much better. The three icons are now in the `icons` folder. Make a `f
 
 ### 1260.1
 
-Turns out you want some different font for the website. From here, create `roboto-bold.woff` in your new `fonts` folder. You can put the path in front of the filename of where you want it to go.
+Turns out you want some different fonts for the website. From here, create `roboto-bold.woff` in your new `fonts` folder. You can put the path in front of the filename of where you want it to go.
 
 #### HINTS
 
