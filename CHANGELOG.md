@@ -1,6 +1,6 @@
 ## Contributing
 
-**Never** make changes to one of the version branches - e.g. `v1.0.0`. Always create a new version branch if something on that branch needs changing. If you are **only** making instructional changes on the `main` branch, you do not need to create a new branch or list the changes here.
+Please read the guidelines in the [contributing docs](https://contribute.freecodecamp.org/#/how-to-work-on-tutorials-that-use-coderoad) before contributings. Contributions to this project needs to follow the correct workflow.
 
 # Change Log
 
