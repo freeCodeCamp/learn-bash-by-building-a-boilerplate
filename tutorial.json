@@ -35,7 +35,17 @@
         "name": "node",
         "version": ">=10"
       }
-    ]
+    ],
+    "webhook": {
+      "url": "http://freecodecamp.org/coderoad-challenge-completed",
+      "events": {
+        "init": false,
+        "reset": false,
+        "step_complete": false,
+        "level_complete": false,
+        "tutorial_complete": true
+      }
+    }
   },
   "levels": [
     {
