@@ -1,8 +1,8 @@
-version: '1.0.0'
+version: '1.0.1'
 config:
   setup:
     commands:
-      - sudo cp ~/project/freeCodeCamp/.bashrc ~
+      - ./freeCodeCamp/setup.sh
       - cd freeCodeCamp && npm install
   testRunner:
     command: npm run programmatic-test
@@ -11,9 +11,10 @@ config:
     directory: freeCodeCamp
   repo:
     uri: https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate
-    branch: v1.0.0
+    branch: v1.0.1
   reset:
     commands:
+      - './freeCodeCamp/setup.sh'
       - './freeCodeCamp/reset.sh'
   dependencies:
     - name: node
