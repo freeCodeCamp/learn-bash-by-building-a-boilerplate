@@ -1979,7 +1979,7 @@ View the file tree of the `client/assets/fonts` folder from here to see if your 
 
 ### 1280.1
 
-Two more font's to go. Create `lato-bold.ttf` in the new `fonts` folder from here.
+Two more fonts to go. Create `lato-bold.ttf` in the new `fonts` folder from here.
 
 #### HINTS
 
