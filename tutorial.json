@@ -26,6 +26,12 @@
       "uri": "https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate",
       "branch": "v1.0.1"
     },
+    "continue": {
+      "commands": [
+        "./freeCodeCamp/setup.sh",
+        "./freeCodeCamp/reset.sh"
+      ]
+    },
     "reset": {
       "commands": [
         "./freeCodeCamp/setup.sh",
