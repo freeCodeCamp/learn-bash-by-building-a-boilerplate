@@ -25,7 +25,7 @@ config:
     - name: node
       version: '>=10'
   webhook:
-    url: 'http://freecodecamp.dev/coderoad-challenge-completed'
+    url: 'https://api.freecodecamp.dev/coderoad-challenge-completed'
     events:
       init: false
       reset: false
