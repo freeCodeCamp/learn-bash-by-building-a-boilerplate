@@ -45,7 +45,7 @@
       }
     ],
     "webhook": {
-      "url": "https://api.freecodecamp.dev/coderoad-challenge-completed",
+      "url": "https://api.freecodecamp.org/coderoad-challenge-completed",
       "events": {
         "init": false,
         "reset": false,
