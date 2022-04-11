@@ -223,7 +223,7 @@ That's a lot of folders. You can add a **flag** to a command to use it different
 
 ### 170.1
 
-It is showing more details about each item in here and it's a little easier to read. One of the folders is named `has`, why don't you change into it.
+It is showing more details about each item in here and it's a little easier to read. One of the folders is named `has`, why don't you change your current working directory to it?
 
 #### HINTS
 
