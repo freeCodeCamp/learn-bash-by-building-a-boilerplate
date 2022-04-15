@@ -434,7 +434,7 @@ That's right. Why don't you get a fresh start by clearing the terminal.
 
 ### 280.1
 
-You will be making a website boilerplate. You can make a new folder with `mkdir <folder_name>`. `mkdir` stands for "make directory". Make a `website` directory in this `project` folder. Remeber that "directory" and "folder" mean the same thing.
+You will be making a website boilerplate. You can make a new folder with `mkdir <folder_name>`. `mkdir` stands for "make directory". Make a `website` directory in this `project` folder. Remember that "directory" and "folder" mean the same thing.
 
 #### HINTS
 

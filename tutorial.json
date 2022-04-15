@@ -929,7 +929,7 @@
               "76e9a739cc8f3646b273de3ebf5b332345c1c8bb"
             ]
           },
-          "content": "You will be making a website boilerplate. You can make a new folder with `mkdir <folder_name>`. `mkdir` stands for \"make directory\". Make a `website` directory in this `project` folder. Remeber that \"directory\" and \"folder\" mean the same thing.",
+          "content": "You will be making a website boilerplate. You can make a new folder with `mkdir <folder_name>`. `mkdir` stands for \"make directory\". Make a `website` directory in this `project` folder. Remember that \"directory\" and \"folder\" mean the same thing.",
           "hints": [
             "Enter `mkdir website` into the terminal",
             "Make sure to make it in the `project` folder",
