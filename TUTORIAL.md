@@ -215,6 +215,7 @@ That's a lot of folders. You can add a **flag** to a command to use it different
 
 - Use the "list" command
 - Add the `-l` flag to the command
+- That's a lowercase letter `l`, not the number `1`
 - Enter `ls -l` into the terminal
 - Make sure you are in the `node_modules` folder first
 - Enter `cd ~/project/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there
