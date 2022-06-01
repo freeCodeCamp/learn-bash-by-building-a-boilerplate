@@ -1,5 +1,5 @@
 id: 'freeCodeCamp/learn-bash-by-building-a-boilerplate:v1.0.0'
-version: '1.0.2'
+version: '1.0.3'
 config:
   setup:
     commands:
@@ -11,8 +11,8 @@ config:
       tap: --reporter=mocha-tap-reporter
     directory: freeCodeCamp
   repo:
-    uri: https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate
-    branch: v1.0.2
+    uri: https://github.com/bellhuffstutler/learn-bash-by-building-a-boilerplate
+    branch: v1.0.3
   continue:
     commands:
       - './freeCodeCamp/setup.sh'
