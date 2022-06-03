@@ -1,5 +1,5 @@
 id: 'freeCodeCamp/learn-bash-by-building-a-boilerplate:v1.0.0'
-version: '1.0.2'
+version: '1.0.3'
 config:
   setup:
     commands:
@@ -12,7 +12,7 @@ config:
     directory: freeCodeCamp
   repo:
     uri: https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate
-    branch: v1.0.2
+    branch: v1.0.3
   continue:
     commands:
       - './freeCodeCamp/setup.sh'
