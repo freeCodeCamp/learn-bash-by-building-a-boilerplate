@@ -27,3 +27,7 @@ Whenever a new version is created, add the new branch name and the changes here
 - Moved `touch` and `mkdir` commands to variables: `checkTouch` and `checkMkdir`
 - Added a new check and variable for `mv` on `touch` and `mkdir` to account for renaming typos
 - changed asserts in those lessons to `assert(checkTouch || checkMV);` or `assert(checkTouch || checkMV);`
+
+## [v1.0.4]
+
+- Remove part of test on 700, 720, 730, and 1450 to similarly (as v1.0.3) account for typos when renaming something
