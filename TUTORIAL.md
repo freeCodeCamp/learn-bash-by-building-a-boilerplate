@@ -196,7 +196,7 @@ You checked out the `test` folder and the `package.json` file. What next? Why do
 
 ### 150.1
 
-Now the prompt includes `node_modules` since that's where you are. List what's in the here.
+Now the prompt includes `node_modules` since that's where you are. List what's in the folder.
 
 #### HINTS
 
@@ -1031,7 +1031,7 @@ They all made it here. Go back to the `website` folder so you can delete the ori
 
 ### 660.1
 
-List the contents to remind youself of the filenames to delete.
+List the contents to remind yourself of the filenames to delete.
 
 #### HINTS
 
@@ -1234,7 +1234,7 @@ You can use `find` to find things or view a file tree. Enter `find` to view the 
 
 ### 780.1
 
-You can see everything in this `website` folder and it's descendant folders. Notice that they all start with `./` to represent this folder. You can see that your font moved to the `fonts` folder. Next, move the "lato" font to the `fonts` folder.
+You can see everything in this `website` folder and its descendant folders. Notice that they all start with `./` to represent this folder. You can see that your font moved to the `fonts` folder. Next, move the "lato" font to the `fonts` folder.
 
 #### HINTS
 
@@ -1481,7 +1481,7 @@ What's next? More organizing! You should put all the assets in one spot. Change 
 
 #### HINTS
 
-- Use the "change directory command
+- Use the "change directory" command
 - Enter `cd client` in the terminal
 - Make sure you are in the `website` folder first
 - Enter `cd ~/project/website` to get to the `website` folder if you aren't there
@@ -2317,7 +2317,7 @@ List the contents of this folder to see the new name.
 
 ### 1470.1
 
-Thanks for making this. You need to make copy of it. Take a look at the "help" menu of the "copy" command.
+Thanks for making this. You need to make a copy of it. Take a look at the "help" menu of the "copy" command.
 
 #### HINTS
 
