@@ -457,7 +457,7 @@
               "166e287fad018d65bc0fb82698eaf4ff132bd8eb"
             ]
           },
-          "content": "Now the prompt includes `node_modules` since that's where you are. List what's in the here.",
+          "content": "Now the prompt includes `node_modules` since that's where you are. List what's in the folder.",
           "hints": [
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
@@ -2046,7 +2046,7 @@
               "0b6ce5161278fc0fd3b9ab030e980d3d7628fec6"
             ]
           },
-          "content": "List the contents to remind youself of the filenames to delete.",
+          "content": "List the contents to remind yourself of the filenames to delete.",
           "hints": [
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
@@ -2418,7 +2418,7 @@
               "d10c29703cbee9d19fb217c0b5088746ad41ca6a"
             ]
           },
-          "content": "You can see everything in this `website` folder and it's descendant folders. Notice that they all start with `./` to represent this folder. You can see that your font moved to the `fonts` folder. Next, move the \"lato\" font to the `fonts` folder.",
+          "content": "You can see everything in this `website` folder and its descendant folders. Notice that they all start with `./` to represent this folder. You can see that your font moved to the `fonts` folder. Next, move the \"lato\" font to the `fonts` folder.",
           "hints": [
             "Use the \"move\" command",
             "Here's an example: `mv <file> <destination>`",
@@ -2871,7 +2871,7 @@
           },
           "content": "What's next? More organizing! You should put all the assets in one spot. Change into the `client` folder.",
           "hints": [
-            "Use the \"change directory command",
+            "Use the \"change directory\" command",
             "Enter `cd client` in the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
@@ -4437,7 +4437,7 @@
               "0a20dafe1c0a6e17c95a2f3e5b5fc7449bf03a02"
             ]
           },
-          "content": "Thanks for making this. You need to make copy of it. Take a look at the \"help\" menu of the \"copy\" command.",
+          "content": "Thanks for making this. You need to make a copy of it. Take a look at the \"help\" menu of the \"copy\" command.",
           "hints": [
             "The \"copy\" command is `cp`",
             "The \"help\" flag is `--help`",
