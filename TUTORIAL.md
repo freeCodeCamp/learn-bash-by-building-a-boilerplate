@@ -1219,7 +1219,7 @@ See it? You renamed the font files with `mv`, you can also move files with it. M
 
 ### 770.1
 
-You can use `find` to find things or view a file tree. Enter `find` to view the file tree of the `website` folder to see all the files and folders withing it.
+You can use `find` to find things or view a file tree. Enter `find` to view the file tree of the `website` folder to see all the files and folders within it.
 
 #### HINTS
 
