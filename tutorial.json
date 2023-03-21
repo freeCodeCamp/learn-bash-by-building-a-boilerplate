@@ -2390,7 +2390,7 @@
               "fff0c0a2ae6a3c4a1f0bebfee9f460715cbb36ac"
             ]
           },
-          "content": "You can use `find` to find things or view a file tree. Enter `find` to view the file tree of the `website` folder to see all the files and folders withing it.",
+          "content": "You can use `find` to find things or view a file tree. Enter `find` to view the file tree of the `website` folder to see all the files and folders within it.",
           "hints": [
             "Use the \"find\" command",
             "Make sure you are in the `website` folder",
