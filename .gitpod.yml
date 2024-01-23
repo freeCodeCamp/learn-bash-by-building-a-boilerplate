@@ -1,0 +1,13 @@
+image:
+  file: .gitpod.Dockerfile
+
+# Commands to start on workspace startup
+tasks:
+  - before: |
+      sudo cp /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/.bashrc ~/.bashrc
+      exit
+
+vscode:
+  extensions:
+    - CodeRoad.coderoad
+    - https://github.com/freeCodeCamp/freecodecamp-dark-vscode-theme/releases/download/v1.0.0/freecodecamp-dark-vscode-theme-1.0.0.vsix

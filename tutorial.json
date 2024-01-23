@@ -1,6 +1,6 @@
 {
   "id": "freeCodeCamp/learn-bash-by-building-a-boilerplate:v1.0.0",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "summary": {
     "title": "Learn Bash by Building a Boilerplate",
     "description": "> Welcome to the Introduction to Bash lessons. I know it's scary, but you can do this!"
@@ -12,7 +12,7 @@
         "cd freeCodeCamp && npm install"
       ],
       "commits": [
-        "59ba5539df2c244e0c916b2ee2e0eae7019e45a2"
+        "1164ccd26850366ee650681ac16b6b4390222904"
       ]
     },
     "testRunner": {
@@ -23,8 +23,8 @@
       "directory": "freeCodeCamp"
     },
     "repo": {
-      "uri": "https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate",
-      "branch": "v1.0.4"
+      "uri": "https://github.com/moT01/learn-bash-by-building-a-boilerplate",
+      "branch": "v2.0.0"
     },
     "continue": {
       "commands": [
@@ -69,7 +69,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f7ce5034ba67755d70eabc1239bbf87d9980cb42"
+              "75aac4a4c8fdbb66759dbbfe873022f8d77c5d67"
             ]
           },
           "content": "**The first thing you need to do is start the terminal.** Do that by clicking the \"hamburger\" menu at the top left of the screen, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello terminal` into the terminal and press enter.",
@@ -93,14 +93,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "d256891c8b303ad8d971d66b13c30e0dfe5615be"
+              "6fe97b4879d2aa13e8ba5fb93d4287bb56b1c52c"
             ]
           },
           "content": "What you see in the terminal below is a folder (or directory) on this machine. Type `pwd` into the terminal and press enter to see the path of the folder. `pwd` stands for \"print working directory\".",
           "hints": [
             "Type `pwd` into the terminal and press enter",
-            "Make sure you are in the `project` folder when you enter the command",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder when you enter the command",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there"
           ]
         }
       ]
@@ -118,14 +118,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "6f99e86a037ba48df1076a41a6486ccf577addf3"
+              "c49f9dd0f4f6fa11e680c99c981b968d305cd98e"
             ]
           },
-          "content": "The output tells you where the folder you are in is located. You are in the `project` folder, which is in the `CodeAlly` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for \"list\".",
+          "content": "The output tells you where the folder you are in is located. You are in the `learn-bash-by-building-a-boilerplate` folder, which is in the `CodeAlly` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for \"list\".",
           "hints": [
             "Type `ls` into the terminal and press enter",
-            "Make sure you are in the `project` folder when you enter the command",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder when you enter the command",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there"
           ]
         }
       ]
@@ -143,15 +143,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "bb2a33287c903df1c0be1e5a14fcdf2b724a6786"
+              "1b051d6813dffa8982539942825ea6c951f97d7a"
             ]
           },
           "content": "The output is showing everything in this folder. There's two folders here. You can use `cd <folder_name>` to go into a folder. `cd` stands for \"change directory\". Change to the `freeCodeCamp` directory.",
           "hints": [
             "Capitalization matters",
             "Type `cd freeCodeCamp` into the terminal and press enter",
-            "Make sure you start in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Make sure you start in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there"
           ]
         }
       ]
@@ -169,7 +169,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3e0ed1c733c6f888d19ba4313b10b41053f6cc6e"
+              "b75c91b2d0767b41bb36f6265c6ebd823be33a4a"
             ]
           },
           "content": "You are in the `freecodecamp` folder now. You may have noticed that the prompt changed to include it. Print the working directory of the `freeCodeCamp` folder to see the full path of where you are.",
@@ -177,7 +177,7 @@
             "Use the \"print working directory\" command",
             "Type `pwd` into the terminal and press enter",
             "Make sure you are in the `freeCodeCamp` folder first",
-            "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
           ]
         }
       ]
@@ -195,15 +195,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "1ea06817f21d6e2224c85e3fd424bc1ef3dbf69e"
+              "1bbae49cdf76c09c68c5fc33706d5851f0c1dfad"
             ]
           },
-          "content": "You can see the path of the `freeCodeCamp` folder. It's in the `project` folder you were just in. List the contents of the `freeCodeCamp` folder to see what's here.",
+          "content": "You can see the path of the `freeCodeCamp` folder. It's in the `learn-bash-by-building-a-boilerplate` folder you were just in. List the contents of the `freeCodeCamp` folder to see what's here.",
           "hints": [
             "Use the \"list\" command",
             "Try typing `ls` into the terminal",
             "Make sure you are in the `freeCodeCamp` folder first",
-            "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
           ]
         }
       ]
@@ -221,7 +221,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "708102664fc93c62a74e4b3c05c7d73159db2198"
+              "009cc6028afc2c379e88642128d8db19eb55f97f"
             ]
           },
           "content": "There's two folders and three files here. The folders are blue and the files include their extension. Next, change to that `test` directory.",
@@ -230,7 +230,7 @@
             "Here's an example: `cd folder-name`",
             "Try entering `cd test`",
             "Make sure you enter the command from the `freeCodeCamp` folder",
-            "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
           ]
         }
       ]
@@ -248,7 +248,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c66580fac7c23a7f51a3f6b7b0269bde89463ea8"
+              "51b741b1dedcc4f5131f68bdeaf66166a4fb8a36"
             ]
           },
           "content": "You can see you are in the `test` folder now. It shows `test` in the prompt. Print the full path of this directory. Remember that \"folder\" and \"directory\" are the same thing.",
@@ -256,7 +256,7 @@
             "Use the \"print working directory\" command",
             "Type `pwd` into the terminal",
             "Make sure you are in the `test` folder first",
-            "Enter `cd ~/project/freeCodeCamp/test` to get to the `test` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/test` to get to the `test` folder if you aren't there"
           ]
         }
       ]
@@ -274,7 +274,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "dcc782ce9a0aec971d42f9f14bb01a69f8e2bf61"
+              "3d57dfd4c8129319c660b1695b51f44ae916bb71"
             ]
           },
           "content": "That's the path to the `test` folder, it's in the `freeCodeCamp` folder. **List** the contents of this folder.",
@@ -282,7 +282,7 @@
             "Use the \"list\" command",
             "Type `ls` into the terminal",
             "Make sure you are in the `test` folder first",
-            "Enter `cd ~/project/freeCodeCamp/test` to get to the `test` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/test` to get to the `test` folder if you aren't there"
           ]
         }
       ]
@@ -300,7 +300,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fc534af300e1feecfccad859a6192fe9653a6adf"
+              "f790644290508eb050c693e0bf6d61a50d87ccd8"
             ]
           },
           "content": "These are all files. There's no more folders to go into here. You can use `cd ..` to go back a folder level. The two dots will take you back one level. Go back to the `freeCodeCamp` folder.",
@@ -308,7 +308,7 @@
             "Use the \"change directory\" command",
             "Type `cd ..` into the terminal end press enter",
             "Type the command from the `test` folder",
-            "Enter `cd ~/project/freeCodeCamp/test` to get to the `test` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/test` to get to the `test` folder if you aren't there"
           ]
         }
       ]
@@ -326,7 +326,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "34c6880ace03a80c6d9fa0eaded5520952302871"
+              "20a6c7d21167fb2b13203a757aa0ac16b81e7c3e"
             ]
           },
           "content": "`test` got removed from the prompt since you left that folder and you're back in the `freeCodeCamp` folder. List the contents of what's here to remind yourself.",
@@ -334,7 +334,7 @@
             "Use the \"list\" command",
             "Type `ls` into the terminal",
             "Make sure you are in the `freeCodeCamp` folder first",
-            "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
           ]
         }
       ]
@@ -352,7 +352,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "309dd5a2a5df08bbb74ec8072f8cece1c0c423ca"
+              "e057aee1edea1b287b57818ba0511ad2003aee89"
             ]
           },
           "content": "There's the `test` folder you were just in. You can see what's in a file with `more <filename>`. Use it to view what's in the `package.json` file.",
@@ -360,7 +360,7 @@
             "Type `more package.json` into the terminal",
             "Press enter until you have seen the whole file",
             "Make sure you are in the `freeCodeCamp` folder first",
-            "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
           ]
         }
       ]
@@ -378,7 +378,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "40dbe48c2f9455c5417f7c39d604b1b10e6783b1"
+              "4914e3aaca88090986b4bb76c65738ee77ed6998"
             ]
           },
           "content": "It looks like a JSON object. You can empty the terminal with `clear`. The terminal looks a little cluttered, why don't you clear it.",
@@ -402,7 +402,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c4f6c323069f5b65b1c4c9d51ff6587500fabf6d"
+              "3b9c0d5667a8a0d00bbe397bb3145b4ba0f8759a"
             ]
           },
           "content": "Now you have a fresh screen :smile: List what's in here again.",
@@ -410,7 +410,7 @@
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
             "Make sure you are in the `freeCodeCamp` folder first",
-            "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
           ]
         }
       ]
@@ -428,7 +428,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "16f02ecfc62f8a799355a7ad825d12bc2e8d665a"
+              "7d4c70d94390021c6aff9a7c212218e97e9fd894"
             ]
           },
           "content": "You checked out the `test` folder and the `package.json` file. What next? Why don't you go into that `node_modules` directory.",
@@ -436,7 +436,7 @@
             "Use the \"change directory\" command",
             "Here's an example: `cd <folder_name>`",
             "Enter `cd node_modules` into the terminal",
-            "Enter `cd ~/project/freeCodeCamp` to get back to the `freeCodeCamp` folder and try again"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp` to get back to the `freeCodeCamp` folder and try again"
           ]
         }
       ]
@@ -454,7 +454,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "166e287fad018d65bc0fb82698eaf4ff132bd8eb"
+              "e488c36aed5b9e68ba674e09340d32f986e18ae2"
             ]
           },
           "content": "Now the prompt includes `node_modules` since that's where you are. List what's in the folder.",
@@ -462,7 +462,7 @@
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
             "Make sure you are in the `node_modules` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
           ]
         }
       ]
@@ -480,7 +480,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6b244c8d0972b9d9f1214dcf2f10e27190f71bb3"
+              "3e801a6c1bc00b8f6d39c9cb5ce15526fa92dc28"
             ]
           },
           "content": "That's a lot of folders. You can add a **flag** to a command to use it different ways like this: `ls <flag>`. List the contents of the `node_modules` folder in \"long list format\". Do that by adding the `-l` flag to the \"list\" command.",
@@ -490,7 +490,7 @@
             "That's a lowercase letter `l`, not the number `1`",
             "Enter `ls -l` into the terminal",
             "Make sure you are in the `node_modules` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
           ]
         }
       ]
@@ -508,7 +508,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "93ff539867b270e25ad892f42ff01e8e9d7fa237"
+              "cec6e205d8f18c7b0d45aad5e995246558753972"
             ]
           },
           "content": "It is showing more details about each item in here and it's a little easier to read. One of the folders is named `has`, why don't you change into it.",
@@ -516,7 +516,7 @@
             "Use the \"change directory\" command",
             "Enter `cd has` into the terminal",
             "Enter the command from the `node_modules` folder",
-            "Enter `cd ~/project/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
           ]
         }
       ]
@@ -534,7 +534,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "247398c181780fcbc89b7566cc7263424edd89ce"
+              "df891d6ccdceba0444b76ad67a98ea9397c3de43"
             ]
           },
           "content": "You are now in the `has` folder. List its contents.",
@@ -542,7 +542,7 @@
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
             "Enter the command from the `has` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
           ]
         }
       ]
@@ -560,7 +560,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5bfea046c0f90e94645f068c1476776786218845"
+              "ff313d5a37bce8503946cd5d562a33760da1abd2"
             ]
           },
           "content": "There's a few files and folders here. Can you tell the difference? Take a look at **more** of that `README.md` file.",
@@ -570,7 +570,7 @@
             "Enter `more README.md` into the terminal",
             "Press \"enter\" until you have seen the whole file",
             "Make sure you are in the `has` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
           ]
         }
       ]
@@ -588,7 +588,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f8edc3277ab69ca193861aaa8fa0d6b4e86ee754"
+              "e33bbf1c83dbf2241af6ffd8b0fdc0345da31c12"
             ]
           },
           "content": "Nothing noteworthy in there. You can't see what's in the here anymore, list the contents again.",
@@ -596,7 +596,7 @@
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
             "Make sure you are in the `has` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
           ]
         }
       ]
@@ -614,7 +614,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2b8c6634de7df5aaa329983e0a29410d7b1d6419"
+              "0a39422a4193c6b5cfb696cb52abb39feff2128c"
             ]
           },
           "content": "That one file doesn't appear to have an extension. Strange. Take a look at **more** of the that \"license\" file that doesn't show an extension.",
@@ -623,7 +623,7 @@
             "Enter `more LICENSE-MIT` into the terminal",
             "Press \"enter\" until you have seen the whole file",
             "Make sure you are in the `has` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
           ]
         }
       ]
@@ -641,7 +641,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "590efb888fbd605186a09ee482b08718d8490568"
+              "b1e61190647792adcba5f4a81bd64ac9807460b0"
             ]
           },
           "content": "Pretend you read all that. It looks a little messy in here again so why don't you clear the terminal.",
@@ -665,7 +665,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "883b54d8531d4a58304e3b5c6245c2dba690c4e3"
+              "19ff4a31f88c0b532cadb9f3d8e06935e42aee71"
             ]
           },
           "content": "Better. Remind yourself what's in here with the list command.",
@@ -673,7 +673,7 @@
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
             "Make sure you are in the `has` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
           ]
         }
       ]
@@ -691,7 +691,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d654fbfd0202d14ac6ff635e47ac5d5c722d406a"
+              "ce84df70899eb90e3160f617c1a72322966a335b"
             ]
           },
           "content": "Go into that `src` directory to see what you can find in there.",
@@ -699,7 +699,7 @@
             "Use the \"change directory\" command",
             "Enter `cd src` into the terminal",
             "Make sure you are in the `has` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
           ]
         }
       ]
@@ -717,7 +717,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4ac242d18809eb319a3c4522c71af25fe4adf7e8"
+              "e698729c3492629aa27cf30a855c5429d6bc4f3b"
             ]
           },
           "content": "View the full path of this folder.",
@@ -725,7 +725,7 @@
             "Use the \"print working directory\" command",
             "Enter `pwd` into the terminal",
             "Make sure you are in the `src` folder",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
           ]
         }
       ]
@@ -743,7 +743,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "65e8701c33f25caaa16e276afdbdf35f2513eeb4"
+              "14a7dfd1a1cf4055e5be7598f4a71c1d4a61ecb5"
             ]
           },
           "content": "Getting deeper still. You can see that each new folder has a `/` in front of it. Take a look at what's in this folder.",
@@ -751,7 +751,7 @@
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
             "Make sure you are in the `src` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
           ]
         }
       ]
@@ -769,7 +769,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5d317fc933f66107ffd7531689e1a742d99c9400"
+              "5de4208583973f141137b1d63623720c0cf7a933"
             ]
           },
           "content": "Only one file here. Show me what's in it with `more`.",
@@ -779,7 +779,7 @@
             "Enter `more index.js` into the terminal",
             "Press enter until you've seen all the content",
             "Make sure you are in the `src` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
           ]
         }
       ]
@@ -797,7 +797,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9467bfb237c3e4e3e503bafc20019459963cc884"
+              "20b71ff94024eb1628f5b5c9f98e276468f72dca"
             ]
           },
           "content": "It's some JavaScript :smile: I think you've fooled around enough. Why don't you navigate out of here. Change back to the `has` directory.",
@@ -806,7 +806,7 @@
             "Add `..` after `cd` to go back a folder",
             "Type `cd ..` into the terminal",
             "Make sure you are in the `src` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has/src` to get to the `src` folder if you aren't there"
           ]
         }
       ]
@@ -824,7 +824,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "83371866aa09a947181cd389b2e4ce0df27b8e04"
+              "a98a57d92321f000b3c4208a4e20901ad66d1748"
             ]
           },
           "content": "You're getting pretty good. Change back to the `node_modules` directory.",
@@ -833,7 +833,7 @@
             "You can press the up arrow to cycle through previous commands",
             "Type `cd ..` into the terminal",
             "Make sure you are in the `has` folder first",
-            "Enter `cd ~/project/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules/has` to get to the `has` folder if you aren't there"
           ]
         }
       ]
@@ -851,15 +851,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "a07c56783dc5988127ccc5a3f1fc4cdef6ca5e2b"
+              "61315cb92c7ae1009d8e82f13e29516ec7d27dd3"
             ]
           },
-          "content": "You can go back two folders with `cd ../..`. Each set of dots represents another folder level. Go back to the `project` directory from the `node_modules` directory.",
+          "content": "You can go back two folders with `cd ../..`. Each set of dots represents another folder level. Go back to the `learn-bash-by-building-a-boilerplate` directory from the `node_modules` directory.",
           "hints": [
             "Be sure to go back two folders with one command",
             "Type `cd ../..` into the terminal from the `node_modules` folder",
-            "Make sure you go from `node_modules` to `project`",
-            "Enter `cd ~/project/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
+            "Make sure you go from `node_modules` to `learn-bash-by-building-a-boilerplate`",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/node_modules` to get to the `node_modules` folder if you aren't there"
           ]
         }
       ]
@@ -877,15 +877,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "88c08f2c725812203c57d51f3b350d70507df84f"
+              "8ed6840e0b7df9e65fdf502353ceb64ee53656e6"
             ]
           },
-          "content": "You are back in the `project` folder where you started. List what's in here again.",
+          "content": "You are back in the `learn-bash-by-building-a-boilerplate` folder where you started. List what's in here again.",
           "hints": [
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there"
           ]
         }
       ]
@@ -903,7 +903,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4da14a75482c1c6b4035d61399832556c413979d"
+              "f8cfd5ecf5a18cd880de66e6bf13cccf9522b247"
             ]
           },
           "content": "That's right. Why don't you get a fresh start by clearing the terminal.",
@@ -927,16 +927,16 @@
               "../.bash_history"
             ],
             "commits": [
-              "732cbb646c96610f0d3c5e96ae58263ab7b57f44"
+              "ef81f984b384e2872a4fb0d671113b0b0fd9625d"
             ]
           },
-          "content": "You will be making a website boilerplate. You can make a new folder with `mkdir <folder_name>`. `mkdir` stands for \"make directory\". Make a `website` directory in this `project` folder. Remember that \"directory\" and \"folder\" mean the same thing.",
+          "content": "You will be making a website boilerplate. You can make a new folder with `mkdir <folder_name>`. `mkdir` stands for \"make directory\". Make a `website` directory in this `learn-bash-by-building-a-boilerplate` folder. Remember that \"directory\" and \"folder\" mean the same thing.",
           "hints": [
             "Enter `mkdir website` into the terminal",
-            "Make sure to make it in the `project` folder",
+            "Make sure to make it in the `learn-bash-by-building-a-boilerplate` folder",
             "Don't try to create it with a different method",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there"
           ]
         }
       ]
@@ -954,15 +954,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "d9f928488832aeba9dd946d2e17af18ddd781f14"
+              "34bccd90e85a09f029ca458b2da917132d4c41a1"
             ]
           },
           "content": "List what's here to make sure it got created.",
           "hints": [
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -981,15 +981,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "67c865f81b81b5b95836a219a889d36907c08131"
+              "e6407e682e59aa841e93c2904bc6c3096d8bd09a"
             ]
           },
           "content": "It worked. The website files will be in the new directory. Change to the `website` directory so you can start creating them.",
           "hints": [
             "Use the \"change directory\" command",
             "Enter `cd website` into the terminal",
-            "Enter the command from the `project` folder",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "Enter the command from the `learn-bash-by-building-a-boilerplate` folder",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1008,7 +1008,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e72ac240b35be46e0c2c84794e8ac9a1c20cbbba"
+              "8de28573fd61f26c534725ae1f9b30e6fd6b6f6a"
             ]
           },
           "content": "List the contents of the `website` folder.",
@@ -1016,7 +1016,7 @@
             "Use the \"list\" command",
             "Enter `ls` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1035,7 +1035,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a2035a4f1e904ac53f43ea1b69bf20f11703ef99"
+              "b1033eecf90e08b58d4f504f72d958dd56daebb4"
             ]
           },
           "content": "It's brand new, there's nothing in it yet. The `echo` command lets you print anything to the terminal. You used it in the first lesson. Just type what you want to print after it. Use it to print `hello website` to the terminal.",
@@ -1044,7 +1044,7 @@
             "Capitalization matters",
             "Enter `echo hello website` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1063,7 +1063,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "cb29e736be329c0d6bf4f0ebc7429114b865aac8"
+              "6c8a3f3133862a0c7c1754e916160bcdf17418da"
             ]
           },
           "content": "Websites usually have an `index.html` file. You can use `touch <filename>` to create a new file. Create `index.html` in the `website` folder.",
@@ -1073,7 +1073,7 @@
             "Capitalization matters",
             "Enter `touch index.html` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1092,7 +1092,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b0867976e035e0258bb1ecfd36740201795b8f70"
+              "a94654af7b743b191b35a7ccad0d00bea47a88e6"
             ]
           },
           "content": "They usually have a CSS file as well. Create `styles.css` in the `website` folder using the same method.",
@@ -1102,7 +1102,7 @@
             "Don't try to create the file with another method",
             "Enter `touch styles.css` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1121,7 +1121,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ad91113b3ee921a826e8a217eaef340fe4aa0ead"
+              "5544c9269b0743226431b447a907b610cb2a6fde"
             ]
           },
           "content": "List the contents of the `website` folder to make sure they got created.",
@@ -1129,7 +1129,7 @@
             "Use the `list` command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1148,7 +1148,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e300db19e3776fac6f860f717e7070455af64cf8"
+              "c0dfd7ac31196db23ef5c4f4508e8aaa4f32d23d"
             ]
           },
           "content": "There they are. Next is a JavaScript file. Create `index.js` in the `website` folder with the method you have been using.",
@@ -1158,7 +1158,7 @@
             "Don't try to create the file with another method",
             "Enter `touch index.js` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1177,7 +1177,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "21216d3cd08c0ed45bfebcc767f4f0da657ab5cf"
+              "f620f23b533ecb7fb5a2b2ec9ce32d4409b60505"
             ]
           },
           "content": "You might turn this into a git repository. Create `.gitignore` in the `website` folder with the same method.",
@@ -1187,7 +1187,7 @@
             "Don't try to create the file with another method",
             "Enter `touch .gitignore` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1206,7 +1206,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9f64ac4c75fbfa57c1d7095b92ee6494fcdb80e4"
+              "6605d96dd7d1f970e5535be7fa7ae9837281a20a"
             ]
           },
           "content": "List the contents of the `website` folder to see your new files.",
@@ -1214,7 +1214,7 @@
             "Use the `list` command",
             "Make sure you are in the `website` folder",
             "Enter `ls` in the terminal",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1233,7 +1233,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "431b36ea592a190a5a2668df1ddecc874f355e2a"
+              "61da3c75738555daace971a917a4a466baec1674"
             ]
           },
           "content": "There's three files, but where's the `.gitignore` file? I think it's hidden. Most commands have a `--help` flag to show what the command can do. Display the \"help\" menu for the `ls` command. Here's an example: `command <flag>`",
@@ -1242,7 +1242,7 @@
             "You previously used: `ls -l`",
             "Enter `ls --help` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1261,7 +1261,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e622f2172ae6201b310f5f1b842efad953cc9b85"
+              "d62db0a589b4d263be255b5650085bc7c116d868"
             ]
           },
           "content": "Scroll through the menu to see the flags that go with `ls`. The flag you are looking for is `--all`, or `-a` for short. List **all** the contents of the `website` folder using the correct flag.",
@@ -1270,7 +1270,7 @@
             "Here's an exmple: `command <flag>`",
             "Enter `ls -a` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1289,7 +1289,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "57353f2cf1c0fa57f9e58c43cb40437b55e492f5"
+              "0d5bc97c88b99f6806a57f745e05142c3b5036c2"
             ]
           },
           "content": "There's the hidden file. Do you see it? It didn't display before. It also includes `.` and `..`. You used `cd ..` to go back a folder earlier. Change to the `.` directory.",
@@ -1297,7 +1297,7 @@
             "Use the \"change directory\" command",
             "Enter `cd .` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1316,7 +1316,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "06e97688d802ed0577e2c3aad7fcb1ea4b28225c"
+              "b80a3d853945a4de9baa22cbd01db848a294d693"
             ]
           },
           "content": "You didn't go anywhere. The `.` takes you to the folder you are in, and `..` takes you back, or up, a folder. Websites need some images. Create `background.jpg` in the `website` folder.",
@@ -1326,7 +1326,7 @@
             "Don't try to create the file with another method",
             "Enter `touch background.jpg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1345,7 +1345,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0a42e99d96291795f796642a4b40d0a77ff5f56d"
+              "e2cda50bcc07cc0111f700af248a0b1a069787b9"
             ]
           },
           "content": "Next, add a header image. Create `header.png` in the `website` folder.",
@@ -1355,7 +1355,7 @@
             "Don't try to create the file with another method",
             "Enter `touch header.png` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1374,7 +1374,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4e9339b8a64e1529e9337d2d341f4938aa0bd96a"
+              "310bc9360b88b7df0700b2e8b88930f84c757307"
             ]
           },
           "content": "Finally, create `footer.jpeg` in the `website` folder.",
@@ -1384,7 +1384,7 @@
             "Don't try to create the file with another method",
             "Enter `touch footer.jpeg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1403,7 +1403,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c9745c28ce92b6aeae014570d7349663a49e714a"
+              "5d6d3ce9e3662545fdfb017ca175fed03ba38f1f"
             ]
           },
           "content": "Use the **list** command to check out the images you just added.",
@@ -1411,7 +1411,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1430,7 +1430,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "59e4a98d34eaeb58f7e9ced95b6437dc6e2dce1d"
+              "0008bfe82889fa2b0802d3f83d9b0dec7ba703d9"
             ]
           },
           "content": "Looks like images show up in pink. There's also three fonts to use for the website. The first one is \"roboto\". Create `roboto.font` in the `website` folder.",
@@ -1439,7 +1439,7 @@
             "Don't try to create the file with another method",
             "Enter `touch roboto.font` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1458,7 +1458,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0abac31a67c969105d85fb00fb27c5faf97a78d2"
+              "373d1aec2fbfe2366af526edf9abee22f42e983b"
             ]
           },
           "content": "The next one is \"lato\". Create `lato.font` in the `website` folder.",
@@ -1467,7 +1467,7 @@
             "Don't try to create the file with another method",
             "Enter `touch lato.font` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1486,7 +1486,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6701aa87d8057ab5044fdd0e6f8f7fdc4f4bfcf8"
+              "bbb9208f551d2c8c4a46f12cc6cad1a9d75aa0b7"
             ]
           },
           "content": "Lastly, create `menlo.font` in the `website` folder.",
@@ -1495,7 +1495,7 @@
             "Don't try to create the file with another method",
             "Enter `touch menlo.font` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1514,7 +1514,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "08a645f7f3b77fbde26f11aa9a8fafd03cd02d39"
+              "4f0e309e8d0453f6be33dec7c85d95f0aa753c5a"
             ]
           },
           "content": "List the contents of this folder to see your new font files.",
@@ -1522,7 +1522,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1541,7 +1541,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5211139036ecc37b4d9bfdca9910ef9e6bc636e1"
+              "fa8be9e22d849fceca29b193b359f255143b68c5"
             ]
           },
           "content": "Your three font files are there. There's three icons for the website as well. Create `CodeAlly.svg` in the `website` folder.",
@@ -1551,7 +1551,7 @@
             "Don't try to create the file with another method",
             "Enter `touch CodeAlly.svg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1570,7 +1570,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2d884924bdad0bd8941e0da00e71af0cb0a72052"
+              "ccba2cce3e433deda28b538cc5e7249114ba499b"
             ]
           },
           "content": "Next, create `CodeRoad.svg` in the `website` folder.",
@@ -1580,7 +1580,7 @@
             "Don't try to create the file with another method",
             "Enter `touch CodeRoad.svg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1599,7 +1599,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "50138229af692f228666f8e23d07922b8939142c"
+              "902e2120dc3f1bb82af5d83bb51875150b8ebdc3"
             ]
           },
           "content": "Finally, create `freeCodeCamp.svg` in the `website` folder.",
@@ -1609,7 +1609,7 @@
             "Don't try to create the file with another method",
             "Enter `touch freeCodeCamp.svg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1628,7 +1628,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fb3bea533e6ad6e4ab4eede18a4467213df85a35"
+              "dea04aae79dd583f0fa51b307e27a8c92162461b"
             ]
           },
           "content": "Check out the new icons you just added by listing the contents of the folder they are in.",
@@ -1636,7 +1636,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1655,7 +1655,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0b6953e306db2ce19d099f90bf685fb1ec7a4fea"
+              "ae8f6e71bb3a0a3c665b6541826722e46546b35b"
             ]
           },
           "content": "The icons are pink as well. I think the images should go in a separate folder to clean it up a little. Make an `images` directory in the `website` folder to put them in.",
@@ -1666,7 +1666,7 @@
             "Here's an example: `mkdir <folder_name>`",
             "Enter `mkdir images` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1685,7 +1685,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c2dad543986d241e27e35adf502470d212abc54e"
+              "c921b7afa8300d5a78d2deb540977ba8b67c669d"
             ]
           },
           "content": "List the contents of the `website` folder to make sure your new folder is there.",
@@ -1693,7 +1693,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1712,7 +1712,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1f59c258e8d887fb214fbaa29d6c86517d84ddf3"
+              "075a8a51c8343f2f07e7233dfca4d45e783ada9f"
             ]
           },
           "content": "There's your new `images` folder. It's blue. You can copy a file with `cp <file> <destination>`. `cp` stands for \"copy\". Copy `background.jpg` to your `images` folder.",
@@ -1720,7 +1720,7 @@
             "Enter `cp background.jpg images` into the terminal",
             "Don't try to use a different method to copy it",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1739,7 +1739,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a65c73414e438862a799df20205e9e5778b45843"
+              "f02d77cd60f06dd0fd95688f729e427030d9bfa5"
             ]
           },
           "content": "Better make sure it worked. Change to the `images` directory.",
@@ -1747,7 +1747,7 @@
             "Use the \"change directory\" command",
             "Enter `cd images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1766,7 +1766,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "38c436167cb1f65820091fb8502c329cbc0849fb"
+              "08a54ce4e71424ecbd24cba21e1261ca74dcada3"
             ]
           },
           "content": "List the contents to see if `background.jpg` is here.",
@@ -1775,7 +1775,7 @@
             "Make sure you are in the `images` folder",
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/images` to get to the `images` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1794,7 +1794,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "272bcd21a096bb44927ba84f7925b782ade41dc6"
+              "1626fcf50790bc25ef276ac0e5e7682f6734ea22"
             ]
           },
           "content": "There it is. Looks like the copy worked. Change back to the `website` directory so you can copy the other ones.",
@@ -1803,7 +1803,7 @@
             "Add `..` to the command to go back a folder",
             "Enter `cd ..` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/images` to get to the `images` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1822,7 +1822,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "17c17072f45e6f08a34d98000127705b5fccb453"
+              "15b245dc4449b2a4dc72e667fa951024b54c8b1d"
             ]
           },
           "content": "Remind yourself of the files here by listing the contents.",
@@ -1830,7 +1830,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1849,14 +1849,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "f89f38b6c0b82281f3a20484a315ec4285b6e656"
+              "b45dc611aeacfd4c2c4c4c681d8886cfb35daf53"
             ]
           },
           "content": "You copied the background image to the `images` folder so you don't need the one here anymore. You can remove a file with `rm <filename>`. Remove `background.jpg` from the `website` folder.",
           "hints": [
             "Enter `rm background.jpg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1875,7 +1875,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ee58bbf5789776c66faedac054c201f9edfb97cf"
+              "b3d220a1bdec7c5f2bb136553b6aead9d112fe1d"
             ]
           },
           "content": "List the contents to make sure it's gone.",
@@ -1883,7 +1883,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1902,7 +1902,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "bf1f4f242eaec4ec28f2dc997898dc205a670018"
+              "5b8e5c0a002d0c020d332691d6e59a3399030e41"
             ]
           },
           "content": "Okay, it's gone. Next, copy `header.png` to the `images` folder.",
@@ -1912,7 +1912,7 @@
             "Don't try to use a different method to copy it",
             "Enter `cp header.png images`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1931,7 +1931,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5f03d01c5218f664001c94d0826c9e096a16d051"
+              "9f19e04165fa464947ec837c3c67b9650ad9f4e4"
             ]
           },
           "content": "Last, copy the \"footer\" image to the `images` folder.",
@@ -1941,7 +1941,7 @@
             "Don't try to use a different method to copy it",
             "Enter `cp footer.jpeg images`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1960,7 +1960,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a5bcf3bede85ceb739b3de2d939f4b6639e04647"
+              "6c7e71570078bee626623c0d03a37f4c8ba17d4f"
             ]
           },
           "content": "All the images should be copied over. Change to the `images` directory so you can make sure.",
@@ -1969,7 +1969,7 @@
             "Add the path of where you want to go to the command",
             "Enter `cd images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -1988,7 +1988,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4b4f5b901c2b3a1cb7f970cd1e387489aa7727b0"
+              "062b2fb92f72270977a2b7a596116fa3f01217c8"
             ]
           },
           "content": "Check if the images are here by listing the contents.",
@@ -1996,7 +1996,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/images` to get to the `images` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2015,7 +2015,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "166715ed84bcec6b62c4a3744011e2e7e6580d3b"
+              "788a944086085951678ddedf2774d15feb91f5ed"
             ]
           },
           "content": "They all made it here. Go back to the `website` folder so you can delete the original files.",
@@ -2024,7 +2024,7 @@
             "Add `..` to the command to go back a folder",
             "Enter `cd ..` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/images` to get to the `images` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2043,7 +2043,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0b6ce5161278fc0fd3b9ab030e980d3d7628fec6"
+              "25839301a30d1346e42041ed9606face3e0b5726"
             ]
           },
           "content": "List the contents to remind yourself of the filenames to delete.",
@@ -2051,7 +2051,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2070,7 +2070,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d790217b44cf524cd0b34e0d1424cd181183cc20"
+              "bdece5d6e422a29c16f4445a96d9addbfd5e0fa5"
             ]
           },
           "content": "There's two that you don't need anymore. Remove the \"header\" image file from the `website` folder since you copied to the images folder.",
@@ -2082,7 +2082,7 @@
             "Enter `rm header.png` in the terminal",
             "Don't try to use a different method to delete the file",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2101,7 +2101,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "76d936b3aaea894b18dd4ab4aeac6e4b2a8d5a25"
+              "09056a19c9c55cf767878b6040261b086573ab16"
             ]
           },
           "content": "It should be gone. Remove the \"footer\" image from the `website` folder as well.",
@@ -2112,7 +2112,7 @@
             "Don't try to use a different method to delete the file",
             "Enter `rm footer.jpeg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2131,7 +2131,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9292ede641b05b36c9a5fe73ea3b9941e8989430"
+              "5fc153ef30f86cf94da815787435cafc8959a488"
             ]
           },
           "content": "List the contents of the `website` folder to check if they are gone.",
@@ -2139,7 +2139,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2158,7 +2158,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3909b7258b6a03dd1e5ded0c72e284102caa681c"
+              "66b9c9609de8c2e71090b807f815a511099ac1fc"
             ]
           },
           "content": "Looks like they're all deleted. There was a mistake with the extensions for the font files. You can rename them with `mv` like this: `mv <filename> <new_filename>`. `mv` stands for \"move\", it can **rename or move** something. Rename `roboto.font` to `roboto.woff`.",
@@ -2166,7 +2166,7 @@
             "Enter `mv roboto.font roboto.woff`",
             "Don't try to rename it with other methods",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2185,7 +2185,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "398f0a6f97fe11e4260aa0958d48ce923ef5f947"
+              "94edb1160041dde3388d189511fcf5d27c7ceebe"
             ]
           },
           "content": "Use \"list\" to check if it worked.",
@@ -2193,7 +2193,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2212,7 +2212,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "de6faac0e777be9be0e56c1f194224d56addd62d"
+              "b6b26ef1a7a59e79ea59f74127c8792ba5692f2b"
             ]
           },
           "content": "Do you see the \"roboto\" font? The rename worked. Next, rename the \"lato\" font file to `lato.ttf`.",
@@ -2224,7 +2224,7 @@
             "Don't try to rename it with other methods",
             "Enter `mv lato.font lato.ttf`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2243,7 +2243,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8b0974a8994f93771f643821ed7d7d8062ce98fb"
+              "bcb2f5f5ae5975248b8c6a74e3dece8cb20643ff"
             ]
           },
           "content": "Lastly, rename the \"menlo\" font to `menlo.otf`.",
@@ -2255,7 +2255,7 @@
             "Don't try to rename it with other methods",
             "Enter `mv menlo.font menlo.otf`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2274,7 +2274,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "18f9f561349db2ef86e8286e98c32878d0562070"
+              "01aa25328af361f856c0ed9d9ae1539290669911"
             ]
           },
           "content": "Use the \"list\" command to make sure those last two got renamed.",
@@ -2282,7 +2282,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2301,7 +2301,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9a2a43002d7b992507c84bea21d98cc0de65fee0"
+              "37ce30fc67fef14c83686ce91d7cfaebedfca221"
             ]
           },
           "content": "Take a look at the files to make sure they got renamed. Those font files could be organized into a folder as well. Make a `fonts` directory in the `website` folder to put them in.",
@@ -2312,7 +2312,7 @@
             "Don't try to create the folder with another method",
             "Enter `mkdir fonts` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2331,7 +2331,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2c4ac74030b48458591393afa3e00fe72503bd71"
+              "ce05ef4efc90a4d5b662258afd4d2424f4b3be0b"
             ]
           },
           "content": "List the contents of the `website` folder to make sure your new folder is there.",
@@ -2339,7 +2339,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2358,7 +2358,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "66015f4bdd1c055af0e3c73f966a00e77d3a1523"
+              "f10dee945d5f3cb2033159190c0df18fedd978ab"
             ]
           },
           "content": "See it? You renamed the font files with `mv`, you can also move files with it. Move the \"roboto\" font to the new `fonts` folder. Here's an example: `mv <file> <destination>`.",
@@ -2368,7 +2368,7 @@
             "Don't try to move the file with another method",
             "Enter `mv roboto.woff fonts`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2387,7 +2387,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fff0c0a2ae6a3c4a1f0bebfee9f460715cbb36ac"
+              "63e4818317ccf02a19b0d75da1ce61e66f44faf3"
             ]
           },
           "content": "You can use `find` to find things or view a file tree. Enter `find` to view the file tree of the `website` folder to see all the files and folders within it.",
@@ -2396,7 +2396,7 @@
             "Make sure you are in the `website` folder",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2415,7 +2415,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d10c29703cbee9d19fb217c0b5088746ad41ca6a"
+              "cac0cd8ac514f7c88f2dc0bc8c4e6eda81e4220f"
             ]
           },
           "content": "You can see everything in this `website` folder and its descendant folders. Notice that they all start with `./` to represent this folder. You can see that your font moved to the `fonts` folder. Next, move the \"lato\" font to the `fonts` folder.",
@@ -2427,7 +2427,7 @@
             "Don't try to move the file with another method",
             "Enter `mv lato.ttf fonts`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2446,7 +2446,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5fa1e1f0cd3ba750a31420bb1fff679c4e829600"
+              "7e7e882dd9be084036fbefab2bc7e131558f60a8"
             ]
           },
           "content": "There's one more font to move. Move the \"menlo\" font to the `fonts` folder.",
@@ -2458,7 +2458,7 @@
             "Don't try to move the file with another method",
             "Enter `mv menlo.otf fonts`",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2477,7 +2477,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "de95a4e9324dad05934a3aa0b56337282f626a8d"
+              "e5ac58c8fc63541fdb068d4720856d7f012819ad"
             ]
           },
           "content": "Use `find` again to list the whole file tree and make sure those two got moved.",
@@ -2485,7 +2485,7 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2504,7 +2504,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a080602c973ce9727630ab1dee0ee5e5628d99cf"
+              "599a9fbf4b80ac327fdcac3d3640d269cb19af8a"
             ]
           },
           "content": "Yes, you can see them all in the `fonts` folder. Let's organize some more. Make a `client` directory in the `website` folder for the client side files.",
@@ -2513,7 +2513,7 @@
             "Here's an example: `mkdir <directory_name>`",
             "Enter `mkdir client` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2532,7 +2532,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "97794abfc4b88034987f5428be95756a395740fd"
+              "f912c4d8dedd6d2cfbf10b6da7844264ca8b25f3"
             ]
           },
           "content": "You can make a folder in that `client` folder from here by adding it to the path like this: `mkdir client/<new_folder_name>`. Make a `src` directory in the `client` folder from here.",
@@ -2541,7 +2541,7 @@
             "Enter `mkdir client/src` from the `website` folder",
             "Don't try to create the folder with another method",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2560,7 +2560,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "3addf593932de8f6a1531c8232bb68d5bcb4f002"
+              "5a64ccdd77fb6e33ee397ce7b57c85cb37ec5513"
             ]
           },
           "content": "You can move files all the way across the system from here with the right path. Move `index.html` to the `client/src` folder from here.",
@@ -2569,7 +2569,7 @@
             "You previously used: `mv menlo.otf fonts`",
             "Enter `mv index.html client/src` from the `website` folder",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2588,7 +2588,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "17ccef21195d9d525a4e8b7c5eaaa121d886dde4"
+              "f8a14f27b2b52a86870712067427fae4ca292759"
             ]
           },
           "content": "Use `find` to view the file tree and make sure it moved.",
@@ -2596,7 +2596,7 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2615,7 +2615,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "aa39c61a07a321228d03403c237b6b75ed6f9035"
+              "e85cfba0766be7be3a764d1aac200ce12bc80dca"
             ]
           },
           "content": "Can you see the `index.html` file in your new `src` folder? Looks like it moved :smile: There's some more files that can go in the `src` folder. Move `index.js` to it from here.",
@@ -2623,7 +2623,7 @@
             "Use the \"move\" command",
             "You previously used: `mv index.html client/src`",
             "Enter `mv index.js client/src` from the `website` folder",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2642,7 +2642,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "14d7b2654753a10ca491fa801a1183d1307e4468"
+              "6d55d0d7f9e65f1576a1c4a725693a2823abf560"
             ]
           },
           "content": "Last is the CSS file. Move `styles.css` to the `src` folder.",
@@ -2651,7 +2651,7 @@
             "Don't try to move the file with another method",
             "You've used `mv index.js client/src` to move a file",
             "Enter `mv styles.css client/src` from the `website` folder",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2670,7 +2670,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "958ffd620ece86d9e5e48914e30faac468b2822a"
+              "af67642b5b85904fe8d3824689148a64c69bf605"
             ]
           },
           "content": "Seems like you can do anything right from here. Take another look at the tree with `find`.",
@@ -2678,7 +2678,7 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2697,7 +2697,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "229dee1e02957820c6021f7a5f3754bf1829087f"
+              "5d1e4e47f36f81cfaa29adcd2b38735f3c504391"
             ]
           },
           "content": "Things are looking more organized :smile: You can use `find <folder_name>` to display the tree of a different folder. View the file tree of the `client` folder from the `website` folder.",
@@ -2706,7 +2706,7 @@
             "Add `client` at the end of the command",
             "Enter `find client` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2725,7 +2725,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "78f97e1e9df9d92b0192ff4b8b11171034d0c8d7"
+              "1e847cc213b44a365f717dc6f7a8d75ded692a76"
             ]
           },
           "content": "Now you just see what's in the `client` folder. What else can `find` do? View the \"help\" menu of the `find` command to look around.",
@@ -2735,7 +2735,7 @@
             "You previously used `ls --help`",
             "Enter `find --help` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2754,14 +2754,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "b789dc2e50d16c14a4e6f3956156cabb63b5d619"
+              "726f66e0b7d4f5319b866b9e5780197576e06298"
             ]
           },
           "content": "The menu isn't very pretty, but there's a `-name` flag in there. You can use it to search for something with `find -name <filename>`. Use `find` with the `-name` flag to search for `index.html`.",
           "hints": [
             "Enter `find -name index.html` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2780,7 +2780,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e9d0c3bee19c567e47bcff82be3cc6db63bc8ddf"
+              "d4798e5ea002d5f9853934f2b4920165da8d4500"
             ]
           },
           "content": "It shows you where that file is. Using the same command, find where the `styles.css` file is.",
@@ -2790,7 +2790,7 @@
             "You previously used `find -name index.html`",
             "Enter `find -name style.css` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2809,7 +2809,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1043ad56a5e757c47089b0652201b4a2c7dd9eea"
+              "cbb404658a04ed56d3589c816fe6065d5255d5d8"
             ]
           },
           "content": "You can search for folders with it, as well. Using the same command and flag, find the `src` folder.",
@@ -2819,7 +2819,7 @@
             "You previously used `find -name index.html`",
             "Enter `find -name src` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2838,7 +2838,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "720454fa5cc92e2537c816b6009bc306a273437b"
+              "c204d8d4c371c2660a395640656d6bbd64484bb7"
             ]
           },
           "content": ":smile: View the file tree of the `website` folder to see what else you need to do.",
@@ -2847,7 +2847,7 @@
             "Don't use any flags this time",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2866,7 +2866,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7cd2f1d5f4737ce57d15e983c6b18369ebdf24a8"
+              "34d8ffc0479aacace09e1a10af8a8083c66f4234"
             ]
           },
           "content": "What's next? More organizing! You should put all the assets in one spot. Change into the `client` folder.",
@@ -2874,7 +2874,7 @@
             "Use the \"change directory\" command",
             "Enter `cd client` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2893,7 +2893,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "bc258f67c9a86ab66efdb2c49e6f0832acf16b25"
+              "3a15f725b2acdab1d192ce6c6576ae1234ee178f"
             ]
           },
           "content": "Make a new directory named `assets` in the `client` folder.",
@@ -2904,7 +2904,7 @@
             "You previously used `mkdir client`",
             "Enter `mkdir assets` in the terminal",
             "Make sure you are in the `client` folder first",
-            "Enter `cd ~/project/website/client` to get to the `client` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/client` to get to the `client` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2923,7 +2923,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "acdf29e86fdf41a747933ae4ddd6f9c700505955"
+              "d90a89a87cc709c41786441e000018ef06ce9585"
             ]
           },
           "content": "Change into the new `assets` folder.",
@@ -2932,7 +2932,7 @@
             "It's the `cd` command",
             "Enter `cd assets` in the terminal",
             "Make sure you are in the `client` folder first",
-            "Enter `cd ~/project/website/client` to get to the `client` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/client` to get to the `client` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2951,7 +2951,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6ef8c434f3526f4e365efe2a0fabbc5032a4689a"
+              "2ed315d94468384c43ab1bb45a8b2e8e260a59ac"
             ]
           },
           "content": "All the images and other assets can go here. Make an `images` directory in the `assets` folder for all the images.",
@@ -2961,7 +2961,7 @@
             "You previously used `mkdir assets`",
             "Enter `mkdir images` in the terminal",
             "Make sure you are in the `assets` folder first",
-            "Enter `cd ~/project/website/client/assets` to get to the `assets` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/client/assets` to get to the `assets` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -2980,7 +2980,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "a9a4a5509fd69ce899ec08716385cc68af05867d"
+              "92ab429204dc7dfb1e0c46b692a3f2cf47e3507c"
             ]
           },
           "content": "Go to your new `images` folder.",
@@ -2989,7 +2989,7 @@
             "It's the `cd` command",
             "Enter `cd images` in the terminal",
             "Make sure you are in the `assets` folder first",
-            "Enter `cd ~/project/website/client/assets` to get to the `assets` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/client/assets` to get to the `assets` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3008,7 +3008,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2a2d962c140fbe02f4a561d7eee51e616cd7fd73"
+              "314873504b7d6ff72b3873d5bcca770ef14039c3"
             ]
           },
           "content": "You want the images here. Create `background.jpg` in this folder.",
@@ -3017,7 +3017,7 @@
             "You previously used `touch freeCodeCamp.svg`",
             "Enter `touch background.jpg` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/client/assets/images` to get to the `images` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/client/assets/images` to get to the `images` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3036,7 +3036,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f50a9882d2211cf05c6cafa5a6257f3a63b2e105"
+              "1c9b48d89ee6933849463deca431aad91fe30484"
             ]
           },
           "content": "Wait. You don't need to recreate them. You can just move the other images here. Go back to the `website` folder from here. It's three folder back.",
@@ -3045,7 +3045,7 @@
             "You went back two folders with `cd ../..`",
             "Enter `cd ../../..` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/client/assets/images` to get to the `images` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/client/assets/images` to get to the `images` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3064,14 +3064,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "035bc36e7c2af0020b426b8b423aef4a537c81a7"
+              "89884221d8fe251c18a8e1dd18e34deb013c685d"
             ]
           },
           "content": "Now go to where the original images are. Change into the `images` folder.",
           "hints": [
             "Use the \"change directory\" command",
             "Enter `cd images` in the terminal from the `website` folder",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3090,7 +3090,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f10939cbadb347f876f82df8bad79420533c8662"
+              "418068b21caed69ba5d1c6c70d3b52c7e213e197"
             ]
           },
           "content": "List the contents of the `images` folder to see the files here.",
@@ -3098,7 +3098,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/images` to get to the `images` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3117,7 +3117,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "28512c5d75018abe763872ae96ae08ca91fece9c"
+              "69d5447cc61061f7092b96304666805fd9ac2cf6"
             ]
           },
           "content": "Umm, first I think you should move them back to the website folder. Move `header.png` back to the `website` folder. The destination for the file is `..`",
@@ -3127,7 +3127,7 @@
             "Don't try to move the file with another method",
             "Enter `mv header.png ..` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/images` to get to the `images` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3146,7 +3146,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "41efe58b77fa302334590599ea1981bc7f291079"
+              "c08691b14e00841e1ba8c374c0e867e0c652fc1b"
             ]
           },
           "content": "List the contents of the `images` folder to see if it's gone.",
@@ -3154,7 +3154,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/images` to get to the `images` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3173,7 +3173,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8200c73ffe411c1cd36bd729df9a54bff7a631f1"
+              "43ab3232a34e5b1e997391543f1dfa7e2102ac2b"
             ]
           },
           "content": "It's gone. Go back to the `website` folder.",
@@ -3181,7 +3181,7 @@
             "Use the \"change directory\" command",
             "Enter `cd ..` in the terminal from the `images` folder",
             "Make sure you are in the `images` folder first",
-            "Enter `cd ~/project/website/images` to get to the `images` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website/images` to get to the `images` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3200,7 +3200,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e0b3106e219a4cd630aefc5ed06a03c86062f09b"
+              "1153c4c58eea4ad47586fa5354aaaafe30fb80ae"
             ]
           },
           "content": "List what's here.",
@@ -3208,7 +3208,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3227,7 +3227,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b711971d54ad67121e2ce133b5d83cc870d18afb"
+              "054a35a455bd518a481edd522a5e0a5b270e9e22"
             ]
           },
           "content": "There's the file you just moved. Next, you will move it to the `client/assets/images` folder. First, use `find` with the correct flag to search for `images`.",
@@ -3238,7 +3238,7 @@
             "You previously used `find -name src`",
             "Enter `find -name images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3257,7 +3257,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d613922c25579a112ec9bfd83cc64cdc66ad2619"
+              "d7f5aafa11df36fa57f9e5971606d5379a713a74"
             ]
           },
           "content": "There's your two image folders. Move `header.png` to the one with the longer path. Just use it as the destination to do so.",
@@ -3268,7 +3268,7 @@
             "Don't try to move the file with another method",
             "Enter `mv header.png client/assets/images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3287,7 +3287,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "418ea5b6f68dade4075f38601f7757c4d9be71f2"
+              "46a9121415aa156912b783596bce3783b39b8e41"
             ]
           },
           "content": "Use `find` to search for your `header.png` file and make sure it moved.",
@@ -3298,7 +3298,7 @@
             "You previously used `find -name images`",
             "Enter `find -name header.png` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3317,7 +3317,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f3a999600ada77edd3a7d6e079091321eaf8bdf9"
+              "847ac547298b0362fd10f6934491800e296680a6"
             ]
           },
           "content": "There it is. Right where you put it. Next, search for your `footer.jpeg` file so you can move that over there.",
@@ -3327,7 +3327,7 @@
             "You previously used `find -name header.png`",
             "Enter `find -name footer.jpeg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3346,7 +3346,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "51b1c7d1226a88535522e027ad70104c4d374ed3"
+              "d957e783e39ae5a63a35d4c398111eb8262abc27"
             ]
           },
           "content": "It's in the original `images` folder. You can **use that path** with the move command to move it. Move `footer.jpeg` to the `client/assets/images` folder while in the `website` folder.",
@@ -3358,7 +3358,7 @@
             "The second path is `client/assets/images`",
             "Enter `mv images/footer.jpeg client/assets/images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3377,7 +3377,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "76827c6bf43d9fbb60c33e77e2ce4960540e985b"
+              "129296064e72e4a2bcc1cb5dc0302d9ed3969b94"
             ]
           },
           "content": "View the file tree of this folder to make sure all your images are over in their new folder. Don't use any flags.",
@@ -3385,7 +3385,7 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3404,14 +3404,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "8f5e162950c324a55f2b481b2294309beeb7ee71"
+              "8c1e0d7ecfaecd9ee328b5f1d9a0e382d4815b6e"
             ]
           },
           "content": "You don't need the old `images` folder anymore. You can use `rmdir <directory_name>` to remove a folder. `rmdir` stands for \"remove directory\". Try to remove the `images` folder with `rmdir`. Make sure it's the one in the `website` folder.",
           "hints": [
             "Enter `rmdir images` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3430,7 +3430,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0be9f9f22ffabb53cb84513739bad4b3f09d8496"
+              "0183e42ab4c43b1349416c9028a97ebdb9c40022"
             ]
           },
           "content": "Directory not empty? Oh yeah, there's still the background image in there. Remove the background image file in the `images` folder from here. Make sure it's the one in the `website/images` folder.",
@@ -3440,7 +3440,7 @@
             "The file path you want is `images/background.jpg`",
             "Enter `rm images/background.jpg` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3459,7 +3459,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "46901fd19ad1d3e148f072080e0ca122d31abdfe"
+              "21484ace2eebef848b3b8f12895f0cbc4518ff68"
             ]
           },
           "content": "Try to remove the `images` folder again with `rmdir`. Make sure it's the one in the `website` folder.",
@@ -3467,7 +3467,7 @@
             "Use the \"remove directory\" command",
             "Enter `rmdir images` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3486,7 +3486,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e49c862be82f7d6f6210eba76b88df7576f06422"
+              "c7b3cbf573258d7152ff36b85e585bbd1c28d65e"
             ]
           },
           "content": "I think it worked this time. List the contents to find out.",
@@ -3494,7 +3494,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3513,7 +3513,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "79df19c25ce9b2ece23c6ef687d6efb9ea648c7a"
+              "6ec4aa725b05f219d518e6b4f15c7f34d27f3636"
             ]
           },
           "content": "It worked, the `images` folder is gone. Make a new `icons` folder in your `assets` folder while in the `website` folder.",
@@ -3523,7 +3523,7 @@
             "Don't try to create the directory with another method",
             "Enter `mkdir client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3542,7 +3542,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "80d0255cfb5d06f265ebd2508e682ab0d4bf6f1b"
+              "1918dd3739f737a1553e8cc9dbd6fd7bf39496e0"
             ]
           },
           "content": "Move the `CodeAlly.svg` file to your new `icons` folder.",
@@ -3552,7 +3552,7 @@
             "The destination path is `client/assets/icons`",
             "Enter `mv CodeAlly.svg client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3571,7 +3571,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "296f8e8f7bd7fc808986591dc32613d5c03d84b9"
+              "542d65e24a0d10e59e90746085a4a396f5f084e3"
             ]
           },
           "content": "View the file tree of the `website` folder and make sure it moved.",
@@ -3579,7 +3579,7 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3598,7 +3598,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "46ea1d54d9266a33229d0aa0be33cc90dd8d6eb5"
+              "9e9f6cf1fbcaed0929dde72b5c073ed28ea2793b"
             ]
           },
           "content": "Verify that the file moved to the `icons` folder. Next, move the \"CodeRoad\" file to your `icons` folder.",
@@ -3608,7 +3608,7 @@
             "Here's a tip: `mv CodeRoad.svg <path_to_icons_folder>`",
             "Enter `mv CodeRoad.svg client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3627,7 +3627,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4383562c4276a02cd8a59e91a299367ec3c5e148"
+              "7bf91bc775f53102808539e04ff6cde2663e6a3f"
             ]
           },
           "content": "Lastly, move the \"freeCodeCamp\" file to your `icons` folder.",
@@ -3637,7 +3637,7 @@
             "The path is `client/assets/icons`",
             "Enter `mv freeCodeCamp.svg client/assets/icons` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3656,7 +3656,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fc77e1ae9edc995a4a5b9d9c7beecab359567600"
+              "f271f4533b6de000eb1ba31d86c11b46f90b3907"
             ]
           },
           "content": "View the file tree and make sure the files moved.",
@@ -3664,7 +3664,7 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3683,7 +3683,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7c08edad194c386ab3b68e6ec16615f1ad3fc448"
+              "993f09cd00aab2ffd538fd83de1801dca52bc62f"
             ]
           },
           "content": "This looks much better. The three icons are now in the `icons` folder. Make a `fonts` folder in your `assets` folder from here for all the font files.",
@@ -3692,7 +3692,7 @@
             "Put the `fonts` folder in the `client/assets` folder",
             "Enter `mkdir client/assets/fonts` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3711,7 +3711,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0d9e4595065f984e12b18f0f51b1ea0f4da5df1e"
+              "76490526c9111d49e4a51fe1f1b9306991edc73e"
             ]
           },
           "content": "Turns out you want some different fonts for the website. From here, create `roboto-bold.woff` in your new `fonts` folder. You can put the path in front of the filename of where you want it to go.",
@@ -3721,7 +3721,7 @@
             "The file needs to be created in the `client/assets/fonts` folder",
             "Enter `touch client/assets/fonts/roboto-bold.woff` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3740,7 +3740,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b371723bf1741056afe8fb362a5533050ef60bf5"
+              "de508eeb0d8e59abf14a7d597ba0337b6c69190f"
             ]
           },
           "content": "Next, create `roboto-light.woff` in your new `fonts` folder from here.",
@@ -3751,7 +3751,7 @@
             "You previously used: `touch client/assets/fonts/roboto-bold.woff`",
             "Enter `touch client/assets/fonts/roboto-light.woff` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3770,7 +3770,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "aa20f30e8b03872c3c087fdee6bc80c576059bb7"
+              "5fe18c7f072449acd2eaa410c16ef7253da01de4"
             ]
           },
           "content": "View the file tree of the `client/assets/fonts` folder from here to see if your new files are there.",
@@ -3779,7 +3779,7 @@
             "Here's an example: `find <path_to_folder>`",
             "Enter `find client/assets/fonts` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3798,7 +3798,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "67f0e456b41b5ce74de975d97c3379593d0092d9"
+              "29b462387370d050b57fdb6e27629c4ca440d9c4"
             ]
           },
           "content": "Two more fonts to go. Create `lato-bold.ttf` in the new `fonts` folder from here.",
@@ -3809,7 +3809,7 @@
             "You previously used: `touch client/assets/fonts/roboto-light.woff`",
             "Enter `touch client/assets/fonts/lato-bold.ttf` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3828,7 +3828,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "52e886f6fef5ef83b5f0fa8567dd1211e5f0917d"
+              "e4a9c894510ab599a6dc4f7a47aa4a200e09e9bd"
             ]
           },
           "content": "Lastly, create `lato-light.ttf` in your new `fonts` folder from here.",
@@ -3838,7 +3838,7 @@
             "You previously used: `touch client/assets/fonts/lato-bold.ttf`",
             "Enter `touch client/assets/fonts/lato-light.ttf` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3857,7 +3857,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "628408bd4aa4323a7d90225480017dbf5e67c8f1"
+              "d263c5b2b5cce0261f33a8a1f66209daafacde1e"
             ]
           },
           "content": "View your file tree and make sure the files are there.",
@@ -3865,7 +3865,7 @@
             "Use the \"find\" command",
             "Enter `find` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3884,7 +3884,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4be7302cce9bbcf972c58cb211337ccd67d9167f"
+              "1354e65342e11a12ef4be8338bc9656e9a90ed94"
             ]
           },
           "content": "Things are looking more organized :smile: The new fonts are there. Now you can remove the old `fonts` folder and everything in it. You can't do that with `rmdir` since it's not empty. View the \"help\" menu of the `rm` command to see if you can find anything.",
@@ -3893,7 +3893,7 @@
             "The \"help\" flag is `--help`",
             "Enter `rm --help` into the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3912,7 +3912,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2666c3fdce9aa86ed7facc7f08aabc5c11c2bc95"
+              "92aa04e9ea2fad81cafa8c708973e3dc5faf3097"
             ]
           },
           "content": "There's a `-r` flag that says, `remove directories and their contents recursively`. That will remove the folder and everything in it. Use the \"remove\" command with that flag to remove the `fonts` folder. Make sure it's the one in the `website` folder. Be careful not to remove the wrong folder.",
@@ -3922,7 +3922,7 @@
             "Here's an example: `rm -r <folder>`",
             "Enter `rm -r fonts` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there"
           ]
         }
       ]
@@ -3940,7 +3940,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5fa93588dc48362447bd368983fac9b5f1794d0a"
+              "5d587db670928c143596556e4bba7f9fb74b22eb"
             ]
           },
           "content": "List what's here to see if it's gone.",
@@ -3948,7 +3948,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3967,7 +3967,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f88ca3920073ffa58f2600f555eb72ffd898bc5a"
+              "b2dbecd8b984184eca34baaa39b6fe55e5a1b439"
             ]
           },
           "content": "Looks like it’s gone. Surely, it went to the trash can right? No, it’s just gone. You should **be very careful when recursively removing files** like that. It will delete everything, and can destroy your operating system. There's a few more files for the boilerplate. Create `package.json` in the `website` folder.",
@@ -3975,7 +3975,7 @@
             "Use the \"touch\" command",
             "Enter `touch package.json` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -3994,7 +3994,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "da2204f6aef3ac5eb6d72fd1cda467aa92e381ae"
+              "f8c8d82bf118502dbbb1332acfd3005235f26b75"
             ]
           },
           "content": "Next, create `server.js` in the `website` folder.",
@@ -4002,7 +4002,7 @@
             "Use the \"touch\" command",
             "Enter `touch server.js` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4021,7 +4021,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4cb3f41693fe67da1457b6cf363d340eed00487a"
+              "5ffb158b3579c577560335c499277783791163d3"
             ]
           },
           "content": "Lastly, create `README.md` in the `website` folder.",
@@ -4030,7 +4030,7 @@
             "Capitalization matters",
             "Enter `touch README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4049,7 +4049,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "708218b6158bb8402953572be84042793aba7703"
+              "1b0b69495b3083b3bf9b07b3697b3892aeeb92e3"
             ]
           },
           "content": "List the content of this folder to make sure your new files are there.",
@@ -4057,7 +4057,7 @@
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4076,7 +4076,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0f09b426461714dbb1ff925d25e33fbdcaabe03b"
+              "d3d110d4c9e6e88de3ecf1ba8cac9724999bde59"
             ]
           },
           "content": "The boilerplate is complete. Use `echo` to print `Yay!` to the terminal.",
@@ -4085,7 +4085,7 @@
             "Here's an example: `echo <text>`",
             "Enter `echo Yay!` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4104,7 +4104,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "2d8b4b449cdf797780b46eaf4c924c228d8957cf"
+              "8c07b5c78bec89de202698ec2b5b9818f0873b57"
             ]
           },
           "content": "Print `I finished the boilerplate!` to the terminal.",
@@ -4112,7 +4112,7 @@
             "Use the \"echo\" command",
             "Enter `echo I finished the boilerplate!` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4131,7 +4131,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "c59888539b87a1738fb8af25b08ae2717a31f630"
+              "85f5de5eda1fd20f5cffa7f3cb0d59158363393e"
             ]
           },
           "content": "Print `one more thing...` to the terminal",
@@ -4139,7 +4139,7 @@
             "Use the \"echo\" command",
             "Enter `echo one more thing...` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4158,7 +4158,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b717c1de3ecd6ec11ad1a5a22fdf644b9c3f7842"
+              "2422bbb109e8efb674403b0faf9843c6c917496e"
             ]
           },
           "content": "You can print to a file instead of the terminal with `echo text >> filename`. Use it to print `I made this boilerplate` to your `README.md` file.",
@@ -4166,7 +4166,7 @@
             "Use the \"echo\" command",
             "Enter `echo I made this boilerplate >> README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4185,7 +4185,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "542e2d0b05686a95ffeef0d11460c804fd2d6f25"
+              "4cc1ae5145b4b277f9a9c2fd61d24cf65102e72c"
             ]
           },
           "content": "Use `more` to view your `README.md` file.",
@@ -4193,7 +4193,7 @@
             "Use the \"more\" command",
             "Enter `more README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4212,7 +4212,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4de374135df57b0a5723a1af74070c7ef898d987"
+              "0ce4377f2522127efa4374ec5a6e3003608fb884"
             ]
           },
           "content": "Now that line is in the file. Add `from the command line` to your `README.md` file with the `echo` command and the same method.",
@@ -4222,7 +4222,7 @@
             "You previously used: `echo I made this boilerplate >> README.md`",
             "Enter `echo from the command line >> README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4241,7 +4241,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "cfd0f14b4f8fecbde4a15672d7347cb51c3b039a"
+              "1fb7f76a37f4949db36d12541bb128d314d16b1b"
             ]
           },
           "content": "Use `more` to view the \"readme\" file again.",
@@ -4249,7 +4249,7 @@
             "Use the \"more\" command",
             "Enter `more README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4268,7 +4268,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6957ec3fd75339b8facec162821a73716fd97766"
+              "a644871c6a884e93f5d5620938f68e0d7058f7d5"
             ]
           },
           "content": "Now the file has two lines. Add `for the freeCodeCamp bash lessons` to your \"readme\" file with the `echo` command like you did before.",
@@ -4278,7 +4278,7 @@
             "You previously used: `echo from the command line >> README.md` in the terminal",
             "Enter `echo for the freeCodeCamp bash lessons >> README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4297,7 +4297,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4fc20560de22fca8b0ff13f2710f00034d09235f"
+              "adffaea00b1522c7c09e791435cc3e1ee489111e"
             ]
           },
           "content": "View your \"readme\" file again like you did before.",
@@ -4305,7 +4305,7 @@
             "Use the \"more\" command",
             "Enter `more README.md` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4324,15 +4324,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "7665d9e468d0e05e93213f860d79c94758b4fa63"
+              "d5ba21244ae95e7dbb98f9aac0bdab359066f09c"
             ]
           },
-          "content": ":smile: Change to the `project` folder.",
+          "content": ":smile: Change to the `learn-bash-by-building-a-boilerplate` folder.",
           "hints": [
             "Use the \"change directory\" command",
             "Enter `cd ..` in the terminal",
             "Make sure you are in the `website` folder first",
-            "Enter `cd ~/project/website` to get to the `website` folder if you aren't there",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate/website` to get to the `website` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4351,15 +4351,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "9d4ea61c51565213ecec5da120e44435b89bf29a"
+              "1b73e401de4e0791c12eecf0e6fc45f8e433f17f"
             ]
           },
           "content": "You are back where you started. List what's here.",
           "hints": [
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4378,7 +4378,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "1b04160cdaf98ad746298917f25052324768d4fa"
+              "ff56387a14132d07d97e630fa0830798df71b5e4"
             ]
           },
           "content": "Still the same two folders. Rename the `website` folder to `website-boilerplate`.",
@@ -4387,8 +4387,8 @@
             "You previously used: `mv menlo.font menlo.otf` to rename a file",
             "Here's an example: `mv <folder_name> <new_folder_name>`",
             "Enter `mv website website-boilerplate` in the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4407,15 +4407,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "bb239719f8f9e1f61129bddcc2c03c2afe23ff29"
+              "594d026830a2400e8d8644b7b41e5f2dae64eb0b"
             ]
           },
           "content": "List the contents of this folder to see the new name.",
           "hints": [
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4434,7 +4434,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0a20dafe1c0a6e17c95a2f3e5b5fc7449bf03a02"
+              "136d745bdfd8769f085f6b1e82037e7739574eb5"
             ]
           },
           "content": "Thanks for making this. You need to make a copy of it. Take a look at the \"help\" menu of the \"copy\" command.",
@@ -4442,8 +4442,8 @@
             "The \"copy\" command is `cp`",
             "The \"help\" flag is `--help`",
             "Enter `cp --help` in the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4462,7 +4462,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "538a3ed2257c3ef0f26bdbc058f5a04e0fc7c780"
+              "27de222e243de296d904445e855ef0d4262cc0aa"
             ]
           },
           "content": "Scroll up to find that \"recursive\" flag. You need to use it again to copy the whole folder. Copy the whole boilerplate into a folder named `toms-website`.",
@@ -4471,8 +4471,8 @@
             "The \"recursive\" flag is `-r`",
             "Here's an example: `cp -r <folder_to_copy> <name_of_copy>`",
             "Enter `cp -r website-boilerplate toms-website` in the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4491,15 +4491,15 @@
               "../.bash_history"
             ],
             "commits": [
-              "1b7e9dddf1232f58305bb8ae13394251c6e5505e"
+              "a4bab0aeaf97c160d7ff49680daf86bd69bca585"
             ]
           },
-          "content": "List the contents of the `project` folder to see the new copy.",
+          "content": "List the contents of the `learn-bash-by-building-a-boilerplate` folder to see the new copy.",
           "hints": [
             "Use the \"list\" command",
             "Enter `ls` in the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4518,7 +4518,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "d1a9dbcd596efc185fff8927de67691a8119717b"
+              "4e41050ebbe3015deb3c2fcc987658fb1459cb04"
             ]
           },
           "content": "Thanks. Use `find` to view the tree of `toms-website`.",
@@ -4528,8 +4528,8 @@
             "Here's an example: `find <folder_name>`",
             "It's the `toms-website` folder",
             "Enter `find toms-website` in the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4548,7 +4548,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8bb69fdba56ee700378e3aacd79ecc02f38c269a"
+              "a42cf9eb1ac1db2cb1a88a754989a4f13bde93d4"
             ]
           },
           "content": "Use `find` to view the tree of the boilerplate folder to make sure it matches.",
@@ -4557,8 +4557,8 @@
             "Add the folder name to the command",
             "It's the `website-boilerplate` folder",
             "Enter `find website-boilerplate` in the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there",
+            "Make sure you are in the `learn-bash-by-building-a-boilerplate` folder first",
+            "Enter `cd /workspace/learn-bash-by-building-a-boilerplate` to get to the `learn-bash-by-building-a-boilerplate` folder if you aren't there",
             "If you used the reset button, you may need to enter the above command to get to the correct folder even if it looks like you're already there"
           ]
         }
@@ -4577,7 +4577,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "bb0550feae59920f8596e48de948ebe22fae84c1"
+              "b58240e94c57614c769430feb13963e742500e86"
             ]
           },
           "content": "Awesome! You are finished for now. Clear the terminal one last time.",
@@ -4601,7 +4601,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "9430d5c90d4460b9167ee1f12b33cb7dc8686f8d"
+              "a8f86d5435314ad1eaa7777fc481c8ed316c4c06"
             ]
           },
           "content": "Print \"goodbye terminal\" to the terminal.",
@@ -4626,7 +4626,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "0c024e9dd0f7809cf28400928e08c9eb8a18512a"
+              "4748297dcf16d31e8d57bd71ad9f730442468273"
             ]
           },
           "content": "Use the \"exit\" command to exit the terminal.",
