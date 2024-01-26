@@ -31,3 +31,9 @@ Whenever a new version is created, add the new branch name and the changes here
 ## [v1.0.4]
 
 - Remove part of test on 700, 720, 730, and 1450 to similarly (as v1.0.3) account for typos when renaming something
+
+## [v2.0.0]
+
+- Convert to work with Gitpod
+- Move setup files to main branch and setup commmands to Gitpod config
+- Adjust tests and setup files to use new paths where needed
