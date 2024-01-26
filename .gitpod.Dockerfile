@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full:2023-08-29-11-00-25
+FROM gitpod/workspace-node-18:2024-01-24-09-19-42
 
 ARG REPO_NAME=learn-bash-by-building-a-boilerplate
 ARG HOMEDIR=/workspace/$REPO_NAME
