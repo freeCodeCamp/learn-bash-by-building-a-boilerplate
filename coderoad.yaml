@@ -11,7 +11,7 @@ config:
       tap: --reporter=mocha-tap-reporter
     directory: freeCodeCamp
   repo:
-    uri: https://github.com/moT01/learn-bash-by-building-a-boilerplate
+    uri: https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate
     branch: v2.0.0
   continue:
     commands:
@@ -25,7 +25,7 @@ config:
     - name: node
       version: '>=10'
   webhook:
-    url: 'https://0d52-68-187-103-18.ngrok-free.app/coderoad-challenge-completed'
+    url: 'https://api.freecodecamp.org/coderoad-challenge-completed'
     events:
       init: false
       reset: false

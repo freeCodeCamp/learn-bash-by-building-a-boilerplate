@@ -41,7 +41,7 @@ The output tells you where the folder you are in is located. You are in the `lea
 
 ### 30.1
 
-The output is showing everything in this folder. There's two folders here. You can use `cd <folder_name>` to go into a folder. `cd` stands for "change directory". Change to the `freeCodeCamp` directory.
+The output is showing everything in this folder. There's several files and folders here. You can use `cd <folder_name>` to go into a folder. `cd` stands for "change directory". Change to the `freeCodeCamp` directory.
 
 #### HINTS
 
@@ -80,7 +80,7 @@ You can see the path of the `freeCodeCamp` folder. It's in the `learn-bash-by-bu
 
 ### 60.1
 
-There's two folders and three files here. The folders are blue and the files include their extension. Next, change to that `test` directory.
+There's several folders and files here. The folders are blue and the files include their extension. Next, change to that `test` directory.
 
 #### HINTS
 
@@ -2287,7 +2287,7 @@ You are back where you started. List what's here.
 
 ### 1450.1
 
-Still the same two folders. Rename the `website` folder to `website-boilerplate`.
+Still the same items. Rename the `website` folder to `website-boilerplate`.
 
 #### HINTS
 
