@@ -39,7 +39,6 @@
       "learn-bash-by-building-a-boilerplate": true,
       ".gitpod.Dockerfile": true,
       ".gitpod.yml": true,
-      "codeally.json": false,
       "CHANGELOG.md": true,
       "coderoad.yaml": true,
       "tutorial.json": true,

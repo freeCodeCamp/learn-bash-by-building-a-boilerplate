@@ -1,7 +1,6 @@
 FROM gitpod/workspace-node-18:2024-01-24-09-19-42
 
-ARG REPO_NAME=learn-bash-by-building-a-boilerplate
-ARG HOMEDIR=/workspace/$REPO_NAME
+ARG HOMEDIR=/workspace/project
 
 WORKDIR ${HOMEDIR}
 

@@ -129,5 +129,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # stuff I added
 PS1='\[\]\w\[\] $ '
 HISTFILE=/workspace/.bash_history
-PROMPT_COMMAND='echo $PWD >> /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/test/.cwd; history -a'
-trap 'echo $BASH_COMMAND >> /workspace/learn-bash-by-building-a-boilerplate/freeCodeCamp/test/.next_command' DEBUG
+PROMPT_COMMAND='echo $PWD >> /workspace/project/freeCodeCamp/test/.cwd; history -a'
+trap 'echo $BASH_COMMAND >> /workspace/project/freeCodeCamp/test/.next_command' DEBUG
