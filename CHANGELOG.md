@@ -34,6 +34,4 @@ Whenever a new version is created, add the new branch name and the changes here
 
 ## [v2.0.0]
 
-- Convert to work with Gitpod
-- Move setup files to main branch and setup commmands to Gitpod config
-- Adjust tests and setup files to use new paths where needed
+- Add Gitpod config
