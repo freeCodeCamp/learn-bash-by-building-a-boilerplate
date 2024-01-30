@@ -7,6 +7,8 @@ checkoutLocation: 'project'
 # Commands to start on workspace startup
 tasks:
   - before: |
+      sudo touch /workspace/.bash_history
+      sudo chmod 777 /workspace/.bash_history
       sudo cp /workspace/project/freeCodeCamp/.bashrc ~/.bashrc
       exit
 
