@@ -80,7 +80,7 @@ You can see the path of the `freeCodeCamp` folder. It's in the `project` folder 
 
 ### 60.1
 
-There's several folders and files here. The folders are blue and the files include their extension. Next, change to that `test` directory.
+There's several folders and files here. The folders are blue or green and the files include their extension. Next, change to that `test` directory.
 
 #### HINTS
 
