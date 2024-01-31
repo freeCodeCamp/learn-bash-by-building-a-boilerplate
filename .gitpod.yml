@@ -8,7 +8,7 @@ checkoutLocation: 'project'
 tasks:
   - before: |
       sudo touch /workspace/.bash_history
-      sudo chmod -R 777 /workspace
+      sudo chmod -R 775 /workspace
       sudo cp /workspace/project/freeCodeCamp/.bashrc ~/.bashrc
       exit
 
