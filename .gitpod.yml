@@ -4,7 +4,6 @@ image:
 workspaceLocation: 'project'
 checkoutLocation: 'project'
 
-# Commands to start on workspace startup
 tasks:
   - before: |
       sudo touch /workspace/.bash_history
