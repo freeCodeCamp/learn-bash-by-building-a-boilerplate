@@ -224,7 +224,7 @@
               "82420225db52ff4d0d690b39860d53240ddfc71a"
             ]
           },
-          "content": "There's several folders and files here. The folders are blue and the files include their extension. Next, change to that `test` directory.",
+          "content": "There's several folders and files here. The folders are blue or green and the files include their extension. Next, change to that `test` directory.",
           "hints": [
             "Use the \"change directory\" command",
             "Here's an example: `cd folder-name`",
