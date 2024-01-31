@@ -29,7 +29,7 @@ What you see in the terminal below is a folder (or directory) on this machine. T
 
 ### 20.1
 
-The output tells you where the folder you are in is located. You are in the `project` folder, which is in the `CodeAlly` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for "list".
+The output tells you where the folder you are in is located. You are in the `project` folder, which is in the `workspace` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for "list".
 
 #### HINTS
 
