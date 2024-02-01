@@ -41,7 +41,7 @@ The output tells you where the folder you are in is located. You are in the `pro
 
 ### 30.1
 
-The output is showing everything in this folder. There's several files and folders here. You can use `cd <folder_name>` to go into a folder. `cd` stands for "change directory". Change to the `freeCodeCamp` directory.
+The output is showing everything in this folder. There's one folder in here. You can use `cd <folder_name>` to go into a folder. `cd` stands for "change directory". Change to the `freeCodeCamp` directory.
 
 #### HINTS
 
