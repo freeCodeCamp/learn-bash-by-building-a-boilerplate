@@ -146,7 +146,7 @@
               "ae7e9de44441c563847a9612783db838760bcc71"
             ]
           },
-          "content": "The output is showing everything in this folder. There's several files and folders here. You can use `cd <folder_name>` to go into a folder. `cd` stands for \"change directory\". Change to the `freeCodeCamp` directory.",
+          "content": "The output is showing everything in this folder. There's one folder in here. You can use `cd <folder_name>` to go into a folder. `cd` stands for \"change directory\". Change to the `freeCodeCamp` directory.",
           "hints": [
             "Capitalization matters",
             "Type `cd freeCodeCamp` into the terminal and press enter",
