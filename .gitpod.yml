@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
+image: gitpod/workspace-node-18:2024-01-24-09-19-42
 
 workspaceLocation: 'project'
 checkoutLocation: 'project'
