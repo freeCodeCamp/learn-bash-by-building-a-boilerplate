@@ -1,0 +1,21 @@
+image: gitpod/workspace-node-18:2024-01-24-09-19-42
+
+workspaceLocation: 'project'
+checkoutLocation: 'project'
+
+tasks:
+  - before: |
+      sudo touch /workspace/.bash_history
+      sudo chmod -R 777 /workspace
+      sudo cp /workspace/project/freeCodeCamp/.bashrc ~/.bashrc
+
+    command: |
+      sudo rm /workspace/project/CHANGELOG.md
+      sudo rm /workspace/project/coderoad.yaml
+      sudo rm /workspace/project/tutorial.json
+      sudo rm /workspace/project/TUTORIAL.md
+      exit
+
+vscode:
+  extensions:
+    - CodeRoad.coderoad
