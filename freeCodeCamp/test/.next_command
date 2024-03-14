@@ -70,3 +70,4 @@ ls --color=auto -l node_modules
 cd has node_modules
 cd node_modules/has
 cd has
+ls --color=auto
