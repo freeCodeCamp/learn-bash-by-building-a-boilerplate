@@ -72,3 +72,4 @@ cd node_modules/has
 cd has
 ls --color=auto
 more README.md
+ls --color=auto
