@@ -62,3 +62,8 @@ ls --color=auto
 more node_modules/
 cd node_modules/
 ls --color=auto
+cd /workspace/project/freeCodeCamp/node_modules
+ls --color=auto
+-l
+list -l
+ls --color=auto -l node_modules
