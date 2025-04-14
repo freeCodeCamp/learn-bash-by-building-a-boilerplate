@@ -94,3 +94,5 @@ ls --color=auto has
 cd has
 ls --color=auto
 more README.md
+LS
+ls --color=auto
