@@ -90,3 +90,5 @@ ls --color=auto -1
 ll
 ls --color=auto l
 ls --color=auto -l
+ls --color=auto has
+cd has
